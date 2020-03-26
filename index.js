@@ -25,7 +25,7 @@ const config = {
   },
 }
 
-export default (env) => {
+module.exports = (env) => {
   return {
     error: (key) => {
       throw new Error(`'${key}' not configured!`)
