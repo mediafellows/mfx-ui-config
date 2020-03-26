@@ -1,5 +1,5 @@
 const config = {
-  slack_webhook: 'https://hooks.slack.com/services/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',
+  suffix: 'T1QSP9Y1J/B5V1AM1C6/bUq4VSMqa5yrHYZRzNYFMoTK',
   environments: {
     mpx_production: {
       aws_profile: 'production',
