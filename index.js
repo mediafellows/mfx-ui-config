@@ -1,3 +1,5 @@
+const {merge} = require('lodash')
+
 const config = {
   suffix: 'T1QSP9Y1J/B5V1AM1C6/bUq4VSMqa5yrHYZRzNYFMoTK',
   envs: {
@@ -204,22 +206,28 @@ const fetch = (object, head, tail) => {
 
   if (tail.length === 0) {
     // goal!
-    if ((typeof val) === 'object') return {
-      ...val,
-      fetch: (path) => {
-        return fetch(val, [], path.split('.'))
+    if ((typeof val) === 'object') return merge(
+      {},
+      val,
+      {
+        fetch: (path) => {
+          return fetch(val, [], path.split('.'))
+        }
       }
-    }
+    )
     else return val
   }
   return fetch(val, head.concat(key), tail)
 }
 
-const exp = {
-  ...config,
-  fetch: (path) => {
-    return fetch(config, [], path.split('.'))
-  },
-}
+const exp = merge(
+  {},
+  config,
+  {
+    fetch: (path) => {
+      return fetch(config, [], path.split('.'))
+    }
+  }
+)
 
 module.exports = exp
