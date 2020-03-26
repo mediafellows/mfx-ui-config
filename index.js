@@ -35,6 +35,7 @@ module.exports = (env) => {
   return {
     ...conf,
     get aws_profile() {
+      console.log('conf', conf)
       const {aws_profile} = conf
       if (!aws_profile) error('aws_profile')
     },
