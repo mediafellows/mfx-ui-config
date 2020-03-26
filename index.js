@@ -46,7 +46,7 @@ const config = {
 
 const fetch = (object, head, tail) => {
   const key = tail.shift()
-  const val = object[val]
+  const val = object[key]
 
   if (!val) {
     if (head.length > 0) {
