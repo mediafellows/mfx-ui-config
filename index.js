@@ -26,29 +26,29 @@ const config = {
 }
 
 module.exports = (env) => {
+  const error = (key) => {
+    throw new Error(`'${key}' not configured!`)
+  }
+  const conf = config.environments[env]
+  if (!conf) error(env)
+
   return {
-    error: (key) => {
-      throw new Error(`'${key}' not configured!`)
-    },
-    get conf(env) {
-      const conf = config.environments[env]
-      if (!conf) this.error(env)
-    },
+    ...conf,
     get aws_profile() {
-      const {aws_profile} = this.conf
-      if (!aws_profile) this.error('aws_profile')
+      const {aws_profile} = conf
+      if (!aws_profile) error('aws_profile')
     },
     get branch() {
-      const {branch} = this.conf
-      if (!branch) this.error('branch')
+      const {branch} = conf
+      if (!branch) error('branch')
     },
     get endpoints() {
-      const {endpoints} = this.conf
-      if (!endpoints) this.error('endpoints')
+      const {endpoints} = conf
+      if (!endpoints) error('endpoints')
     },
     get frontends() {
-      const {frontends} = this.conf
-      if (!frontends) this.error('frontends')
+      const {frontends} = conf
+      if (!frontends) error('frontends')
     },
   }
 }
