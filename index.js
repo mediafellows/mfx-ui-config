@@ -1,4 +1,5 @@
 const config = {
+  slack_webhook: 'https://hooks.slack.com/services/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',
   environments: {
     mpx_production: {
       aws_profile: 'production',
@@ -33,6 +34,7 @@ module.exports = (env) => {
   if (!conf) error(env)
 
   return {
+    ...config,
     ...conf,
     get aws_profile() {
       const {aws_profile} = conf
