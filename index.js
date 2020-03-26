@@ -15,34 +15,38 @@ const config = {
         sm: "https://sm.api.mediapeers.mobi/v20140601",
         mc: "https://mc.api.mediapeers.mobi/v20140601",
       },
-      'mpx-ui-gcui': {
-        'base2': {
-          bucket: 'mpx-v2-staging-buyer-fe-mpx',
-          distribution_ids: ['E13JQIPFDFHOUI'],
-        },
-        'demo': {
-          bucket: 'mpx-v2-staging-buyer-fe-demo',
-          distribution_ids: ['EELP8L0F3FVKO'],
-        },
-        'dmd': {
-          bucket: 'mpx-v2-staging-buyer-fe-dmd',
-          distribution_ids: ['E1CYY05VCIFUY7'],
-        },
-        'ftd': {
-          bucket: 'mpx-v2-staging-buyer-fe-ftd',
-          distribution_ids: ['E1XD0E4FIVNUBH'],
-        },
-        'propagate': {
-          bucket: 'mpx-v2-staging-buyer-fe-propagate',
-          distribution_ids: ['E2YCRI4KV9UJYE'],
-        },
-        'rasi': {
-          bucket: 'mpx-v2-staging-buyer-fe-rasi',
-          distribution_ids: ['E17OE09EPP2P42'],
-        },
-        'tf1pro': {
-          bucket: 'mpx-v2-staging-buyer-fe-tf1pro',
-          distribution_ids: ['E39B27OFTRRNMR'],
+      repos: {
+        'mpx-ui-gcui': {
+          projects: {
+            'base2': {
+              bucket: 'mpx-v2-staging-buyer-fe-mpx',
+              distribution_ids: ['E13JQIPFDFHOUI'],
+            },
+            'demo': {
+              bucket: 'mpx-v2-staging-buyer-fe-demo',
+              distribution_ids: ['EELP8L0F3FVKO'],
+            },
+            'dmd': {
+              bucket: 'mpx-v2-staging-buyer-fe-dmd',
+              distribution_ids: ['E1CYY05VCIFUY7'],
+            },
+            'ftd': {
+              bucket: 'mpx-v2-staging-buyer-fe-ftd',
+              distribution_ids: ['E1XD0E4FIVNUBH'],
+            },
+            'propagate': {
+              bucket: 'mpx-v2-staging-buyer-fe-propagate',
+              distribution_ids: ['E2YCRI4KV9UJYE'],
+            },
+            'rasi': {
+              bucket: 'mpx-v2-staging-buyer-fe-rasi',
+              distribution_ids: ['E17OE09EPP2P42'],
+            },
+            'tf1pro': {
+              bucket: 'mpx-v2-staging-buyer-fe-tf1pro',
+              distribution_ids: ['E39B27OFTRRNMR'],
+            },
+          },
         },
       },
     },
@@ -60,34 +64,38 @@ const config = {
         sm: "https://sm.api.mediapeers.us/v20140601",
         mc: "https://mc.api.mediapeers.us/v20140601",
       },
-      'mpx-ui-gcui': {
-        'base2': {
-          bucket: 'mpx-v2-presentation-buyer-fe-mpx',
-          distribution_ids: ['EIOUCVIN20KPV'],
-        },
-        'demo': {
-          bucket: 'mpx-v2-presentation-buyer-fe-demo',
-          distribution_ids: ['E2UV5AZ6UM376K'],
-        },
-        'dmd': {
-          bucket: 'mpx-v2-presentation-buyer-fe-dmd',
-          distribution_ids: ['E1YGQ6400NI6Q1'],
-        },
-        'ftd': {
-          bucket: 'mpx-v2-presentation-buyer-fe-ftd',
-          distribution_ids: ['ERUK47MMPNLUW'],
-        },
-        'propagate': {
-          bucket: 'mpx-v2-presentation-buyer-fe-propagate',
-          distribution_ids: ['E2LQNNLHB1K3S7'],
-        },
-        'rasi': {
-          bucket: 'mpx-v2-presentation-buyer-fe-rasi',
-          distribution_ids: ['E351ZF1SSNM9TF'],
-        },
-        'tf1pro': {
-          bucket: 'mpx-v2-presentation-buyer-fe-tf1pro',
-          distribution_ids: ['E17IIWAUB1EF9U'],
+      repos: {
+        'mpx-ui-gcui': {
+          projects: {
+            'base2': {
+              bucket: 'mpx-v2-presentation-buyer-fe-mpx',
+              distribution_ids: ['EIOUCVIN20KPV'],
+            },
+            'demo': {
+              bucket: 'mpx-v2-presentation-buyer-fe-demo',
+              distribution_ids: ['E2UV5AZ6UM376K'],
+            },
+            'dmd': {
+              bucket: 'mpx-v2-presentation-buyer-fe-dmd',
+              distribution_ids: ['E1YGQ6400NI6Q1'],
+            },
+            'ftd': {
+              bucket: 'mpx-v2-presentation-buyer-fe-ftd',
+              distribution_ids: ['ERUK47MMPNLUW'],
+            },
+            'propagate': {
+              bucket: 'mpx-v2-presentation-buyer-fe-propagate',
+              distribution_ids: ['E2LQNNLHB1K3S7'],
+            },
+            'rasi': {
+              bucket: 'mpx-v2-presentation-buyer-fe-rasi',
+              distribution_ids: ['E351ZF1SSNM9TF'],
+            },
+            'tf1pro': {
+              bucket: 'mpx-v2-presentation-buyer-fe-tf1pro',
+              distribution_ids: ['E17IIWAUB1EF9U'],
+            },
+          },
         },
       },
     },
@@ -105,34 +113,38 @@ const config = {
         sm: "https://sm.api.mediapeers.biz/v20140601",
         mc: "https://mc.api.mediapeers.biz/v20140601",
       },
-      'mpx-ui-gcui': {
-        'base2': {
-          bucket: 'mpx-v2-production-buyer-fe-mpx',
-          distribution_ids: ['E3OVGR028R78SH'],
-        },
-        'demo': {
-          bucket: 'mpx-v2-production-buyer-fe-demo',
-          distribution_ids: ['E1CYY05VCIFUY7'],
-        },
-        'dmd': {
-          bucket: 'mpx-v2-production-buyer-fe-dmd',
-          distribution_ids: ['E1S6TZXATGJXUA', 'E19H1GRZUR608S'],
-        },
-        'ftd': {
-          bucket: 'mpx-v2-production-buyer-fe-ftd',
-          distribution_ids: ['E2E12LEB9I9IHM', 'E17GM98QGPW6SU'],
-        },
-        'propagate': {
-          bucket: 'mpx-v2-production-buyer-fe-propagate',
-          distribution_ids: ['E3H7XXRQH72IOB'],
-        },
-        'rasi': {
-          bucket: 'mpx-v2-production-buyer-fe-rasi',
-          distribution_ids: ['E26C1U10ADV7QH', 'EMWCHDOE8LOQP'],
-        },
-        'tf1pro': {
-          bucket: 'mpx-v2-production-buyer-fe-tf1pro',
-          distribution_ids: ['E2ZC4T75X1OG0E', 'E2I8KG37JR5TBO'],
+      repos: {
+        'mpx-ui-gcui': {
+          projects: {
+            'base2': {
+              bucket: 'mpx-v2-production-buyer-fe-mpx',
+              distribution_ids: ['E3OVGR028R78SH'],
+            },
+            'demo': {
+              bucket: 'mpx-v2-production-buyer-fe-demo',
+              distribution_ids: ['E1CYY05VCIFUY7'],
+            },
+            'dmd': {
+              bucket: 'mpx-v2-production-buyer-fe-dmd',
+              distribution_ids: ['E1S6TZXATGJXUA', 'E19H1GRZUR608S'],
+            },
+            'ftd': {
+              bucket: 'mpx-v2-production-buyer-fe-ftd',
+              distribution_ids: ['E2E12LEB9I9IHM', 'E17GM98QGPW6SU'],
+            },
+            'propagate': {
+              bucket: 'mpx-v2-production-buyer-fe-propagate',
+              distribution_ids: ['E3H7XXRQH72IOB'],
+            },
+            'rasi': {
+              bucket: 'mpx-v2-production-buyer-fe-rasi',
+              distribution_ids: ['E26C1U10ADV7QH', 'EMWCHDOE8LOQP'],
+            },
+            'tf1pro': {
+              bucket: 'mpx-v2-production-buyer-fe-tf1pro',
+              distribution_ids: ['E2ZC4T75X1OG0E', 'E2I8KG37JR5TBO'],
+            },
+          },
         },
       },
     },
@@ -150,10 +162,14 @@ const config = {
         sm: "https://sm.api.mediastore.app/v20140601",
         mc: "https://mc.api.mediastore.app/v20140601",
       },
-      'mpx-ui-gcui': {
-        'base2': {
-          bucket: 'mfx-v2-production-buyer-fe-mpx',
-          distribution_ids: ['E1D2A8JG3XOH18'],
+      repos: {
+        'mpx-ui-gcui': {
+          projects: {
+            'base2': {
+              bucket: 'mfx-v2-production-buyer-fe-mpx',
+              distribution_ids: ['E1D2A8JG3XOH18'],
+            },
+          },
         },
       },
     },
