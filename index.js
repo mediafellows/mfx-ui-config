@@ -73,13 +73,13 @@ module.exports = (env) => {
       if (!endpoints) error('endpoints')
       return endpoints
     },
-    project: (repo, project) => {
+    project: (repoName, projectName) => {
       const {frontends} = conf
       if (!frontends) error('frontends')
-      const repo = frontends[repo]
-      if (!repo) error(repo)
-      const project = repo[project]
-      if (!project) error(project)
+      const repo = frontends[repoName]
+      if (!repo) error(repoName)
+      const project = repo[projectName]
+      if (!project) error(projectName)
       return project
     },
   }
