@@ -1,8 +1,8 @@
 const config = {
   suffix: 'T1QSP9Y1J/B5V1AM1C6/bUq4VSMqa5yrHYZRzNYFMoTK',
-  targets: {
+  envs: {
     development: {
-      env: 'development',
+      environment: 'development',
       endpoints: {
         tuco: "https://tuco.api.mediapeers.mobi",
         pigeon: "https://pigeon.api.mediapeers.mobi",
@@ -15,7 +15,7 @@ const config = {
       },
     },
     mpx_staging: {
-      env: 'staging',
+      environment: 'staging',
       aws_profile: 'staging',
       branch: 'staging',
       endpoints: {
@@ -113,7 +113,7 @@ const config = {
       },
     },
     mpx_production: {
-      env: 'production',
+      environment: 'production',
       aws_profile: 'production',
       branch: 'legacy',
       endpoints: {
@@ -162,7 +162,7 @@ const config = {
       },
     },
     mfx_production: {
-      env: 'production',
+      environment: 'production',
       aws_profile: 'mfx_production',
       branch: 'production',
       endpoints: {
