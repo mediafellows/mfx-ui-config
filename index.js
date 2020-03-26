@@ -50,44 +50,35 @@ const config = {
   },
 }
 
-module.exports = (env) => {
-  const error = (key) => {
-    throw new Error(`'${key}' not configured!`)
-  }
-  const conf = config.environments[env]
-  if (!conf) error(env)
+const fetch = (object, head, tail) => {
+  const key = tail.shift()
+  const val = object[val]
 
-  return {
-    ...config,
-    ...conf,
-    get env() {
-      const {env} = conf
-      if (!env) error('env')
-      return env
-    },
-    get aws_profile() {
-      const {aws_profile} = conf
-      if (!aws_profile) error('aws_profile')
-      return aws_profile
-    },
-    get branch() {
-      const {branch} = conf
-      if (!branch) error('branch')
-      return branch
-    },
-    get endpoints() {
-      const {endpoints} = conf
-      if (!endpoints) error('endpoints')
-      return endpoints
-    },
-    project: (repoName, projectName) => {
-      const {frontends} = conf
-      if (!frontends) error('frontends')
-      const repo = frontends[repoName]
-      if (!repo) error(repoName)
-      const project = repo[projectName]
-      if (!project) error(projectName)
-      return project
-    },
+  if (!val) {
+    if (head.length > 0) {
+      throw new Error("'" +key+ "' not configured in '" +head.join('.')+ "'!")
+    }
+    else {
+      throw new Error("'" +key+ "' not configured!")
+    }
   }
+
+  if (tail.length === 0) {
+    // goal!
+    if ((typeof val) === 'object') return {
+      ...val,
+      fetch: (path) => {
+        return fetch(this, [], path.split('.'))
+      }
+    }
+    else return val
+  }
+  return fetch(val, head.concat(key), tail)
+}
+
+module.exports = {
+  ...config,
+  fetch: (path) => {
+    return fetch(this, [], path.split('.'))
+  },
 }
