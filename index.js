@@ -50,10 +50,10 @@ const fetch = (object, head, tail) => {
 
   if (!val) {
     if (head.length > 0) {
-      throw new Error("'" +key+ "' not configured in '" +head.join('.')+ "'!")
+      throw new Error(`'${key}' not configured in '${head.join('.')}'!`)
     }
     else {
-      throw new Error("'" +key+ "' not configured!")
+      throw new Error(`'${key}' not configured!`)
     }
   }
 
@@ -62,7 +62,7 @@ const fetch = (object, head, tail) => {
     if ((typeof val) === 'object') return {
       ...val,
       fetch: (path) => {
-        return fetch(this, [], path.split('.'))
+        return fetch(val, [], path.split('.'))
       }
     }
     else return val
@@ -70,9 +70,11 @@ const fetch = (object, head, tail) => {
   return fetch(val, head.concat(key), tail)
 }
 
-module.exports = {
+const exp = {
   ...config,
   fetch: (path) => {
-    return fetch(this, [], path.split('.'))
+    return fetch(config, [], path.split('.'))
   },
 }
+
+module.exports = exp
