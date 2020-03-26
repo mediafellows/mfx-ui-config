@@ -35,21 +35,24 @@ module.exports = (env) => {
   return {
     ...conf,
     get aws_profile() {
-      console.log('conf', conf)
       const {aws_profile} = conf
       if (!aws_profile) error('aws_profile')
+      return aws_profile
     },
     get branch() {
       const {branch} = conf
       if (!branch) error('branch')
+      return branch
     },
     get endpoints() {
       const {endpoints} = conf
       if (!endpoints) error('endpoints')
+      return endpoints
     },
     get frontends() {
       const {frontends} = conf
       if (!frontends) error('frontends')
+      return frontends
     },
   }
 }
