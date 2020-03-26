@@ -1,6 +1,6 @@
 const config = {
   suffix: 'T1QSP9Y1J/B5V1AM1C6/bUq4VSMqa5yrHYZRzNYFMoTK',
-  envs: {
+  targets: {
     development: {
       env: 'development',
       endpoints: {
