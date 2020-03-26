@@ -1,8 +1,8 @@
-var config = {
+const config = {
   environments: {
     mpx_production: {
       aws_profile: 'production',
-      default_branch: 'legacy',
+      branch: 'legacy',
       endpoints: {
         tuco: "https://tuco.api.mediapeers.biz",
         pigeon: "https://pigeon.api.mediapeers.biz",
@@ -25,4 +25,30 @@ var config = {
   },
 }
 
-module.exports = config
+export default (env) => {
+  return {
+    error: (key) => {
+      throw new Error(`'${key}' not configured!`)
+    },
+    get conf(env) {
+      const conf = config.environments[env]
+      if (!conf) this.error(env)
+    },
+    get aws_profile() {
+      const {aws_profile} = this.conf
+      if (!aws_profile) this.error('aws_profile')
+    },
+    get branch() {
+      const {branch} = this.conf
+      if (!branch) this.error('branch')
+    },
+    get endpoints() {
+      const {endpoints} = this.conf
+      if (!endpoints) this.error('endpoints')
+    },
+    get frontends() {
+      const {frontends} = this.conf
+      if (!frontends) this.error('frontends')
+    },
+  }
+}
