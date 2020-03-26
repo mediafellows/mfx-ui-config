@@ -207,13 +207,12 @@ const fetch = (object, head, tail) => {
   if (tail.length === 0) {
     // goal!
     if ((typeof val) === 'object') return merge(
-      {},
-      val,
       {
         fetch: (path) => {
           return fetch(val, [], path.split('.'))
         }
-      }
+      },
+      val,
     )
     else return val
   }
@@ -221,13 +220,12 @@ const fetch = (object, head, tail) => {
 }
 
 const exp = merge(
-  {},
-  config,
   {
     fetch: (path) => {
       return fetch(config, [], path.split('.'))
     }
-  }
+  },
+  config,
 )
 
 module.exports = exp
