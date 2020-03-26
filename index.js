@@ -2,6 +2,7 @@ const config = {
   suffix: 'T1QSP9Y1J/B5V1AM1C6/bUq4VSMqa5yrHYZRzNYFMoTK',
   environments: {
     mpx_production: {
+      env: 'production',
       aws_profile: 'production',
       branch: 'legacy',
       endpoints: {
@@ -24,6 +25,7 @@ const config = {
       },
     },
     mpx_staging: {
+      env: 'staging',
       aws_profile: 'staging',
       branch: 'staging',
       endpoints: {
@@ -58,6 +60,11 @@ module.exports = (env) => {
   return {
     ...config,
     ...conf,
+    get env() {
+      const {env} = conf
+      if (!env) error('env')
+      return env
+    },
     get aws_profile() {
       const {aws_profile} = conf
       if (!aws_profile) error('aws_profile')
