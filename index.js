@@ -23,6 +23,28 @@ const config = {
         },
       },
     },
+    mpx_staging: {
+      aws_profile: 'staging',
+      branch: 'staging',
+      endpoints: {
+        tuco: "https://tuco.api.mediapeers.mobi",
+        pigeon: "https://pigeon.api.mediapeers.mobi",
+        um: "https://um.api.mediapeers.mobi/v20140601",
+        pm: "https://pm.api.mediapeers.mobi/v20140601",
+        am: "https://am.api.mediapeers.mobi/v20140601",
+        ac: "https://ac.api.mediapeers.mobi/v20140601",
+        sm: "https://sm.api.mediapeers.mobi/v20140601",
+        mc: "https://mc.api.mediapeers.mobi/v20140601",
+      },
+      frontends: {
+        'mpx-ui-gcui': {
+          'base2': {
+            bucket: 'mpx-v2-staging-buyer-fe-mpx',
+            distribution_ids: ['E13JQIPFDFHOUI'],
+          }
+        },
+      },
+    },
   },
 }
 
@@ -51,10 +73,14 @@ module.exports = (env) => {
       if (!endpoints) error('endpoints')
       return endpoints
     },
-    get frontends() {
+    project: (repo, project) => {
       const {frontends} = conf
       if (!frontends) error('frontends')
-      return frontends
+      const repo = frontends[repo]
+      if (!repo) error(repo)
+      const project = repo[project]
+      if (!project) error(project)
+      return project
     },
   }
 }
