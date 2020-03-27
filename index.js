@@ -5,30 +5,37 @@ const config = {
   envs: {
     development: {
       environment: 'development',
+      rollbar: 'e7ce73cbd0b2448eb6287d135470863f',
+      branch: 'master',
       endpoints: {
-        tuco: "https://tuco.api.mediapeers.mobi",
-        pigeon: "https://pigeon.api.mediapeers.mobi",
         um: "https://um.api.mediapeers.mobi/v20140601",
         pm: "https://pm.api.mediapeers.mobi/v20140601",
         am: "https://am.api.mediapeers.mobi/v20140601",
         ac: "https://ac.api.mediapeers.mobi/v20140601",
         sm: "https://sm.api.mediapeers.mobi/v20140601",
         mc: "https://mc.api.mediapeers.mobi/v20140601",
+        jc: "https://jc.api.mediapeers.mobi/v20140601",
+        tuco: "https://tuco.api.mediapeers.mobi",
+        pigeon: "https://pigeon.api.mediapeers.mobi",
+        viscacha: "https://viscacha.api.mediapeers.mobi",
       },
     },
     mpx_staging: {
       environment: 'staging',
       aws_profile: 'staging',
       branch: 'staging',
+      rollbar: 'e9a18c901b8c4f39b9d2f9fb9f87616e',
       endpoints: {
-        tuco: "https://tuco.api.mediapeers.mobi",
-        pigeon: "https://pigeon.api.mediapeers.mobi",
         um: "https://um.api.mediapeers.mobi/v20140601",
         pm: "https://pm.api.mediapeers.mobi/v20140601",
         am: "https://am.api.mediapeers.mobi/v20140601",
         ac: "https://ac.api.mediapeers.mobi/v20140601",
         sm: "https://sm.api.mediapeers.mobi/v20140601",
         mc: "https://mc.api.mediapeers.mobi/v20140601",
+        jc: "https://jc.api.mediapeers.mobi/v20140601",
+        tuco: "https://tuco.api.mediapeers.mobi",
+        pigeon: "https://pigeon.api.mediapeers.mobi",
+        viscacha: "https://viscacha.api.mediapeers.mobi",
       },
       repos: {
         'mpx-ui-gcui': {
@@ -77,15 +84,18 @@ const config = {
       env: 'presentation',
       aws_profile: 'presentation',
       branch: 'presentation',
+      rollbar: '2e6545538c1c41219749678b9d479281',
       endpoints: {
-        tuco: "https://tuco.api.mediapeers.us",
-        pigeon: "https://pigeon.api.mediapeers.us",
         um: "https://um.api.mediapeers.us/v20140601",
         pm: "https://pm.api.mediapeers.us/v20140601",
         am: "https://am.api.mediapeers.us/v20140601",
         ac: "https://ac.api.mediapeers.us/v20140601",
         sm: "https://sm.api.mediapeers.us/v20140601",
         mc: "https://mc.api.mediapeers.us/v20140601",
+        jc: "https://jc.api.mediapeers.us/v20140601",
+        tuco: "https://tuco.api.mediapeers.us",
+        pigeon: "https://pigeon.api.mediapeers.us",
+        viscacha: "https://viscacha.api.mediapeers.us",
       },
       repos: {
         'mpx-ui-gcui': {
@@ -134,15 +144,18 @@ const config = {
       environment: 'production',
       aws_profile: 'production',
       branch: 'legacy',
+      rollbar: '787ad4ef90d542c0acfd8610da6391a5',
       endpoints: {
-        tuco: "https://tuco.api.mediapeers.biz",
-        pigeon: "https://pigeon.api.mediapeers.biz",
         um: "https://um.api.mediapeers.biz/v20140601",
         pm: "https://pm.api.mediapeers.biz/v20140601",
         am: "https://am.api.mediapeers.biz/v20140601",
         ac: "https://ac.api.mediapeers.biz/v20140601",
         sm: "https://sm.api.mediapeers.biz/v20140601",
         mc: "https://mc.api.mediapeers.biz/v20140601",
+        jc: "https://jc.api.mediapeers.biz/v20140601",
+        tuco: "https://tuco.api.mediapeers.biz",
+        pigeon: "https://pigeon.api.mediapeers.biz",
+        viscacha: "https://viscacha.api.mediapeers.biz",
       },
       repos: {
         'mpx-ui-gcui': {
@@ -192,14 +205,16 @@ const config = {
       aws_profile: 'mfx_production',
       branch: 'production',
       endpoints: {
-        tuco: "https://tuco.api.mediastore.app",
-        pigeon: "https://pigeon.api.mediastore.app",
         um: "https://um.api.mediastore.app/v20140601",
         pm: "https://pm.api.mediastore.app/v20140601",
         am: "https://am.api.mediastore.app/v20140601",
         ac: "https://ac.api.mediastore.app/v20140601",
         sm: "https://sm.api.mediastore.app/v20140601",
         mc: "https://mc.api.mediastore.app/v20140601",
+        jc: "https://jc.api.mediastore.app/v20140601",
+        tuco: "https://tuco.api.mediastore.app",
+        pigeon: "https://pigeon.api.mediastore.app",
+        viscacha: "https://viscacha.api.mediastore.app",
       },
       repos: {
         'mpx-ui-gcui': {
