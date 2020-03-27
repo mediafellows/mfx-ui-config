@@ -63,6 +63,14 @@ const config = {
             },
           },
         },
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mpx-v2-staging-buyer-fe-nbcu',
+              distribution_ids: ['E3CPU44JYU6ZZP'],
+            },
+          },
+        },
       },
     },
     mpx_presentation: {
@@ -109,6 +117,14 @@ const config = {
             'tf1pro': {
               bucket: 'mpx-v2-presentation-buyer-fe-tf1pro',
               distribution_ids: ['E17IIWAUB1EF9U'],
+            },
+          },
+        },
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mpx-v2-presentation-buyer-fe-nbcu',
+              distribution_ids: ['E3C11O1R6T9BAQ'],
             },
           },
         },
@@ -161,6 +177,14 @@ const config = {
             },
           },
         },
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mpx-v2-production-buyer-fe-nbcu',
+              distribution_ids: ['E3QWWRV2O1TAXK', 'E34BEDEYZVUQV5'],
+            },
+          },
+        },
       },
     },
     mfx_production: {
@@ -183,6 +207,14 @@ const config = {
             'base2': {
               bucket: 'mfx-v2-production-buyer-fe-mpx',
               distribution_ids: ['E1D2A8JG3XOH18'],
+            },
+          },
+        },
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-production-buyer-fe-nbcu',
+              distribution_ids: ['E11YNWLNQKE2US'],
             },
           },
         },
