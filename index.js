@@ -144,7 +144,7 @@ const config = {
       environment: 'production',
       aws_profile: 'production',
       branch: 'legacy',
-      rollbar: '787ad4ef90d542c0acfd8610da6391a5',
+      rollbar: '4d8e9918f77949cea9ae47ecf4e5f251',
       endpoints: {
         um: "https://um.api.mediapeers.biz/v20140601",
         pm: "https://pm.api.mediapeers.biz/v20140601",
@@ -204,6 +204,7 @@ const config = {
       environment: 'production',
       aws_profile: 'mfx_production',
       branch: 'production',
+      rollbar: '787ad4ef90d542c0acfd8610da6391a5',
       endpoints: {
         um: "https://um.api.mediastore.app/v20140601",
         pm: "https://pm.api.mediastore.app/v20140601",
