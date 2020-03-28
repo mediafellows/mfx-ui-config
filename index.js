@@ -1,11 +1,11 @@
 const {merge} = require('lodash')
 
 const config = {
-  suffix: 'T1QSP9Y1J/B5V1AM1C6/bUq4VSMqa5yrHYZRzNYFMoTK',
+  slack_token: SCRAMBLED:vPrNquHiCr7r8O5ENgC61KyWqYR412KU7OoHxhyZDcGRH70vKYU0KOCDi7M+Qgy6eHjTnS9wEpSAgwa7D0xk656iXQSkfkSntmNf3Ne8uyps9prdWywl97XcAhR4012W
   envs: {
     development: {
       environment: 'development',
-      rollbar: 'e7ce73cbd0b2448eb6287d135470863f',
+      rollbar: SCRAMBLED:3Orxmf7EcInqytNaSmSg+e2QxahxN9bK3gjLcn8nNR/RpfHPqIQpGnCTI6ZXZ6z6ev4G4GTuwp3x08vE/AhR2MY6PlL0xpDS6MbcUczBig0=
       branch: 'master',
       endpoints: {
         um: "https://um.api.mediapeers.mobi/v20140601",
@@ -24,7 +24,7 @@ const config = {
       environment: 'staging',
       aws_profile: 'staging',
       branch: 'staging',
-      rollbar: 'e9a18c901b8c4f39b9d2f9fb9f87616e',
+      rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
       endpoints: {
         um: "https://um.api.mediapeers.mobi/v20140601",
         pm: "https://pm.api.mediapeers.mobi/v20140601",
@@ -84,7 +84,7 @@ const config = {
       env: 'presentation',
       aws_profile: 'presentation',
       branch: 'presentation',
-      rollbar: '2e6545538c1c41219749678b9d479281',
+      rollbar: SCRAMBLED:vPftp+vPM6zHxddOGTqD+jm4+nD1PAUfSvvvr/MnTAH71Ua3w2pWe9YgAWi/qmhVDboPVW4XTNuhPfwkQJZSJsKf9c+lzK5SUmMJoWA90s4=
       endpoints: {
         um: "https://um.api.mediapeers.us/v20140601",
         pm: "https://pm.api.mediapeers.us/v20140601",
@@ -144,7 +144,7 @@ const config = {
       environment: 'production',
       aws_profile: 'production',
       branch: 'legacy',
-      rollbar: '4d8e9918f77949cea9ae47ecf4e5f251',
+      rollbar: SCRAMBLED:6P7jg9StKqur/Pl1SG+h9ETUTbm2ih2LPdVD8uXdkviuxm5CuGnyCS3SEq6csasgRUppTYCGCZ6vxeg/iYJqZHbdzMNlHIW8ebhd/VnNhpo=
       endpoints: {
         um: "https://um.api.mediapeers.biz/v20140601",
         pm: "https://pm.api.mediapeers.biz/v20140601",
@@ -204,7 +204,7 @@ const config = {
       environment: 'production',
       aws_profile: 'mfx_production',
       branch: 'production',
-      rollbar: '787ad4ef90d542c0acfd8610da6391a5',
+      rollbar: SCRAMBLED:7ffrkeP2Ooz33N54OmOCjsVGYJ/JbZfj/0ILAbbVZHn+Qbn0eF9f+GwFt/heZfnFU7akpk8KYy9hZETqKIkDQVkR/OJAqHvlIbyoTG4sSYw=
       endpoints: {
         um: "https://um.api.mediastore.app/v20140601",
         pm: "https://pm.api.mediastore.app/v20140601",

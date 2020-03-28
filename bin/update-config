@@ -2,4 +2,6 @@
 exec 2>/dev/null
 
 mkdir -p node_modules/mfx-ui-config
-curl https://raw.githubusercontent.com/mfx-jgoetzinger/mfx-ui-config/master/index.js -o node_modules/mfx-ui-config/index.js
+curl https://raw.githubusercontent.com/mfx-jgoetzinger/mfx-ui-config/master/index.js -o $TMPDIR/mfx-ui-config.tmp
+scrambler read $TMPDIR/mfx-ui-config.tmp > node_modules/mfx-ui-config/index.js
+rm $TMPDIR/mfx-ui-config.tmp
