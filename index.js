@@ -38,6 +38,58 @@ const config = {
         viscacha: "https://viscacha.api.mediapeers.mobi",
       },
       repos: {
+        'mpx-ui-admin': {
+          projects: {
+            'generic': {
+              bucket: 'mpx-v2-staging-admin-fe-generic',
+              distribution_ids: ['E10SCT8S2PQGE3'],
+            },
+            'fremantle': {
+              bucket: 'mpx-v2-staging-admin-fe-fremantle',
+              distribution_ids: ['E2P8APNNU3MIF2'],
+            },
+            'lahm': {
+              bucket: 'mpx-v2-staging-admin-fe-lahm',
+              distribution_ids: ['E2P8APNNU3MIF2'],
+            },
+            'nbcu': {
+              bucket: 'mpx-v2-staging-admin-fe-nbcu',
+              distribution_ids: ['EL7RVH50RRA54'],
+            },
+            'dtv': {
+              bucket: 'mpx-v2-staging-admin-fe-dtv',
+              distribution_ids: ['E26FG9X6XCAWPB'],
+            },
+            'ams': {
+              bucket: 'mpx-v2-staging-admin-fe-ams',
+              distribution_ids: ['EFHKDLM2HVD2S'],
+            },
+            'hulu': {
+              bucket: 'mpx-v2-staging-admin-fe-hulu',
+              distribution_ids: ['E24IB0UNPL5K09'],
+            },
+            'netflix': {
+              bucket: 'mpx-v2-staging-admin-fe-netflix',
+              distribution_ids: ['E1RJ7D1PZC6H5R'],
+            },
+            'hbo': {
+              bucket: 'mpx-v2-staging-admin-fe-hbo',
+              distribution_ids: ['E2H6H2PUVUN74O'],
+            },
+            'lgt': {
+              bucket: 'mpx-v2-staging-admin-fe-lgt',
+              distribution_ids: ['E3SD26FHIAIQPS'],
+            },
+            'tf1pro': {
+              bucket: 'mpx-v2-staging-admin-fe-tf1pro',
+              distribution_ids: ['E1WQ5IQJFGPANW'],
+            },
+            'orf': {
+              bucket: 'mpx-v2-staging-admin-fe-orf',
+              distribution_ids: ['E1KMDZJZGP8H81'],
+            },
+          },
+        },
         'mpx-ui-gcui': {
           projects: {
             'base2': {
@@ -98,6 +150,58 @@ const config = {
         viscacha: "https://viscacha.api.mediapeers.us",
       },
       repos: {
+        'mpx-ui-admin': {
+          projects: {
+            'generic': {
+              bucket: 'mpx-v2-presentation-admin-fe-generic',
+              distribution_ids: ['EPJ4HJV3KKIW1'],
+            },
+            'fremantle': {
+              bucket: 'mpx-v2-presentation-admin-fe-fremantle',
+              distribution_ids: ['ED1BZUJ7KK1U3'],
+            },
+            'lahm': {
+              bucket: 'mpx-v2-presentation-admin-fe-lahm',
+              distribution_ids: ['E3QO059N585WU0'],
+            },
+            'nbcu': {
+              bucket: 'mpx-v2-presentation-admin-fe-nbcu',
+              distribution_ids: ['E1AUD9RSXU12DU'],
+            },
+            'dtv': {
+              bucket: 'mpx-v2-presentation-admin-fe-dtv',
+              distribution_ids: ['E36R2IHZKV1SF2'],
+            },
+            'ams': {
+              bucket: 'mpx-v2-presentation-admin-fe-ams',
+              distribution_ids: ['E2KA6IQL6040BQ'],
+            },
+            'hulu': {
+              bucket: 'mpx-v2-presentation-admin-fe-hulu',
+              distribution_ids: ['E3I50QRWYM7R5L'],
+            },
+            'netflix': {
+              bucket: 'mpx-v2-presentation-admin-fe-netflix',
+              distribution_ids: ['E3OZWK3NU8U0G1'],
+            },
+            'hbo': {
+              bucket: 'mpx-v2-presentation-admin-fe-hbo',
+              distribution_ids: ['E3QAVN4G7IEKRF'],
+            },
+            'lgt': {
+              bucket: 'mpx-v2-presentation-admin-fe-lgt',
+              distribution_ids: ['E32JBZVZRIXLRM'],
+            },
+            'tf1pro': {
+              bucket: 'mpx-v2-presentation-admin-fe-tf1pro',
+              distribution_ids: ['E2IZMKJCMB4EPY'],
+            },
+            'orf': {
+              bucket: 'mpx-v2-presentation-admin-fe-orf',
+              distribution_ids: ['E2C8EUYJ19FNO3'],
+            },
+          },
+        },
         'mpx-ui-gcui': {
           projects: {
             'base2': {
@@ -158,6 +262,34 @@ const config = {
         viscacha: "https://viscacha.api.mediapeers.biz",
       },
       repos: {
+        'mpx-ui-admin': {
+          projects: {
+            'generic': {
+              bucket: 'mpx-v2-production-admin-fe-generic',
+              distribution_ids: ['E3U5V31XMJRD27'],
+            },
+            'ams': {
+              bucket: 'mpx-v2-production-admin-fe-ams',
+              distribution_ids: ['E1SM6T9CJ567VH', 'E2FIIG3SWLSBBR'],
+            },
+            'hulu': {
+              bucket: 'mpx-v2-production-admin-fe-hulu',
+              distribution_ids: ['E1U1BVU2MK56LU', 'ESVT8JYYNXJ9S'],
+            },
+            'netflix': {
+              bucket: 'mpx-v2-production-admin-fe-netflix',
+              distribution_ids: ['E6BHS2R2PLT0', 'E1ZBA5638MPC33'],
+            },
+            'hbo': {
+              bucket: 'mpx-v2-production-admin-fe-hbo',
+              distribution_ids: ['E2Q0LB32CAG7JR'],
+            },
+            'lgt': {
+              bucket: 'mpx-v2-production-admin-fe-lgt',
+              distribution_ids: ['EY18W7B59UPN6', 'E1IO9YVG2GQWI'],
+            },
+          },
+        },
         'mpx-ui-gcui': {
           projects: {
             'base2': {
@@ -218,6 +350,38 @@ const config = {
         viscacha: "https://viscacha.api.mediastore.app",
       },
       repos: {
+        'mpx-ui-admin': {
+          projects: {
+            'generic': {
+              bucket: 'mfx-v2-production-admin-fe-generic',
+              distribution_ids: ['E204NFGNNFR4AB'],
+            },
+            'fremantle': {
+              bucket: 'mfx-v2-production-admin-fe-fremantle',
+              distribution_ids: ['EKI2O0QQBWC4S'],
+            },
+            'lahm': {
+              bucket: 'mfx-v2-production-admin-fe-lahm',
+              distribution_ids: ['E1Y7B68I1BTFQW'],
+            },
+            'nbcu': {
+              bucket: 'mfx-v2-production-admin-fe-nbcu',
+              distribution_ids: ['E33SLE0HNWM6NG', 'E2ZRECXGKRTUKM'],
+            },
+            'dtv': {
+              bucket: 'mfx-v2-production-admin-fe-dtv',
+              distribution_ids: ['E3I03ROVK51J2Q'],
+            },
+            'tf1pro': {
+              bucket: 'mfx-v2-production-admin-fe-tf1pro',
+              distribution_ids: ['E1W6Z1R733M9GX'],
+            },
+            'orf': {
+              bucket: 'mfx-v2-production-admin-fe-orf',
+              distribution_ids: ['ELKZM5SD2ZXKH'],
+            },
+          },
+        },
         'mpx-ui-gcui': {
           projects: {
             'base2': {
@@ -230,7 +394,7 @@ const config = {
           projects: {
             'nbcu': {
               bucket: 'mfx-v2-production-buyer-fe-nbcu',
-              distribution_ids: ['E11YNWLNQKE2US'],
+              distribution_ids: ['E11YNWLNQKE2US', 'E2H02RDM4G9QZI'],
             },
           },
         },
