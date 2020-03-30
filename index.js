@@ -1,4 +1,6 @@
-const {merge} = require('lodash')
+const {merge, trim} = require('lodash')
+const {execSync} = require('child_process')
+const {existsSync} = require('fs')
 
 const config = {
   slack_token: SCRAMBLED:vPrNquHiCr7r8O5ENgC61KyWqYR412KU7OoHxhyZDcGRH70vKYU0KOCDi7M+Qgy6eHjTnS9wEpSAgwa7D0xk656iXQSkfkSntmNf3Ne8uyps9prdWywl97XcAhR4012W
@@ -451,8 +453,18 @@ const fetch = (object, head, tail) => {
 
 const exp = merge(
   {
-    fetch: (path) => {
-      return fetch(config, [], path.split('.'))
+    gitBranch: () => {
+      return trim(execSync("git rev-parse --abbrev-ref HEAD").toString())
+    },
+    env: (name) => {
+      const envConfig = fetch(config, [], ['envs', name])
+      const overridesPath = `./config/${name}.json`
+
+      if (existsSync(overridesPath)) {
+        const overrides = require(overridesPath)
+        return merge(envConfig, overrides)
+      }
+      else return envConfig
     }
   },
   config,
