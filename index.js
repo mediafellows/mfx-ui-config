@@ -19,6 +19,24 @@ const config = {
         pigeon: "https://pigeon.api.mediapeers.mobi",
         viscacha: "https://viscacha.api.mediapeers.mobi",
       },
+      repos: {
+        'mpx-ui-admin': {
+          projects: {
+            'generic': { },
+            'fremantle': { },
+            'lahm': { },
+            'nbcu': { },
+            'dtv': { },
+            'ams': { },
+            'hulu': { },
+            'netflix': { },
+            'hbo': { },
+            'lgt': { },
+            'tf1pro': { },
+            'orf': { },
+          },
+        },
+      },
     },
     mpx_staging: {
       environment: 'staging',
