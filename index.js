@@ -462,9 +462,10 @@ const exp = merge(
     },
     env: (name) => {
       const envConfig = fetch(config, [], ['envs', name])
-      const overridesPath = `./config/${name}.json`
+      const overridesPath = `${__dirname}/config/${name}.json`
 
       if (existsSync(overridesPath)) {
+        console.log(`loading overrides from ${overridesPath}..`)
         const overrides = require(overridesPath)
         return merge(envConfig, overrides)
       }
