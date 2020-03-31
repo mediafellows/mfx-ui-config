@@ -465,7 +465,7 @@ const exp = merge(
       const overridesPath = `${process.cwd()}/config/${name}.json`
 
       if (existsSync(overridesPath)) {
-        console.log(`loading overrides from ${overridesPath}..`)
+        console.log(`loading overrides from ${overridesPath} ..`)
         const overrides = require(overridesPath)
         return merge(envConfig, overrides)
       }
