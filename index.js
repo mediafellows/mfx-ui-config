@@ -461,15 +461,18 @@ const exp = merge(
       return trim(execSync("git rev-parse --abbrev-ref HEAD").toString())
     },
     env: (name) => {
-      const envConfig = fetch(config, [], ['envs', name])
       const overridesPath = `${process.cwd()}/config/${name}.json`
 
       if (existsSync(overridesPath)) {
-        console.log(`loading overrides from ${overridesPath} ..`)
+        console.log(`loading overrides from ${overridesPath}..`)
         const overrides = require(overridesPath)
-        return merge(envConfig, overrides)
+        const merged = merge({}, config, {envs: { [name]: overrides }})
+
+        return fetch(merged, [], ['envs', name])
       }
-      else return envConfig
+      else {
+        return fetch(config, [], ['envs', name])
+      }
     }
   },
   config,
