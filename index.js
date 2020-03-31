@@ -154,7 +154,7 @@ const config = {
       },
     },
     mpx_presentation: {
-      env: 'presentation',
+      environment: 'presentation',
       aws_profile: 'presentation',
       branch: 'presentation',
       rollbar: SCRAMBLED:vPftp+vPM6zHxddOGTqD+jm4+nD1PAUfSvvvr/MnTAH71Ua3w2pWe9YgAWi/qmhVDboPVW4XTNuhPfwkQJZSJsKf9c+lzK5SUmMJoWA90s4=
