@@ -412,6 +412,30 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-mpx',
               distribution_ids: SCRAMBLED:uODqpZrgJrb/1PlyRzyI6WxlY1WiwKfkf7PtTfEWD5nHij3SXiSCHvy025Ikq1dBPrlHhgLNCnQpRYpj
             },
+            'demo': {
+              bucket: 'mfx-v2-production-buyer-fe-demo',
+              distribution_ids: SCRAMBLED:49Sy+MnAE7HnkfxuK26yyg7lCgSIqXbIkizL4nISW+xJSzZBxIgsxcTaN3y9kufRDLsM/imiKWuL0gJK
+            },
+            'dmd': {
+              bucket: 'mfx-v2-production-buyer-fe-dmd',
+              distribution_ids: SCRAMBLED:2NL2icnfcLfrj4p4Pwe53FcBGigfaZY6SrVjcIZ4rb4EjUmAKN3HUHYf+ShyJ6AeF+0u+bHf0JA=
+            },
+            'ftd': {
+              bucket: 'mfx-v2-production-buyer-fe-ftd',
+              distribution_ids: SCRAMBLED:x+D0mP7AN4mk/fZ5RhKc9jo9esmihjCVMp+1xsvsPCh+zZD4PAHNGEgU/1UwK96e+UxVVOPIbmaJffVV
+            },
+            'propagate': {
+              bucket: 'mfx-v2-production-buyer-fe-propagate',
+              distribution_ids: SCRAMBLED:3fG25PTHEoH288wnN3m9lKz3zvKTdLwZIRPv6Xby5rVi0g9b5Z9YuMeuOYq5zmyn9/925ZIP82kg1Dur
+            },
+            'rasi': {
+              bucket: 'mfx-v2-production-buyer-fe-rasi',
+              distribution_ids: SCRAMBLED:+PnLscbzJZDWx4txCj2G6Gp9ExsUdXQS9JtcVNrlGBRPX6m0qAUM0yePLR73+FTJ8IxTledd9F+5iK2j
+            },
+            'tf1pro': {
+              bucket: 'mfx-v2-production-buyer-fe-tf1pro',
+              distribution_ids: SCRAMBLED:0/Lz++HsO5HGy4pmHxyx0D/wTYvWC8iyhyPnsJxrv+D7IMbm3/NBsw2KCSK/zrPu44S/yjUWlp/msvkU
+            },
           },
         },
         'mpx-ui-nbcu': {
