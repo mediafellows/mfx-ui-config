@@ -1,4 +1,4 @@
-const {merge, trim} = require('lodash')
+const {merge, trim, isPlainObject} = require('lodash')
 const {execSync} = require('child_process')
 const {existsSync} = require('fs')
 
@@ -442,7 +442,7 @@ const fetch = (object, head, tail) => {
 
   if (tail.length === 0) {
     // goal!
-    if ((typeof val) === 'object') return merge(
+    if (isPlainObject(val)) return merge(
       {
         fetch: (path) => {
           return fetch(val, [], path.split('.'))
