@@ -474,7 +474,7 @@ const config = {
           projects: {
             'fremantle': {
               bucket: 'mfx-v2-production-buyer-fe-fremantle',
-              distribution_ids: SCRAMBLED:5tbpoOfLC/T/185QCTqCj97Tr0UwROkQk92tvS40GWKVXIWIFNbwxg==
+              distribution_ids: SCRAMBLED:zerBmobAGanDkM45OXmBjJWlcXBXGV9q3elmbQoKLQZn4T4LDeIeT58r59TSZqePghDBi21mmX1o1/ME
             },
           },
         },
