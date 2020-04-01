@@ -43,7 +43,7 @@ const config = {
     mpx_staging: {
       environment: 'staging',
       aws_profile: 'staging',
-      branch: 'staging',
+      branch: 'master',
       rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
       slack_url: SCRAMBLED:yMj7mp7xK67/48xMLDy4ziZZBmdWNtE6ltOITNn/khtwINPO7QeEIjZ6c2XBCCXzfK9IqJ2/kVZ4wakNtsRpsams2yBWHWiluYhqXTtfBJC84Fzv2ONeEfDztnz2azakAjjxZqcLa5BdjKGjzCHffIGwQhYYzuLp68Swy3vbjXYM52+HtapTT8NW62Y=
       endpoints: {
