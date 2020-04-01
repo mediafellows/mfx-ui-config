@@ -518,7 +518,7 @@ const config = {
             },
             'tf1pro': {
               bucket: 'mfx-v2-production-buyer-fe-tf1pro',
-              distribution_ids: SCRAMBLED:0/Lz++HsO5HGy4pmHxyx0D/wTYvWC8iyhyPnsJxrv+D7IMbm3/NBsw2KCSK/zrPu44S/yjUWlp/msvkU
+              distribution_ids: SCRAMBLED:xtr1s8vJFon28o98HDGnydSMq2FYynkUIV3FoWCWr1E0wzt7/gS9gXF7CYKfeGuvM3kA+Bb38G6S19N/CNMrrc1cr4jFeIXgSh3YOW6WHJHYE5YL
             },
           },
         },
