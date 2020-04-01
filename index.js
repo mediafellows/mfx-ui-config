@@ -502,7 +502,7 @@ const config = {
             },
             'dmd': {
               bucket: 'mfx-v2-production-buyer-fe-dmd',
-              distribution_ids: SCRAMBLED:2NL2icnfcLfrj4p4Pwe53FcBGigfaZY6SrVjcIZ4rb4EjUmAKN3HUHYf+ShyJ6AeF+0u+bHf0JA=
+              distribution_ids: SCRAMBLED:pc7zitTxcp7r1YpYNWOhgyV6LdRRP7AkgYzHcLOpAkzP8R2M0iCRjxrE1LQE9K36wzEKgkXTvsbYbzl3B3JuHLAfvrzoAebtcezxI7+jWE8=
             },
             'ftd': {
               bucket: 'mfx-v2-production-buyer-fe-ftd',
