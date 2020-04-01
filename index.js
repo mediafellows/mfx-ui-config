@@ -151,6 +151,14 @@ const config = {
             },
           },
         },
+        'mpx-ui-fremantle': {
+          projects: {
+            'fremantle': {
+              bucket: 'mpx-v2-staging-buyer-fe-fremantle',
+              distribution_ids: SCRAMBLED:2P/zuOjjEPLB4NF5BhymzEPejZBoguZ3L4GIGy85KXq2GoRrsd+yDQPK8otQVLkFX63ygRqTOSV6vXya
+            },
+          },
+        },
       },
     },
     mpx_presentation: {
@@ -264,6 +272,14 @@ const config = {
             },
           },
         },
+        'mpx-ui-fremantle': {
+          projects: {
+            'fremantle': {
+              bucket: 'mpx-v2-presentation-buyer-fe-fremantle',
+              distribution_ids: SCRAMBLED:/sGpj938K77CzvpVDDGS8ZT7tY30aIozOMXWvGB5jGnXKNDqMhCeuhNJrhSvzvgSwSWvTccwcOBjZkDj
+            },
+          },
+        },
       },
     },
     mpx_production: {
@@ -349,7 +365,15 @@ const config = {
           projects: {
             'nbcu': {
               bucket: 'mpx-v2-production-buyer-fe-nbcu',
-              distribution_ids: SCRAMBLED:3I/IgdrPEL3l1NtSUQCc6Qv4TBGVrvyR5n6bWAjBnIe8zQZfkLLOdmyOfE6b+JpR5+jKUfa0/AdFHX3iL48ukAxWzuupIzSxfLNRbevomu9NSzj6
+              distribution_ids: SCRAMBLED:+PbPjYHeLajK69ZQLznj87nSZKYnpNn2ahSOv+uA5ybNO58LtQuLJYUPvspYHwFVOCT4r1rotZ0e3w12
+            },
+          },
+        },
+        'mpx-ui-fremantle': {
+          projects: {
+            'fremantle': {
+              bucket: 'mpx-v2-production-buyer-fe-fremantle',
+              distribution_ids: SCRAMBLED:/MLHrdzSAZGq5fc9PyKxz5a3y8+L3xDVlpPMov1E6dISSinD0mf5vXtIBuwxvETRtSh1v7F42BN6r7Qqx2+QWLFFuLR/TAg9w5khX73cMJyymI/A
             },
           },
         },
@@ -443,6 +467,14 @@ const config = {
             'nbcu': {
               bucket: 'mfx-v2-production-buyer-fe-nbcu',
               distribution_ids: SCRAMBLED:08y2/sn/JIHJz851STXpikF7naM+y+vauuWH15yabQa6+qXs/36sWa+qp5h2TxY97RTdhOPYUxiLog309nmW7MwPA8w5wKJHdI/5WO5BTK665bm3
+            },
+          },
+        },
+        'mpx-ui-fremantle': {
+          projects: {
+            'fremantle': {
+              bucket: 'mfx-v2-production-buyer-fe-fremantle',
+              distribution_ids: SCRAMBLED:5tbpoOfLC/T/185QCTqCj97Tr0UwROkQk92tvS40GWKVXIWIFNbwxg==
             },
           },
         },
