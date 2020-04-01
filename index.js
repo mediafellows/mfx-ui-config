@@ -143,6 +143,18 @@ const config = {
             },
           },
         },
+        'mpx-ui-old-gcui': {
+          projects: {
+            'dynamic-television': {
+              bucket: 'mpx-v2-staging-buyer-fe-dtv',
+              distribution_ids: SCRAMBLED:44Cz5MfWGqb9/OU5NGGmza/wUrWj2u8cuh1oOESR/JDxeT0tgph5k0TAAJ5m85IynlWC9fjWfY8OesTW
+            },
+            'e-one': {
+              bucket: 'mpx-v2-staging-buyer-fe-eone',
+              distribution_ids: SCRAMBLED:2oHqvPfrGpH609g9Nm6S+g9CuHmwZql2haUz19PdZ2HmGcgF6nsAhhlYP6rEybBysBNjXy54NaKyO3/K
+            },
+          },
+        },
         'mpx-ui-nbcu': {
           projects: {
             'nbcu': {
@@ -272,6 +284,18 @@ const config = {
             },
           },
         },
+        'mpx-ui-old-gcui': {
+          projects: {
+            'dynamic-television': {
+              bucket: 'mpx-v2-presentation-buyer-fe-dtv',
+              distribution_ids: SCRAMBLED:2tTn/PT2FoH8xfxgMjumyytOBoRT/GGprf6XconoKb0ZFOIobYsBC2eKoBdUusWDqNNPmK9eRfrBDShP
+            },
+            'e-one': {
+              bucket: 'mpx-v2-presentation-buyer-fe-eone',
+              distribution_ids: SCRAMBLED:5fnShtn0NIWnx9BDSwf/49rEZj33Phg4hj0RUnF5G3SI6z9n4fLAF5/BrOk1uGDN8q8VcPXyRRI3uLO+
+            },
+          },
+        },
         'mpx-ui-nbcu': {
           projects: {
             'nbcu': {
@@ -374,6 +398,18 @@ const config = {
             'tf1pro': {
               bucket: 'mpx-v2-production-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:wfPWkYTwK/fb9uhCEyOqyeE2CWP5Ozt6SLrq9HIj0JuoVGSTIvpE1VLHvaxrnuQGFnueoZkMJvNncPIH40UXjkgZ2QjdiYTj5Qr3MNk7THiniBFV
+            },
+          },
+        },
+        'mpx-ui-old-gcui': {
+          projects: {
+            'dynamic-television': {
+              bucket: 'mpx-v2-production-buyer-fe-dtv',
+              distribution_ids: SCRAMBLED:7ujLo4LrCIjj3OkgOwCi71HcepzDc1wkR3nCvE0mmQu3j1YWEnTgVqbtr86KMhOClnJIkIO9+w6oWJW6Oth6hVFNzUu++F5MseQ659uJPGu2dkR7
+            },
+            'e-one': {
+              bucket: 'mpx-v2-production-buyer-fe-eone',
+              distribution_ids: SCRAMBLED:6923u+LydoW84OphKjqggoqy3ggZS5DrB+EFZjQF0Tj9oCeWyc9vtcEYSoH5lYGx7xNGaEAkUH1FZbnrFfP1S0NUgPy6qraVA1KSVoVo/8kwbQ//
             },
           },
         },
@@ -483,6 +519,18 @@ const config = {
             'tf1pro': {
               bucket: 'mfx-v2-production-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:0/Lz++HsO5HGy4pmHxyx0D/wTYvWC8iyhyPnsJxrv+D7IMbm3/NBsw2KCSK/zrPu44S/yjUWlp/msvkU
+            },
+          },
+        },
+        'mpx-ui-old-gcui': {
+          projects: {
+            'dynamic-television': {
+              bucket: 'mfx-v2-production-buyer-fe-dtv',
+              distribution_ids: SCRAMBLED:vPXvjILIepfg3Mh/MzKxgrI6FRUhefwfkiaJCuXXs09BRlQh/9opsh2epsy2eqsYe0cvcJ2Vat/DQG+d
+            },
+            'e-one': {
+              bucket: 'mfx-v2-production-buyer-fe-eone',
+              distribution_ids: SCRAMBLED:5s2znOjMBIDcwoouOzWc2Gqtxl14jgHE5oiIgMvU0TZQEhK9VAX4Ca8LKXR7PecufFyAwGDm1Y0tIM3K
             },
           },
         },
