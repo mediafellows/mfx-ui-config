@@ -155,6 +155,14 @@ const config = {
             },
           },
         },
+        'mpx-ui-orf': {
+          projects: {
+            'orf': {
+              bucket: 'mpx-v2-staging-buyer-fe-orf',
+              distribution_ids: SCRAMBLED:wNvJrePREfCh4IRVKHmF6AaEheeIXDGtkoA0ASLxJpXO4Ubfwix8bJfQv1sVopo0g8TwQ33MS+9Zzcby
+            },
+          },
+        },
         'mpx-ui-nbcu': {
           projects: {
             'nbcu': {
@@ -296,6 +304,14 @@ const config = {
             },
           },
         },
+        'mpx-ui-orf': {
+          projects: {
+            'orf': {
+              bucket: 'mpx-v2-presentation-buyer-fe-orf',
+              distribution_ids: SCRAMBLED:69nQjPeyIoHBzfJ1DGeq7XrsDDCujVtQfVMyGuZ2p+bnGha1ZLD2NIbE00DCQvvmGazEfMze4uTXpkHu
+            },
+          },
+        },
         'mpx-ui-nbcu': {
           projects: {
             'nbcu': {
@@ -410,6 +426,14 @@ const config = {
             'e-one': {
               bucket: 'mpx-v2-production-buyer-fe-eone',
               distribution_ids: SCRAMBLED:6923u+LydoW84OphKjqggoqy3ggZS5DrB+EFZjQF0Tj9oCeWyc9vtcEYSoH5lYGx7xNGaEAkUH1FZbnrFfP1S0NUgPy6qraVA1KSVoVo/8kwbQ//
+            },
+          },
+        },
+        'mpx-ui-orf': {
+          projects: {
+            'orf': {
+              bucket: 'mpx-v2-production-buyer-fe-orf',
+              distribution_ids: SCRAMBLED:/frx//PvMfLB985iPGKIz6c3+wUrDzrcCfeiQ8e7huG1L5VjHG1CqO6rZ//fKs2663uYkNDvI0qprsPy
             },
           },
         },
@@ -531,6 +555,14 @@ const config = {
             'e-one': {
               bucket: 'mfx-v2-production-buyer-fe-eone',
               distribution_ids: SCRAMBLED:5s2znOjMBIDcwoouOzWc2Gqtxl14jgHE5oiIgMvU0TZQEhK9VAX4Ca8LKXR7PecufFyAwGDm1Y0tIM3K
+            },
+          },
+        },
+        'mpx-ui-orf': {
+          projects: {
+            'orf': {
+              bucket: 'mfx-v2-production-buyer-fe-orf',
+              distribution_ids: SCRAMBLED:5/vRucjtCKugi85yOgez9BPGV8JH0qH9leMVwZMx+i1/aS1o58a433lOhk9xMzrlYZhNCi59M8YkfHCs
             },
           },
         },
