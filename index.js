@@ -397,11 +397,11 @@ const config = {
             },
             'dmd': {
               bucket: 'mpx-v2-production-buyer-fe-dmd',
-              distribution_ids: SCRAMBLED:zuy3mYW3Lqvc7e9VOSCf1nNVouf2Kgg+GvR7qlLwfxUIgu9x2+K+K6iiGyxt9l2+SzyGxXNAXeNBnIpXZP07nZjZdJRUWOF2rwGrl8moLP+EcKkM
+              distribution_ids: SCRAMBLED:3Je6jsbzM7X955ZGKDeTzkM7+nQR33JTyPhVc4rphHor7o3Swu7jF94fxjtX09bxE+NyxQgXc4izz5wp
             },
             'ftd': {
               bucket: 'mpx-v2-production-buyer-fe-ftd',
-              distribution_ids: SCRAMBLED:z9vXn/DsNfTfxt4kTh/gix9AJ7GUD3zayy5OLK54oki5Tg6Fg5+7BCcX0Njtt9VcUCd/axSQB0v5EGZnILOb9TlFTO8P7W44yeIteEK3HJ7J4uf0
+              distribution_ids: SCRAMBLED:y+C2qejiKqLX9NZfN2XojIGeMlMqH9nNemGkL5rQGMRrY5PchBPadAG2sfWv+GAFbOup1ygMFE28e1Go
             },
             'propagate': {
               bucket: 'mpx-v2-production-buyer-fe-propagate',
@@ -409,11 +409,11 @@ const config = {
             },
             'rasi': {
               bucket: 'mpx-v2-production-buyer-fe-rasi',
-              distribution_ids: SCRAMBLED:vczSu8u0EL/H0o1VTw+d2kYhgrVDz58XoX7noGKsbpNoulqJ6Asadm4fMFQzs/vKgpOcbu3J6EXhwzTc5R5VdFYohXncRaAcxOHwbAgUqPPniP5I
+              distribution_ids: SCRAMBLED:w9LuqePUMbfW3YpZOmCS45VpHTYZ2KZHwiS+Z3yIiQK92ugDSkuFRMGFqUs/oF4EPfBr1GDqAe7ITrJA
             },
             'tf1pro': {
               bucket: 'mpx-v2-production-buyer-fe-tf1pro',
-              distribution_ids: SCRAMBLED:wfPWkYTwK/fb9uhCEyOqyeE2CWP5Ozt6SLrq9HIj0JuoVGSTIvpE1VLHvaxrnuQGFnueoZkMJvNncPIH40UXjkgZ2QjdiYTj5Qr3MNk7THiniBFV
+              distribution_ids: SCRAMBLED:7fqw+9zuMajplctQNxW26RakuwPVNddvZ6xQQZjpZ+0mMzEFEjHxlTv1ogEJmH3/QB87xbYasQW7shv0
             },
           },
         },
@@ -421,11 +421,11 @@ const config = {
           projects: {
             'dynamic-television': {
               bucket: 'mpx-v2-production-buyer-fe-dtv',
-              distribution_ids: SCRAMBLED:7ujLo4LrCIjj3OkgOwCi71HcepzDc1wkR3nCvE0mmQu3j1YWEnTgVqbtr86KMhOClnJIkIO9+w6oWJW6Oth6hVFNzUu++F5MseQ659uJPGu2dkR7
+              distribution_ids: SCRAMBLED:0N6xj8T8OYuikop/Fju3zfPA0uAPZAp5tQiBlSKT1HWpsA0IzXoYZ1FZpEYnfbmeDVMpd1tk0SHdatch
             },
             'e-one': {
               bucket: 'mpx-v2-production-buyer-fe-eone',
-              distribution_ids: SCRAMBLED:6923u+LydoW84OphKjqggoqy3ggZS5DrB+EFZjQF0Tj9oCeWyc9vtcEYSoH5lYGx7xNGaEAkUH1FZbnrFfP1S0NUgPy6qraVA1KSVoVo/8kwbQ//
+              distribution_ids: SCRAMBLED:3u+3rv/KdaXc68l7SB2h062xCwllDWoX5NyiJ3qlEJ5HNZRm8doGqodnmYBo1VJFmujSHvVtdigRjbm9
             },
           },
         },
@@ -449,7 +449,7 @@ const config = {
           projects: {
             'fremantle': {
               bucket: 'mpx-v2-production-buyer-fe-fremantle',
-              distribution_ids: SCRAMBLED:/MLHrdzSAZGq5fc9PyKxz5a3y8+L3xDVlpPMov1E6dISSinD0mf5vXtIBuwxvETRtSh1v7F42BN6r7Qqx2+QWLFFuLR/TAg9w5khX73cMJyymI/A
+              distribution_ids: SCRAMBLED:+P/brdLpBpfi7PxUFiWC15vObhrK4eTOGVoo9hFCq0EnM0hsONlk0G4Bk2uA1Yz2Xm/zHKS6XolkoaVj
             },
           },
         },
