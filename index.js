@@ -486,8 +486,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
-              comment: 'CF ids for: generic, dmd, ftd, eone, rasi, dmd',
-              distribution_ids: SCRAMBLED:2ta1nYbXArT+7dxnNDO16mTXpygw6cySi6JlICV7qxkHvJljSbiAiu5oPz2ynuJYBp7AHfQGnQQepMSpS2E0+o23CvK/QIStdd6kjUHEZWpoLnc2TaxAQbg7oeZdi1xzwva/MTqcZ8VyYHlSEQJOYw3UVyGlDxQKcoD5TVRA8nr7C2Wm6fJMivuNsZQ8N0JJjr3n23EvaKHi1jOsuK0TFYaLPm54kXqlJwv4SrTc7BS7/moc
+              comment: 'CF ids for: generic, ftd, eone, rasi, dmd',
+              distribution_ids: SCRAMBLED:xI/muMbWCL/d8PQgMDi+4W89Qfw54QabLZ/q8YR0mMLQ65xL2//MyQKB0J2BtMmOBw3SVuqUBgpiO0Ly8BLG0SWpnolZ2eR/mjsoykOydDk3UhVHqQ+63EW2QzOXnowpDKj5SejL14UGG1ANiLrcKwDCgA0LXyI6Zd6oTXIzAqcCWamFppleprInOItit1/64gmt1AQ6AAvj8RX5
             },
             'fremantle': {
               bucket: 'mfx-v2-production-admin-fe-fremantle',
@@ -503,7 +503,7 @@ const config = {
             },
             'dtv': {
               bucket: 'mfx-v2-production-admin-fe-dtv',
-              distribution_ids: SCRAMBLED:uP/VqOTtN4qn1IpiEmKbw5+FdySkEd26SJaCfs8yIkj/327aK7klsGqLcjdm6XG4D0w5RSbYh7Yy1U6F
+              distribution_ids: SCRAMBLED:+o7WgsjDFYj19tQgDTuq2UBrVpPw82H9A1TFrgx/99u52c/cSwFFcMOe+kslqaRCLWZeRinxZiPmL/HOFR2y5SxXPqPTL94zn3hYaIijoEUFWxMo
             },
             'tf1pro': {
               bucket: 'mfx-v2-production-admin-fe-tf1pro',
