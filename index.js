@@ -486,7 +486,7 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
-              comment: 'CF ids for: generic, ftd, eone, rasi, dmd',
+              // Cloudfront distribution ids for (in this order): generic, ftd, eone, rasi, dmd:
               distribution_ids: SCRAMBLED:xI/muMbWCL/d8PQgMDi+4W89Qfw54QabLZ/q8YR0mMLQ65xL2//MyQKB0J2BtMmOBw3SVuqUBgpiO0Ly8BLG0SWpnolZ2eR/mjsoykOydDk3UhVHqQ+63EW2QzOXnowpDKj5SejL14UGG1ANiLrcKwDCgA0LXyI6Zd6oTXIzAqcCWamFppleprInOItit1/64gmt1AQ6AAvj8RX5
             },
             'fremantle': {
