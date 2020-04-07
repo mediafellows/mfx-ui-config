@@ -123,7 +123,7 @@ const config = {
             },
             'dmd': {
               bucket: 'mpx-v2-staging-buyer-fe-dmd',
-              distribution_ids: SCRAMBLED:xMHSkcfiNJD9/cdfPDiZ4iMeXc9BH9IzPMggZ1ki/+HJPSVk8r2C9mnuI8uDxQxUTnbcbzsoYBdS/qPx
+              distribution_ids: SCRAMBLED:8N31ufPCKJPg9YxcEiC97nwCLLSWqF7j3p9vc8d//P8ePyDd7LZ5dpRrFohr7T2mPqZtWZgBerKvjD5y
             },
             'ftd': {
               bucket: 'mpx-v2-staging-buyer-fe-ftd',
