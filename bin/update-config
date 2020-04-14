@@ -1,7 +1,14 @@
 #!/bin/bash
-exec 2>/dev/null
+if ! [ -x "$(command -v scrambler)" ]; then
+  echo 'Warning: scrambler is not installed, using config mock..' >&2
+  exec 2>/dev/null
+  mkdir -p node_modules/mfx-ui-config
+  curl https://raw.githubusercontent.com/mfx-jgoetzinger/mfx-ui-config/master/index.mock.js -o node_modules/mfx-ui-config/index.js
+else
+  exec 2>/dev/null
+  mkdir -p node_modules/mfx-ui-config
+  curl https://raw.githubusercontent.com/mfx-jgoetzinger/mfx-ui-config/master/index.js -o $TMPDIR/mfx-ui-config.tmp
+  scrambler read $TMPDIR/mfx-ui-config.tmp > node_modules/mfx-ui-config/index.js
+  rm $TMPDIR/mfx-ui-config.tmp
+fi
 
-mkdir -p node_modules/mfx-ui-config
-curl https://raw.githubusercontent.com/mfx-jgoetzinger/mfx-ui-config/master/index.js -o $TMPDIR/mfx-ui-config.tmp
-scrambler read $TMPDIR/mfx-ui-config.tmp > node_modules/mfx-ui-config/index.js
-rm $TMPDIR/mfx-ui-config.tmp
