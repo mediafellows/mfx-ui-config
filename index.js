@@ -145,6 +145,10 @@ const config = {
               bucket: 'mpx-v2-staging-buyer-fe-studiocanal',
               distribution_ids: SCRAMBLED:v4iwiOLkFOzZzskiRmGc/rc6noYFxU10BIDiOD4CivIEN0OJe7ymYnXNuoPeFvd3Mmm8QgPtAFyFAPr3
             },
+            'bavaria': {
+              bucket: 'mpx-v2-staging-buyer-fe-bavaria',
+              distribution_ids: SCRAMBLED:/I7QitjRIK7+w9xMNQGi7e9QULYf2CPqKVbHj/MKxT6YOlLmfdjKYpRlnWJpi99rQV7Fk3mJBmkeERvf
+            },
           },
         },
         'mpx-ui-old-gcui': {
@@ -297,6 +301,10 @@ const config = {
             'studiocanal': {
               bucket: 'mpx-v2-presentation-buyer-fe-studiocanal',
               distribution_ids: SCRAMBLED:ocywg4LJKI68l/d0RiPpwiw/Z9Yd9p9Md/T5D5Z8/+ZGO89z85EJlK88lK6mUmU7abyjvTUa1F6dNckk
+            },
+            'bavaria': {
+              bucket: 'mpx-v2-presentation-buyer-fe-bavaria',
+              distribution_ids: SCRAMBLED:8P3s5MjLMJOkk994Bm64yh4MYBTzLNa7FcfScf/G6DR0ErTQOLRgPdjjEuYdyndvUDsP7IVEWYnNRriy
             },
           },
         },
@@ -501,6 +509,10 @@ const config = {
             'studiocanal': {
               bucket: 'mfx-v2-production-buyer-fe-studiocanal',
               distribution_ids: SCRAMBLED:4/DWsdOpIvOrnfA9PxOn0v/3Xlsi8e7xBm99xxdqf2PBBF5ipcKU0R1W3F3lQgQEKdMvQD3okDUY0EUM
+            },
+            'bavaria': {
+              bucket: 'mfx-v2-production-buyer-fe-bavaria',
+              distribution_ids: SCRAMBLED:oe/gvNK2MYH/yNBDLSWKlKBmjrQol6Eq6W0uk72JPgFnBFO1RBCF2Cg8uquvTYmVJ+Zc1/Flgt9qvrYi
             },
           },
         },
