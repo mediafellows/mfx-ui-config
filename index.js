@@ -141,6 +141,10 @@ const config = {
               bucket: 'mpx-v2-staging-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:0onT/P3eKKHH3Yt0FiCUgslP/SHKWzKLU/2sbOKHOWSANpher0fMkse+WkSsulGo8nGH/FuV7vgBir3R
             },
+            'studiocanal': {
+              bucket: 'mpx-v2-staging-buyer-fe-studiocanal',
+              distribution_ids: SCRAMBLED:v4iwiOLkFOzZzskiRmGc/rc6noYFxU10BIDiOD4CivIEN0OJe7ymYnXNuoPeFvd3Mmm8QgPtAFyFAPr3
+            },
           },
         },
         'mpx-ui-old-gcui': {
@@ -289,6 +293,10 @@ const config = {
             'tf1pro': {
               bucket: 'mpx-v2-presentation-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:odXv4OHrDqqq7+4gFz282hk+eGHY3NBTu1TVo+n6IoeTMnmQkgpFjRlqhye+TNmQiuzp5BDmsg7IQCqz
+            },
+            'studiocanal': {
+              bucket: 'mpx-v2-presentation-buyer-fe-studiocanal',
+              distribution_ids: SCRAMBLED:ocywg4LJKI68l/d0RiPpwiw/Z9Yd9p9Md/T5D5Z8/+ZGO89z85EJlK88lK6mUmU7abyjvTUa1F6dNckk
             },
           },
         },
@@ -544,6 +552,10 @@ const config = {
             'tf1pro': {
               bucket: 'mfx-v2-production-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:xtr1s8vJFon28o98HDGnydSMq2FYynkUIV3FoWCWr1E0wzt7/gS9gXF7CYKfeGuvM3kA+Bb38G6S19N/CNMrrc1cr4jFeIXgSh3YOW6WHJHYE5YL
+            },
+            'studiocanal': {
+              bucket: 'mfx-v2-production-buyer-fe-studiocanal',
+              distribution_ids: SCRAMBLED:4/DWsdOpIvOrnfA9PxOn0v/3Xlsi8e7xBm99xxdqf2PBBF5ipcKU0R1W3F3lQgQEKdMvQD3okDUY0EUM
             },
           },
         },
