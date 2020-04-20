@@ -406,6 +406,7 @@ const config = {
         },
         'mpx-ui-old-gcui': {
           projects: {},
+        },
         'mpx-ui-orf': {
           projects: {},
         },
@@ -414,6 +415,7 @@ const config = {
         },
         'mpx-ui-fremantle': {
           projects: {},
+        },
         'mpx-ui-lahm': {
           projects: {
             'lahm': {
