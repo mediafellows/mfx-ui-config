@@ -510,7 +510,7 @@ const config = {
             },
             'studiocanal': {
               bucket: 'mfx-v2-production-buyer-fe-studiocanal',
-              distribution_ids: SCRAMBLED:4/DWsdOpIvOrnfA9PxOn0v/3Xlsi8e7xBm99xxdqf2PBBF5ipcKU0R1W3F3lQgQEKdMvQD3okDUY0EUM
+              distribution_ids: SCRAMBLED:4NXSm4HDL7Olw8dAT2W4kG4WiaG5vk8IZbhiG8zbDGtxufwYFS/b4jRlAwRhw+JxuCgEbcympSZf67VNvH/xR4D0OvVynLQ8EkX9FNwMnGdFcGU1
             },
             'bavaria': {
               bucket: 'mfx-v2-production-buyer-fe-bavaria',
