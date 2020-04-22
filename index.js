@@ -496,7 +496,7 @@ const config = {
             },
             'propagate': {
               bucket: 'mfx-v2-production-buyer-fe-propagate',
-              distribution_ids: SCRAMBLED:3fG25PTHEoH288wnN3m9lKz3zvKTdLwZIRPv6Xby5rVi0g9b5Z9YuMeuOYq5zmyn9/925ZIP82kg1Dur
+              distribution_ids: SCRAMBLED:+/zznfnCNYiiydFcBxGa/gfggayQDL5FXVl0/EX+CiUMv3/zxQluSlIlthO8xQJD2SHoH5S5/I0w4z00iGTSicGVY2HbmJgQOtmOPem46ywHb5pd
             },
             'rasi': {
               bucket: 'mfx-v2-production-buyer-fe-rasi',
