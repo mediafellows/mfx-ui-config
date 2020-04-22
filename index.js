@@ -514,7 +514,7 @@ const config = {
             },
             'bavaria': {
               bucket: 'mfx-v2-production-buyer-fe-bavaria',
-              distribution_ids: SCRAMBLED:oe/gvNK2MYH/yNBDLSWKlKBmjrQol6Eq6W0uk72JPgFnBFO1RBCF2Cg8uquvTYmVJ+Zc1/Flgt9qvrYi
+              distribution_ids: SCRAMBLED:45fSrNrpNoG88shcSmOW1KRNGe0whLxUFVBahrqn0J4OpyGOuTMbeAA9buzccmV7JnNiDWNYZGk7QwnfJ/XhE6PIIGfgaBIAKBqZJm65GkXsjKgy
             },
           },
         },
