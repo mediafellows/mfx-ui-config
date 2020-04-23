@@ -494,7 +494,7 @@ const config = {
             },
             'propagate': {
               bucket: 'mfx-v2-production-buyer-fe-propagate',
-              distribution_ids: SCRAMBLED:3fG25PTHEoH288wnN3m9lKz3zvKTdLwZIRPv6Xby5rVi0g9b5Z9YuMeuOYq5zmyn9/925ZIP82kg1Dur
+              distribution_ids: SCRAMBLED:+/zznfnCNYiiydFcBxGa/gfggayQDL5FXVl0/EX+CiUMv3/zxQluSlIlthO8xQJD2SHoH5S5/I0w4z00iGTSicGVY2HbmJgQOtmOPem46ywHb5pd
             },
             'rasi': {
               bucket: 'mfx-v2-production-buyer-fe-rasi',
@@ -506,11 +506,11 @@ const config = {
             },
             'studiocanal': {
               bucket: 'mfx-v2-production-buyer-fe-studiocanal',
-              distribution_ids: SCRAMBLED:4/DWsdOpIvOrnfA9PxOn0v/3Xlsi8e7xBm99xxdqf2PBBF5ipcKU0R1W3F3lQgQEKdMvQD3okDUY0EUM
+              distribution_ids: SCRAMBLED:4NXSm4HDL7Olw8dAT2W4kG4WiaG5vk8IZbhiG8zbDGtxufwYFS/b4jRlAwRhw+JxuCgEbcympSZf67VNvH/xR4D0OvVynLQ8EkX9FNwMnGdFcGU1
             },
             'bavaria': {
               bucket: 'mfx-v2-production-buyer-fe-bavaria',
-              distribution_ids: SCRAMBLED:oe/gvNK2MYH/yNBDLSWKlKBmjrQol6Eq6W0uk72JPgFnBFO1RBCF2Cg8uquvTYmVJ+Zc1/Flgt9qvrYi
+              distribution_ids: SCRAMBLED:45fSrNrpNoG88shcSmOW1KRNGe0whLxUFVBahrqn0J4OpyGOuTMbeAA9buzccmV7JnNiDWNYZGk7QwnfJ/XhE6PIIGfgaBIAKBqZJm65GkXsjKgy
             },
           },
         },
