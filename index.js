@@ -375,10 +375,6 @@ const config = {
       repos: {
         'mpx-ui-admin': {
           projects: {
-            'generic': {
-              bucket: 'mpx-v2-production-admin-fe-generic',
-              distribution_ids: SCRAMBLED:vojWvNz0e7/59/wlSRmE4VIL62+sJxpbWqeHWtbEW1o4pZDRvJtSmwgecaSlRnvMOVrfu80SN/cd/Gjz
-            },
             'ams': {
               bucket: 'mpx-v2-production-admin-fe-ams',
               distribution_ids: SCRAMBLED:6YDprsvPJ6jDyNIuDxyIz98F7fB7Ce9KY9UhtshvX5TuZIRatGMBzPCJnX3FvZL/16v9IuEZgyewNVCJmCoG3exNOJ0zj19RMtoXLM9QQIx3CI0c
