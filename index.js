@@ -7,7 +7,7 @@ const config = {
     development: {
       environment: 'development',
       rollbar: SCRAMBLED:3Orxmf7EcInqytNaSmSg+e2QxahxN9bK3gjLcn8nNR/RpfHPqIQpGnCTI6ZXZ6z6ev4G4GTuwp3x08vE/AhR2MY6PlL0xpDS6MbcUczBig0=
-      slack_url: SCRAMBLED:yMj7mp7xK67/48xMLDy4ziZZBmdWNtE6ltOITNn/khtwINPO7QeEIjZ6c2XBCCXzfK9IqJ2/kVZ4wakNtsRpsams2yBWHWiluYhqXTtfBJC84Fzv2ONeEfDztnz2azakAjjxZqcLa5BdjKGjzCHffIGwQhYYzuLp68Swy3vbjXYM52+HtapTT8NW62Y=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       branch: 'master',
       endpoints: {
         um: "https://um.api.mediapeers.mobi/v20140601",
@@ -45,7 +45,7 @@ const config = {
       aws_profile: 'staging',
       branch: 'master',
       rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
-      slack_url: SCRAMBLED:yMj7mp7xK67/48xMLDy4ziZZBmdWNtE6ltOITNn/khtwINPO7QeEIjZ6c2XBCCXzfK9IqJ2/kVZ4wakNtsRpsams2yBWHWiluYhqXTtfBJC84Fzv2ONeEfDztnz2azakAjjxZqcLa5BdjKGjzCHffIGwQhYYzuLp68Swy3vbjXYM52+HtapTT8NW62Y=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       endpoints: {
         um: "https://um.api.mediapeers.mobi/v20140601",
         pm: "https://pm.api.mediapeers.mobi/v20140601",
@@ -202,7 +202,7 @@ const config = {
       aws_profile: 'presentation',
       branch: 'presentation',
       rollbar: SCRAMBLED:vPftp+vPM6zHxddOGTqD+jm4+nD1PAUfSvvvr/MnTAH71Ua3w2pWe9YgAWi/qmhVDboPVW4XTNuhPfwkQJZSJsKf9c+lzK5SUmMJoWA90s4=
-      slack_url: SCRAMBLED:yMj7mp7xK67/48xMLDy4ziZZBmdWNtE6ltOITNn/khtwINPO7QeEIjZ6c2XBCCXzfK9IqJ2/kVZ4wakNtsRpsams2yBWHWiluYhqXTtfBJC84Fzv2ONeEfDztnz2azakAjjxZqcLa5BdjKGjzCHffIGwQhYYzuLp68Swy3vbjXYM52+HtapTT8NW62Y=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       endpoints: {
         um: "https://um.api.mediapeers.us/v20140601",
         pm: "https://pm.api.mediapeers.us/v20140601",
@@ -359,7 +359,7 @@ const config = {
       aws_profile: 'production',
       branch: 'legacy',
       rollbar: SCRAMBLED:6P7jg9StKqur/Pl1SG+h9ETUTbm2ih2LPdVD8uXdkviuxm5CuGnyCS3SEq6csasgRUppTYCGCZ6vxeg/iYJqZHbdzMNlHIW8ebhd/VnNhpo=
-      slack_url: SCRAMBLED:yMj7mp7xK67/48xMLDy4ziZZBmdWNtE6ltOITNn/khtwINPO7QeEIjZ6c2XBCCXzfK9IqJ2/kVZ4wakNtsRpsams2yBWHWiluYhqXTtfBJC84Fzv2ONeEfDztnz2azakAjjxZqcLa5BdjKGjzCHffIGwQhYYzuLp68Swy3vbjXYM52+HtapTT8NW62Y=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       endpoints: {
         um: "https://um.api.mediapeers.biz/v20140601",
         pm: "https://pm.api.mediapeers.biz/v20140601",
@@ -431,7 +431,7 @@ const config = {
       aws_profile: 'mfx_production',
       branch: 'production',
       rollbar: SCRAMBLED:7ffrkeP2Ooz33N54OmOCjsVGYJ/JbZfj/0ILAbbVZHn+Qbn0eF9f+GwFt/heZfnFU7akpk8KYy9hZETqKIkDQVkR/OJAqHvlIbyoTG4sSYw=
-      slack_url: SCRAMBLED:yMj7mp7xK67/48xMLDy4ziZZBmdWNtE6ltOITNn/khtwINPO7QeEIjZ6c2XBCCXzfK9IqJ2/kVZ4wakNtsRpsams2yBWHWiluYhqXTtfBJC84Fzv2ONeEfDztnz2azakAjjxZqcLa5BdjKGjzCHffIGwQhYYzuLp68Swy3vbjXYM52+HtapTT8NW62Y=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       endpoints: {
         um: "https://um.api.mediastore.app/v20140601",
         pm: "https://pm.api.mediastore.app/v20140601",
