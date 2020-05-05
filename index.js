@@ -466,11 +466,11 @@ const config = {
             },
             'tf1pro': {
               bucket: 'mfx-v2-production-admin-fe-tf1pro',
-              distribution_ids: SCRAMBLED:8MnnmNDWKY7LwsVBC2OT3OWq5KY6J7Q+o0V3TURw6hIeB/LnrP6+BQ1W42Ufp7T3ZrVl3NrWqrzCwXJt
+              distribution_ids: SCRAMBLED:y8npr/i3KKLL1c9kOCaR2NQYN2f4TUrNzBk6yFP7kAbNcfKXnPLBTWE4VrfwuIBbjknaXEYHwj65iaDNu1Kx77cWWiIRZ2A5W8dFWsGkIyIOFopq
             },
             'orf': {
               bucket: 'mfx-v2-production-admin-fe-orf',
-              distribution_ids: SCRAMBLED:/NT4pMDiIJ780u5zEx28yHg7VYxBk+Q1bd03hD7TTP0qe6WTfQpYwZ64BvnqSeY9AmON3qZDTei+SwzN
+              distribution_ids: SCRAMBLED:2+raqcfVCZf59ed8PBuJ2DKVFXBGcCXeZsCOsQsaqQO2knVOeGpgqfV+JHXHQWbuX1QX+y37MSUvKic0/n6DqTpROtE8f/ZDyPF5CAO3tY0=
             },
           },
         },
