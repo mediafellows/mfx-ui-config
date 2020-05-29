@@ -149,6 +149,10 @@ const config = {
               bucket: 'mpx-v2-staging-buyer-fe-bavaria',
               distribution_ids: SCRAMBLED:/I7QitjRIK7+w9xMNQGi7e9QULYf2CPqKVbHj/MKxT6YOlLmfdjKYpRlnWJpi99rQV7Fk3mJBmkeERvf
             },
+            'mcg': {
+              bucket: 'mpx-v2-staging-buyer-fe-mcg',
+              distribution_ids: SCRAMBLED:5NvVp+jBLJ/x9NxUEzipwVLesCEysuEaVeIDa45rFtIZLrV8lSx6b58WKbDZ2rCyFytKmhhxxQ7Oj8Rs
+            },
           },
         },
         'mpx-ui-old-gcui': {
