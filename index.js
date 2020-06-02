@@ -81,26 +81,6 @@ const config = {
               bucket: 'mpx-v2-staging-admin-fe-dtv',
               distribution_ids: SCRAMBLED:xt7bgMDQN/DEkPxcGBnn3zRthOzP3dvob92ZMrwZuTr89IF8n2bGuyA9S2kVkAbL/zwVwgiuT6qzkYbF
             },
-            'ams': {
-              bucket: 'mpx-v2-staging-admin-fe-ams',
-              distribution_ids: SCRAMBLED:7v+6rMXNCp363udhNCG3+TDXIMc/nm8RwWUkOGlf25xbKampfV/xcXyzsrTD3QgzxWBTT5VZqb+Qer+x
-            },
-            'hulu': {
-              bucket: 'mpx-v2-staging-admin-fe-hulu',
-              distribution_ids: SCRAMBLED:/+zopojkD7DK05JiPSWdyxtUEcm0NeITNpordE+Iv9HSkNynLFcqevdNNzZCXRzH/c7IJtecIFwUIp+/
-            },
-            'netflix': {
-              bucket: 'mpx-v2-staging-admin-fe-netflix',
-              distribution_ids: SCRAMBLED:08D2qMe2BpTRwvVkSiCg0UxstEF7EBc4CmDe23uXjlvMepWCfDZvaDdxOgyAOR9LDTMOQKSZEudl+1B+
-            },
-            'hbo': {
-              bucket: 'mpx-v2-staging-admin-fe-hbo',
-              distribution_ids: SCRAMBLED:5fbwnOC3EoOinftjMhmc7Z1GMMNyYTa0HDJiUSUmtuME3PG6q6e+c+skavVbSuDrYM5a6UUbboQyZYkj
-            },
-            'lgt': {
-              bucket: 'mpx-v2-staging-admin-fe-lgt',
-              distribution_ids: SCRAMBLED:wc/RisTPJrPnxuhVKW697buEa9rPad0v/8G/goz//CpJIGO+JGgJ7tUQWlrz09c6oT0ns3jxLdOTXR5V
-            },
             'tf1pro': {
               bucket: 'mpx-v2-staging-admin-fe-tf1pro',
               distribution_ids: SCRAMBLED:4PL4uOvPBLCqw/VQSyWAjaZyk/UiuWOAYiUQ24anAMWMxeh+ew2y4mEc8VxEllY8oVs/m1HFtFXNvDJM
