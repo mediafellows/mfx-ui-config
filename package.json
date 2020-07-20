@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/mfx-jgoetzinger/mfx-ui-config#readme",
   "dependencies": {
-    "lodash": ">=3.0.0"
+    "lodash": ">=4.17.19"
   }
 }
