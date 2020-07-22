@@ -1,1 +1,36 @@
 # mfx-ui-config
+
+## install
+
+* `yarn add @mediafellows/mfx-ui-config`
+* install & configure https://github.com/dbldots/scrambler
+
+## checkout current config
+
+this should be run very often, at least before
+
+* every deploy
+* before you first run a build, e.g. development server
+
+to update to the latest config
+
+## usage
+
+### import
+
+```javascript
+// NOT @mediafellows/mfx-ui-config!
+// (as this contains the encrypted values only)
+import config from 'mfx-ui-config'
+```
+
+### example
+
+```javascript
+import config from 'mfx-ui-config'
+
+const envConfig = config.env(<YOUR-ENV-HERE>)
+const projectConfig = envConfig.fetch(`repos.mfx-ui-tf1int.projects.tf1int`)
+const awsProfile = envConfig.fetch('aws_profile')
+...
+```

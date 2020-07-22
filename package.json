@@ -1,17 +1,16 @@
 {
-  "name": "mfx-ui-config",
+  "name": "@mediafellows/mfx-ui-config",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "version": "1.0.0",
-  "description": "",
+  "description": "MFX deploy configs",
   "main": "index.js",
   "bin": {
     "update-config": "./bin/update-config"
   },
   "scripts": {
     "test": "scrambler read index.js > tmp.js && node tmp.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mfx-jgoetzinger/mfx-ui-config.git"
   },
   "author": "johannes-kostas goetzinger",
   "license": "ISC",
