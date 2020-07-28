@@ -187,6 +187,14 @@ const config = {
             },
           },
         },
+        'mfx-ui-admin-v3': {
+          projects: {
+            'generic': {
+              bucket: 'mpx-v2-staging-admin-fe-mfx',
+              distribution_ids: SCRAMBLED:wozKhd/vIpfx/sp/GBuD+Slsex/am1s1QkVMNEA4KqK7SzB0rTHluf50ls5wLVuImYN+JgBuiLLVuo4/
+            },
+          },
+        },
       },
     },
     mpx_presentation: {
