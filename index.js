@@ -29,11 +29,6 @@ const config = {
             'lahm': { },
             'nbcu': { },
             'dtv': { },
-            'ams': { },
-            'hulu': { },
-            'netflix': { },
-            'hbo': { },
-            'lgt': { },
             'tf1pro': { },
             'orf': { },
           },
@@ -237,26 +232,6 @@ const config = {
             'dtv': {
               bucket: 'mpx-v2-presentation-admin-fe-dtv',
               distribution_ids: SCRAMBLED:7IqwqvSzcqnex/ViPyKcg2ahCoULjKBl15pu9N9yHQ2g26apBkCKh+4NuH0ex3b9yCaawPxaFI6A8Cvb
-            },
-            'ams': {
-              bucket: 'mpx-v2-presentation-admin-fe-ams',
-              distribution_ids: SCRAMBLED:2oDsqdrcJrGnxo4iDhvh9rBBvqpEI4gqmPoJtFniqwKE6MjH8yMiUU8Uze3zA+d/GCIw3jIogLTAqHdR
-            },
-            'hulu': {
-              bucket: 'mpx-v2-presentation-admin-fe-hulu',
-              distribution_ids: SCRAMBLED:wYr1k+vPdq39/cRmPT2Ggqerm5M+m2dEuD5VMBH0R9VbYQHJLAeaybI+/Va+qDcSZihhiqKzpctiPJxu
-            },
-            'netflix': {
-              bucket: 'mpx-v2-presentation-admin-fe-netflix',
-              distribution_ids: SCRAMBLED:2f/IosXkEJDYkOkhRjW27+79j9DzpNxJnlhaZ3xj20OOQCJYQ3MoQEaiEPJEsDW+X8RgTAiX32+/TUWn
-            },
-            'hbo': {
-              bucket: 'mpx-v2-presentation-admin-fe-hbo',
-              distribution_ids: SCRAMBLED:uO7qquDrEov37eRVNge9ytzJFss+nUSRnmMG8ANCYQjtojnxpIScs+EiXMtmWgfy727oG7rPzNfnpoiT
-            },
-            'lgt': {
-              bucket: 'mpx-v2-presentation-admin-fe-lgt',
-              distribution_ids: SCRAMBLED:zeDEncLgcKHb1vl7BwSF0e8EjOFWUrpjA2nPijTdqc0bPNAU/zN01ksxzx2oPW2mFymE0V/kmrpdlZN2
             },
             'tf1pro': {
               bucket: 'mpx-v2-presentation-admin-fe-tf1pro',
