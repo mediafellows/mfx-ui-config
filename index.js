@@ -449,7 +449,7 @@ const config = {
             },
             'dtv': {
               bucket: 'mfx-v2-production-admin-fe-dtv',
-              distribution_ids: SCRAMBLED:+o7WgsjDFYj19tQgDTuq2UBrVpPw82H9A1TFrgx/99u52c/cSwFFcMOe+kslqaRCLWZeRinxZiPmL/HOFR2y5SxXPqPTL94zn3hYaIijoEUFWxMo
+              distribution_ids: SCRAMBLED:wor189/fDrGiyNZFFhOK9sDzuuGdWPAFZkulGK69EKBz7BwViDw+vKpqatemB+RtBnImPdoQg7jEElIvVFGR+B0vTa9PYrFS2JnNYwJV0YnDKPrJ
             },
             'tf1pro': {
               bucket: 'mfx-v2-production-admin-fe-tf1pro',
