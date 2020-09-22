@@ -557,6 +557,14 @@ const config = {
             },
           },
         },
+        'mfx-ui-fox-demo': {
+          projects: {
+            'fox': {
+              bucket: 'mfx-v2-production-buyer-fe-fyc', // demo10
+              distribution_ids: SCRAMBLED:w/Xq+fvHNvb27Y9iKRu2/m7r6yNDM1CRbvvnCNE+U+k288PSKhzKPUygzitiMc5FdNoC0V3qZg8mdCjaJM4KRaJhaq5Fwi2J
+            },
+          },
+        },
       },
     },
   },
