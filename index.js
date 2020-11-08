@@ -485,7 +485,7 @@ const config = {
             },
             'lgt': {
               bucket: 'mfx-v2-production-admin-fe-lgt',
-              distribution_ids: SCRAMBLED:u86tgNmwML3U5sRCJyeb9KFxM4wBFpXs70UYzumSIB2HQvMyyCRb2a8oAy+1acWgHlfaxV9eACIF24qn
+              distribution_ids: SCRAMBLED:3N7D5MDXBrGh4OtYRw6d+MIjIHYHpTluqDX7b0gHbZ+zqwO5nZzAnpiAQGQfjgCCKAuemuwoa4F7QLZ9VllEW8odhmwMuKmAreHVQfwHzfwDmiug
             },
           },
         },
@@ -589,7 +589,7 @@ const config = {
           projects: {
             'lionsgate': {
               bucket: 'mfx-v2-production-buyer-fe-lgt',
-              distribution_ids: SCRAMBLED:vu265PLlAbKr95ZPOTqz2jU5kEupFkQA1eiwSNvzTRZLZzPhzWQif+ftl1jzR31KrvjjkONgZM1aEkNg
+              distribution_ids: SCRAMBLED:2cLTp+n0L/7lku0jMCOEyqU7P1hmlV1rpoljaCVYaj4gQ2WCNSGIB5qAaPSIHlpQGfrHTSA9GIuntPYuKv9Cxd5HdGlm6dqBaUHmeoyerG+EkUpU
             },
           },
         },
