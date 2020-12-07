@@ -32,6 +32,7 @@ const config = {
             'dtv': { },
             'tf1pro': { },
             'orf': { },
+            'itv': { },
           },
         },
       },
