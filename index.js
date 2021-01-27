@@ -408,6 +408,10 @@ const config = {
               bucket: 'mfx-v2-production-admin-fe-lgt',
               distribution_ids: SCRAMBLED:3N7D5MDXBrGh4OtYRw6d+MIjIHYHpTluqDX7b0gHbZ+zqwO5nZzAnpiAQGQfjgCCKAuemuwoa4F7QLZ9VllEW8odhmwMuKmAreHVQfwHzfwDmiug
             },
+            'itv': {
+              bucket: 'mfx-v2-production-admin-fe-itv',
+              distribution_ids: SCRAMBLED:uNPlkdT2N7bax4hxBgGJ1jVaT58NmMtndyN7tFY3ei7btGmuD7CkLGBhT4MzMv9MJ1EcXj75Wq3/RsM6
+            },
           },
         },
         'mpx-ui-gcui': {
