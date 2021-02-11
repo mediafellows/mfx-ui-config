@@ -9,32 +9,42 @@ const defaultCSP = {
   'report-uri': [], // has to be defined in FE
   'script-src': [
     "'self' 'unsafe-inline' 'unsafe-eval'",
-    "www.gstatic.com/cv/js/sender/v1/cast_sender.js",
     "www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js",
+    "https://www.google.com/recaptcha",
+    "*.googletagmanager.com",
+    "*.gstatic.com",
     "*.theoplayer.com",
+    "*.hotjar.com",
   ],
   'style-src': [
     "'self' 'unsafe-inline'",
     "fonts.googleapis.com",
     "cdn.linearicons.com",
+    "*.typekit.net",
     "*.theoplayer.com",
   ],
   'connect-src': [
     "'self'",
     "https://*.{{base_domain}} wss://*.{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.chime.aws wss://*.chime.aws",
+    "*.hotjar.com wss://*.hotjar.com",
+    "*.google-analytics.com",
     "*.theoplayer.com",
     "api.rollbar.com",
   ],
   'font-src': [
     "'self' data:",
     "fonts.googleapis.com fonts.gstatic.com",
+    "use.typekit.net",
     "cdn.linearicons.com",
   ],
   'img-src': [
     "'self' data: blob:",
     "*.{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.google-analytics.com maps.gstatic.com maps.googleapis.com",
     "licensing.theoplayer.com",
   ],
   'media-src': [
@@ -52,6 +62,8 @@ const defaultCSP = {
   ],
   'frame-src': [
     "'self'",
+    "https://www.google.com/recaptcha/api2/",
+    "https://vars.hotjar.com/",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
   ],
 };
