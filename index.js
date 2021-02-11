@@ -192,6 +192,10 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-mcg',
               distribution_ids: SCRAMBLED:uI77pv+1FaPGj4pBPCeb4Yb9IrFHvbeiB5pwjqfghAQleIgigX44skFm/CncGosYd5OC7ylxzepOc/f/
             },
+            'itv': {
+              bucket: 'mfx-v2-staging-buyer-fe-itv',
+              distribution_ids: SCRAMBLED:x8/R+oT3L5a43IVxDj+J/tYL7U2RNRsuRW3xlq3ZkLVmGV0A7QP+pTxQEgzl1zKJ1mmON1vdZFJE7Rfv
+            },
           },
         },
         'mpx-ui-old-gcui': {
@@ -356,6 +360,10 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-mcg',
               distribution_ids: SCRAMBLED:stbHsv3cCo/0xdZaSgPn+hrjw6odeHaRZxP1k9ICa3cgp6g4zKB+xuWwclPNukYshgK4qCNxECVJYhs9
             },
+            'itv': {
+              bucket: 'mfx-v2-presentation-buyer-fe-itv',
+              distribution_ids: SCRAMBLED:0/Dt/tC1bK78kfhjKmGS8KwjAxyxVshv0GkwozeKEI5lVR3+IEoEyZ6Gf4xqwe/EW9UziYbtd4MDe4p7
+            },
           },
         },
         'mpx-ui-old-gcui': {
@@ -516,6 +524,10 @@ const config = {
             'mcg': {
               bucket: 'mfx-v2-production-buyer-fe-mcg',
               distribution_ids: SCRAMBLED:4PvSv/nBM7/39ulCGDK7/Yyq56DHRBD84v10ROfDH49thP/VIHTlBZMrcvuItcO+nudMrsEX5VJTRSQT
+            },
+            'itv': {
+              bucket: 'mfx-v2-production-buyer-fe-itv',
+              distribution_ids: SCRAMBLED:wOjgmfThMqHj3e1QOAOb/w9ToJ1lngDgc1fQIfKQWtsMSKNBRXalqAVXr0QF/rnZQ8Gy5osFLD857Fuj
             },
           },
         },
