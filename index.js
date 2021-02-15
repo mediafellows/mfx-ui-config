@@ -652,7 +652,7 @@ const exp = merge(
         const list = additions && additions[key] ? value.concat(additions[key]) : value.slice();
         const result = list.join(' ').replace(/{{base_domain}}/g, baseDomain);
 
-        return acc + `${key}: ${result}; `;
+        return acc + `${key} ${result}; `;
       }, "");
     },
     gitBranch: () => {
