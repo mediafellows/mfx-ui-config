@@ -26,7 +26,7 @@ const defaultCSP = {
   ],
   'connect-src': [
     "'self'",
-    "https://*.{{base_domain}} wss://*.{{base_domain}}",
+    "https://{{base_domain}} wss://{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
     "*.chime.aws wss://*.chime.aws",
     "*.hotjar.com wss://*.hotjar.com",
@@ -42,14 +42,14 @@ const defaultCSP = {
   ],
   'img-src': [
     "'self' data: blob:",
-    "*.{{base_domain}}",
+    "{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
     "*.google-analytics.com maps.gstatic.com maps.googleapis.com",
     "licensing.theoplayer.com",
   ],
   'media-src': [
     "'self' blob:",
-    "*.vod.{{base_domain}}",
+    "{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
   ],
   'worker-src': [
