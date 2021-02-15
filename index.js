@@ -5,8 +5,6 @@ const {existsSync} = require('fs')
 const defaultCSP = {
   'default-src': ["'none'"],
   'child-src': ["'blob:'"],
-  'frame-ancestors': ["'none'"],
-  'report-uri': [], // has to be defined in FE
   'script-src': [
     "'self' 'unsafe-inline' 'unsafe-eval'",
     "www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
