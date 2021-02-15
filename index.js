@@ -86,7 +86,6 @@ const config = {
         tuco: "https://tuco.api.mediastore.dev",
         pigeon: "https://pigeon.api.mediastore.dev",
         viscacha: "https://viscacha.api.mediastore.dev",
-        reportURI: "https://mediafellows2staging.report-uri.com/r/d/csp/enforce",
       },
       repos: {
         'mpx-ui-admin': {
@@ -122,7 +121,6 @@ const config = {
         tuco: "https://tuco.api.mediastore.dev",
         pigeon: "https://pigeon.api.mediastore.dev",
         viscacha: "https://viscacha.api.mediastore.dev",
-        reportURI: "https://mediafellows2staging.report-uri.com/r/d/csp/enforce",
       },
       repos: {
         'mpx-ui-admin': {
@@ -290,7 +288,6 @@ const config = {
         tuco: "https://tuco.api.mediastore.review",
         pigeon: "https://pigeon.api.mediastore.review",
         viscacha: "https://viscacha.api.mediastore.review",
-        reportURI: "https://mediafellows2presentation.report-uri.com/r/d/csp/enforce",
       },
       repos: {
         'mpx-ui-admin': {
@@ -450,7 +447,6 @@ const config = {
         tuco: "https://tuco.api.mediastore.app",
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
-        reportURI: "https://mediafellows2production.report-uri.com/r/d/csp/enforce",
       },
       repos: {
         'mpx-ui-admin': {
