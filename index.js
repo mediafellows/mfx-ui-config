@@ -4,7 +4,7 @@ const {existsSync} = require('fs')
 
 const defaultCSP = {
   'default-src': ["'none'"],
-  'child-src': ["'blob:'"],
+  'child-src': ["blob:"],
   'script-src': [
     "'self' 'unsafe-inline' 'unsafe-eval'",
     "www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
