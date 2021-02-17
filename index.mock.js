@@ -1,4 +1,4 @@
-const {merge, trim} = require('lodash')
+const {merge, trim, reduce} = require('lodash')
 const {execSync} = require('child_process')
 
 const defaultCSP = {
