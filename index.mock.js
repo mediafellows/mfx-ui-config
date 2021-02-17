@@ -1,6 +1,70 @@
 const {merge, trim} = require('lodash')
 const {execSync} = require('child_process')
 
+const defaultCSP = {
+  'default-src': ["'none'"],
+  'child-src': ["blob:"],
+  'script-src': [
+    "'self' 'unsafe-inline' 'unsafe-eval'",
+    "www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js",
+    "https://www.google.com/recaptcha",
+    "*.googletagmanager.com",
+    "*.gstatic.com",
+    "*.theoplayer.com",
+    "*.hotjar.com",
+  ],
+  'style-src': [
+    "'self' 'unsafe-inline'",
+    "fonts.googleapis.com",
+    "cdn.linearicons.com",
+    "*.typekit.net",
+    "*.theoplayer.com",
+  ],
+  'connect-src': [
+    "'self'",
+    "https://*.{{base_domain}} wss://*.{{base_domain}}",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.chime.aws wss://*.chime.aws",
+    "*.hotjar.com wss://*.hotjar.com",
+    "*.google-analytics.com",
+    "*.theoplayer.com",
+    "api.rollbar.com",
+  ],
+  'font-src': [
+    "'self' data:",
+    "fonts.googleapis.com fonts.gstatic.com",
+    "use.typekit.net",
+    "cdn.linearicons.com",
+  ],
+  'img-src': [
+    "'self' data: blob:",
+    "*.{{base_domain}}",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.google-analytics.com maps.gstatic.com maps.googleapis.com",
+    "licensing.theoplayer.com",
+  ],
+  'media-src': [
+    "'self' blob:",
+    "*.{{base_domain}}",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+  ],
+  'worker-src': [
+    "'self' data: blob:",
+    "*.theoplayer.com",
+  ],
+  'object-src': [
+    "'self'",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+  ],
+  'frame-src': [
+    "'self'",
+    "https://www.google.com/recaptcha/api2/",
+    "https://vars.hotjar.com/",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+  ],
+};
+
 const config = {
   envs: {
     mpx_staging: {
@@ -9,17 +73,18 @@ const config = {
       branch: 'staging',
       rollbar: 'abcdef',
       slack_url: 'abcdef',
+      base_domain: "mediastore.dev",
       endpoints: {
-        um: "https://um.api.mediapeers.mobi/v20140601",
-        pm: "https://pm.api.mediapeers.mobi/v20140601",
-        am: "https://am.api.mediapeers.mobi/v20140601",
-        ac: "https://ac.api.mediapeers.mobi/v20140601",
-        sm: "https://sm.api.mediapeers.mobi/v20140601",
-        mc: "https://mc.api.mediapeers.mobi/v20140601",
-        jc: "https://jc.api.mediapeers.mobi/v20140601",
-        tuco: "https://tuco.api.mediapeers.mobi",
-        pigeon: "https://pigeon.api.mediapeers.mobi",
-        viscacha: "https://viscacha.api.mediapeers.mobi",
+        um: "https://um.api.mediastore.dev/v20140601",
+        pm: "https://pm.api.mediastore.dev/v20140601",
+        am: "https://am.api.mediastore.dev/v20140601",
+        ac: "https://ac.api.mediastore.dev/v20140601",
+        sm: "https://sm.api.mediastore.dev/v20140601",
+        mc: "https://mc.api.mediastore.dev/v20140601",
+        jc: "https://jc.api.mediastore.dev/v20140601",
+        tuco: "https://tuco.api.mediastore.dev",
+        pigeon: "https://pigeon.api.mediastore.dev",
+        viscacha: "https://viscacha.api.mediastore.dev",
       },
       repos: {
         'mpx-ui-admin': {
@@ -113,6 +178,14 @@ const fetch = (object, head, tail) => {
 
 const exp = merge(
   {
+    contentSecurityPolicy: (baseDomain, additions) => {
+      return reduce(defaultCSP, (acc, value, key) => {
+        const list = additions && additions[key] ? value.concat(additions[key]) : value.slice();
+        const result = list.join(' ').replace(/{{base_domain}}/g, baseDomain);
+
+        return acc + `${key} ${result}; `;
+      }, "");
+    },
     gitBranch: () => {
       return trim(execSync("git rev-parse --abbrev-ref HEAD").toString())
     },
