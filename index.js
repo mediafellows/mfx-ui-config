@@ -24,6 +24,7 @@ const defaultCSP = {
   ],
   'connect-src': [
     "'self'",
+    "blob:",
     "https://*.{{base_domain}} wss://*.{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
     "*.chime.aws wss://*.chime.aws",
