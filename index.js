@@ -385,8 +385,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
-              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, eone, rasi, dmd, studiocanal, bavaria:
-              distribution_ids: SCRAMBLED:6N7RkejMBYjVy9R4C3m48/X+Sena6z9m0m7yrb2XVx57785qI5F5ge+6z/qwqPKVxVEWngZL3P0D9BVugtsYWQP2J0+DhBOYRqt91upa2QGhAOxlr9UknSUZW71wSmUumHouP6kkkWlQzsSMz9DCgv37oeg6HfpVFzwmPezhIGyB+AEqf9rTBfTRIelxvaKuFnwCEbY0/t9ju1Eekp9ewifnxH4N7Rd5SFUuaKbLaHJHre+7Id7XBknzYOdJKIK58pwK2BUOKkjC7zS2
+              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, eone, rasi, dmd, studiocanal, bavaria, propagate:
+              distribution_ids: SCRAMBLED:y/Tyut/nCOzYyY5EShn/z8cgJc33i6si292KwTG0TV8fW0kCaHqt5vZ8B33Fx0S4+z5Av2dLdLE4Ewix/9njr+gmEltBFdZ2FU6ljZUlnsVWcsmu7k53MVLIqAu0vyHOwxUjVytePsY5FweM2gStWFkMZZ1sRjWNvmzzbFHj70pzlv2sd675ZthP39UGFR8QKoKvs+nGH5hyVqtjWyIVEInI88afngb5DdiHfw0llNErxKqV3wJhXd7kEMFjIbGMLl8fEBnD9G4e+sU5a/Tdx5LSmZYPiNlQlYDEggyM0GrwTXdz
             },
             'fremantle': {
               bucket: 'mfx-v2-production-admin-fe-fremantle',
