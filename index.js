@@ -1,6 +1,71 @@
-const {merge, trim, isPlainObject} = require('lodash')
+const {merge, trim, reduce, isPlainObject} = require('lodash')
 const {execSync} = require('child_process')
 const {existsSync} = require('fs')
+
+const defaultCSP = {
+  'default-src': ["'none'"],
+  'child-src': ["blob:"],
+  'script-src': [
+    "'self' 'unsafe-inline' 'unsafe-eval'",
+    "www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js",
+    "https://www.google.com/recaptcha",
+    "*.googletagmanager.com",
+    "*.gstatic.com",
+    "*.theoplayer.com",
+    "*.hotjar.com",
+  ],
+  'style-src': [
+    "'self' 'unsafe-inline'",
+    "fonts.googleapis.com",
+    "cdn.linearicons.com",
+    "*.typekit.net",
+    "*.theoplayer.com",
+  ],
+  'connect-src': [
+    "'self'",
+    "blob:",
+    "https://*.{{base_domain}} wss://*.{{base_domain}}",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.chime.aws wss://*.chime.aws",
+    "*.hotjar.com wss://*.hotjar.com",
+    "*.google-analytics.com",
+    "*.theoplayer.com",
+    "api.rollbar.com",
+  ],
+  'font-src': [
+    "'self' data:",
+    "fonts.googleapis.com fonts.gstatic.com",
+    "use.typekit.net",
+    "cdn.linearicons.com",
+  ],
+  'img-src': [
+    "'self' data: blob:",
+    "*.{{base_domain}}",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.google-analytics.com maps.gstatic.com maps.googleapis.com",
+    "licensing.theoplayer.com",
+  ],
+  'media-src': [
+    "'self' blob:",
+    "*.{{base_domain}}",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+  ],
+  'worker-src': [
+    "'self' data: blob:",
+    "*.theoplayer.com",
+  ],
+  'object-src': [
+    "'self'",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+  ],
+  'frame-src': [
+    "'self'",
+    "https://www.google.com/recaptcha/api2/",
+    "https://vars.hotjar.com/",
+    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+  ],
+};
 
 const config = {
   envs: {
@@ -9,6 +74,7 @@ const config = {
       rollbar: SCRAMBLED:3Orxmf7EcInqytNaSmSg+e2QxahxN9bK3gjLcn8nNR/RpfHPqIQpGnCTI6ZXZ6z6ev4G4GTuwp3x08vE/AhR2MY6PlL0xpDS6MbcUczBig0=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       branch: 'master',
+      base_domain: "mediastore.dev",
       endpoints: {
         um: "https://um.api.mediastore.dev/v20140601",
         pm: "https://pm.api.mediastore.dev/v20140601",
@@ -43,6 +109,7 @@ const config = {
       branch: 'master',
       rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
+      base_domain: "mediastore.dev",
       endpoints: {
         um: "https://um.api.mediastore.dev/v20140601",
         pm: "https://pm.api.mediastore.dev/v20140601",
@@ -209,6 +276,7 @@ const config = {
       branch: 'presentation',
       rollbar: SCRAMBLED:vPftp+vPM6zHxddOGTqD+jm4+nD1PAUfSvvvr/MnTAH71Ua3w2pWe9YgAWi/qmhVDboPVW4XTNuhPfwkQJZSJsKf9c+lzK5SUmMJoWA90s4=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
+      base_domain: "mediastore.review",
       endpoints: {
         um: "https://um.api.mediastore.review/v20140601",
         pm: "https://pm.api.mediastore.review/v20140601",
@@ -367,6 +435,7 @@ const config = {
       branch: 'production',
       rollbar: SCRAMBLED:7ffrkeP2Ooz33N54OmOCjsVGYJ/JbZfj/0ILAbbVZHn+Qbn0eF9f+GwFt/heZfnFU7akpk8KYy9hZETqKIkDQVkR/OJAqHvlIbyoTG4sSYw=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
+      base_domain: "mediastore.app",
       endpoints: {
         um: "https://um.api.mediastore.app/v20140601",
         pm: "https://pm.api.mediastore.app/v20140601",
@@ -573,6 +642,14 @@ const fetch = (object, head, tail) => {
 
 const exp = merge(
   {
+    contentSecurityPolicy: (baseDomain, additions) => {
+      return reduce(defaultCSP, (acc, value, key) => {
+        const list = additions && additions[key] ? value.concat(additions[key]) : value.slice();
+        const result = list.join(' ').replace(/{{base_domain}}/g, baseDomain);
+
+        return acc + `${key} ${result}; `;
+      }, "");
+    },
     gitBranch: () => {
       return trim(execSync("git rev-parse --abbrev-ref HEAD").toString())
     },
