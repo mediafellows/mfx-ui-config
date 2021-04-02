@@ -208,6 +208,10 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-itv',
               distribution_ids: SCRAMBLED:x8/R+oT3L5a43IVxDj+J/tYL7U2RNRsuRW3xlq3ZkLVmGV0A7QP+pTxQEgzl1zKJ1mmON1vdZFJE7Rfv
             },
+            'dtv': {
+              bucket: 'mfx-v2-staging-buyer-fe-dtv',
+              distribution_ids: SCRAMBLED:woq7+NDABpHZi+pEJBuY4vgaipxLJjpcYFVwlsX1VDyK1bi7Evz60qxg8KsCUnhhHgRQ0N+IExae1jiR
+            },
           },
         },
         'mpx-ui-old-gcui': {
@@ -374,6 +378,10 @@ const config = {
             'itv': {
               bucket: 'mfx-v2-presentation-buyer-fe-itv',
               distribution_ids: SCRAMBLED:0/Dt/tC1bK78kfhjKmGS8KwjAxyxVshv0GkwozeKEI5lVR3+IEoEyZ6Gf4xqwe/EW9UziYbtd4MDe4p7
+            },
+            'dtv': {
+              bucket: 'mfx-v2-presentation-buyer-fe-dtv',
+                distribution_ids: SCRAMBLED:+cj1jOn8BuzJ9ZIuCmWh7l47AMT0gqw1o+QhNZmBqUmGA4GC3FIWNxBhPu83qQc6BO57sdiUjKkBqazK
             },
           },
         },
