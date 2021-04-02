@@ -539,6 +539,10 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-itv',
               distribution_ids: SCRAMBLED:wOjgmfThMqHj3e1QOAOb/w9ToJ1lngDgc1fQIfKQWtsMSKNBRXalqAVXr0QF/rnZQ8Gy5osFLD857Fuj
             },
+            'dtv': {
+              bucket: 'mfx-v2-production-buyer-fe-dtv',
+              distribution_ids: SCRAMBLED:34nWhtLRN7Pgi/kuCSac3EV6VvCpKQKZS5mEf726YJd94wPBHl+b8pGnSs5IWVE+JnsJqQvYV5Z0AmPXRiPA+YhAjngpj7YFjeXeVrOCuljhV3eF
+            },
           },
         },
         'mpx-ui-old-gcui': {
