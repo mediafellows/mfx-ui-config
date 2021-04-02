@@ -381,7 +381,7 @@ const config = {
             },
             'dtv': {
               bucket: 'mfx-v2-presentation-buyer-fe-dtv',
-                distribution_ids: SCRAMBLED:+cj1jOn8BuzJ9ZIuCmWh7l47AMT0gqw1o+QhNZmBqUmGA4GC3FIWNxBhPu83qQc6BO57sdiUjKkBqazK
+              distribution_ids: SCRAMBLED:+cj1jOn8BuzJ9ZIuCmWh7l47AMT0gqw1o+QhNZmBqUmGA4GC3FIWNxBhPu83qQc6BO57sdiUjKkBqazK
             },
           },
         },
