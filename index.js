@@ -3,12 +3,14 @@ const {execSync} = require('child_process')
 const {existsSync} = require('fs')
 
 const defaultCSP = {
-  'default-src': ["'none'"],
-  'child-src': ["blob:"],
+  'default-src': [
+    "'none'"
+  ],
   'script-src': [
-    "'self' 'unsafe-inline' 'unsafe-eval'",
-    "www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js",
+    "'self'",
+    "'unsafe-inline'",
+    "'unsafe-eval'",
+    "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/",
     "https://www.google.com/recaptcha/",
     "https://www.google-analytics.com",
     "maps.googleapis.com",
@@ -18,7 +20,8 @@ const defaultCSP = {
     "*.hotjar.com",
   ],
   'style-src': [
-    "'self' 'unsafe-inline'",
+    "'self'",
+    "'unsafe-inline'",
     "fonts.googleapis.com",
     "cdn.linearicons.com",
     "*.typekit.net",
@@ -27,34 +30,48 @@ const defaultCSP = {
   'connect-src': [
     "'self'",
     "blob:",
-    "https://*.{{base_domain}} wss://*.{{base_domain}}",
-    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
-    "*.chime.aws wss://*.chime.aws",
-    "*.hotjar.com wss://*.hotjar.com",
+    "https://*.{{base_domain}}",
+    "wss://*.{{base_domain}}",
+    "*.s3-accelerate.amazonaws.com",
+    "*.s3.amazonaws.com",
+    "*.chime.aws",
+    "wss://*.chime.aws",
+    "*.hotjar.com",
+    "wss://*.hotjar.com",
     "*.google-analytics.com",
     "*.theoplayer.com",
     "api.rollbar.com",
   ],
   'font-src': [
-    "'self' data:",
+    "'self'",
+    "data:",
     "fonts.googleapis.com fonts.gstatic.com",
     "use.typekit.net",
     "cdn.linearicons.com",
   ],
   'img-src': [
-    "'self' data: blob:",
+    "'self'",
+    "data:",
+    "blob:",
     "*.{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
     "*.google-analytics.com maps.gstatic.com maps.googleapis.com",
     "licensing.theoplayer.com",
   ],
   'media-src': [
-    "'self' blob:",
+    "'self'",
+    "blob:",
     "*.{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
   ],
+  // child-src is deprecated and worker-src / frame-src should be used instead, but some older browsers still rely on child-src
+  'child-src': [
+    "blob:"
+  ],
   'worker-src': [
-    "'self' data: blob:",
+    "'self'",
+    "data:",
+    "blob:",
     "*.theoplayer.com",
   ],
   'object-src': [
