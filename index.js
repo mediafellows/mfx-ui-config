@@ -8,7 +8,7 @@ const defaultCSP = {
   'script-src': [
     "'self' 'unsafe-inline' 'unsafe-eval'",
     "www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/",
     "https://www.google.com/recaptcha/",
     "https://www.google-analytics.com",
     "maps.googleapis.com",
