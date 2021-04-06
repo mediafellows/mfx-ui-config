@@ -2,6 +2,8 @@ const {merge, trim, reduce, isPlainObject} = require('lodash')
 const {execSync} = require('child_process')
 const {existsSync} = require('fs')
 
+// Content security policy (CSP)
+// Documented at https://developer.mozilla.org/de/docs/Web/HTTP/Headers/Content-Security-Policy
 const defaultCSP = {
   'default-src': [
     "'none'"
@@ -54,15 +56,19 @@ const defaultCSP = {
     "data:",
     "blob:",
     "*.{{base_domain}}",
-    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
-    "*.google-analytics.com maps.gstatic.com maps.googleapis.com",
+    "*.s3-accelerate.amazonaws.com",
+    "*.s3.amazonaws.com",
+    "*.google-analytics.com",
+    "maps.gstatic.com", 
+    "maps.googleapis.com",
     "licensing.theoplayer.com",
   ],
   'media-src': [
     "'self'",
     "blob:",
     "*.{{base_domain}}",
-    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.s3-accelerate.amazonaws.com",
+    "*.s3.amazonaws.com",
   ],
   // child-src is deprecated and worker-src / frame-src should be used instead, but some older browsers still rely on child-src
   'child-src': [
@@ -76,13 +82,15 @@ const defaultCSP = {
   ],
   'object-src': [
     "'self'",
-    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.s3-accelerate.amazonaws.com",
+    "*.s3.amazonaws.com",
   ],
   'frame-src': [
     "'self'",
     "https://www.google.com/recaptcha/api2/",
     "https://vars.hotjar.com/",
-    "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
+    "*.s3-accelerate.amazonaws.com",
+    "*.s3.amazonaws.com",
   ],
 };
 
