@@ -192,10 +192,6 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:6NT0udfIOq/cxclHEzCT3mP0AzEy/kqkbmOkFuDp4wqQ/WcMvw3qrecwRGHjmBEHqkPf7dShQ0SuGXAE
             },
-            'studiocanal': {
-              bucket: 'mfx-v2-staging-buyer-fe-studiocanal',
-              distribution_ids: SCRAMBLED:6NT0udfIOq/cxclHEzCT3mP0AzEy/kqkbmOkFuDp4wqQ/WcMvw3qrecwRGHjmBEHqkPf7dShQ0SuGXAE
-            },
             'bavaria': {
               bucket: 'mfx-v2-staging-buyer-fe-bavaria',
               distribution_ids: SCRAMBLED:yZO3v/O+E6LHndx3HCOgg72N6/FkQk0B6JVjSNqSi0s6OELlRslzolucQjev0v94/P+V/zSvqjrdfMK0
@@ -363,10 +359,6 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:wMK0gcD3F7bKj+5COiec0/g8knXGs8AYntGsU2Ykbw4ZrIOMd9HV7zmOrmYVUeLFLacCNy2rMv8JIO7A
             },
-            'studiocanal': {
-              bucket: 'mfx-v2-presentation-buyer-fe-studiocanal',
-              distribution_ids: SCRAMBLED:6NOtssjEOoXekNBSOx/j9GJvnIUOeUzhFKmR7FSYkERey4iydcRGswlGfwcC3moCNspcORpIBUo914XO
-            },
             'bavaria': {
               bucket: 'mfx-v2-presentation-buyer-fe-bavaria',
               distribution_ids: SCRAMBLED:w4DM89bNLrXhy/lvMhW/8cNeO9c9ewt5V/m1XyiVAWDLId4DHVrEP92UZHMg1nik31dN3LzTxsqT2s3D
@@ -464,8 +456,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
-              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, eone, rasi, dmd, studiocanal, bavaria, propagate:
-              distribution_ids: SCRAMBLED:y/Tyut/nCOzYyY5EShn/z8cgJc33i6si292KwTG0TV8fW0kCaHqt5vZ8B33Fx0S4+z5Av2dLdLE4Ewix/9njr+gmEltBFdZ2FU6ljZUlnsVWcsmu7k53MVLIqAu0vyHOwxUjVytePsY5FweM2gStWFkMZZ1sRjWNvmzzbFHj70pzlv2sd675ZthP39UGFR8QKoKvs+nGH5hyVqtjWyIVEInI88afngb5DdiHfw0llNErxKqV3wJhXd7kEMFjIbGMLl8fEBnD9G4e+sU5a/Tdx5LSmZYPiNlQlYDEggyM0GrwTXdz
+              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, eone, rasi, dmd, bavaria, propagate:
+              distribution_ids: SCRAMBLED:34vLuPn2JrGh3IpbLBCq39Hi7qHMsV9CvzrY8VmpaczmpL1m2wom1JXQsQnhd6MmjjsFBo4aPWNVixpQptHaguuacfNSnt40SQekkAW5a7npciVgCti2G2YAXiRj0ziGNV5WwwUsmq8dnOfri4QtBTGFcLZIXP2Zh/cdbdFCpFVEFDrw+sp3Ds9XVC2fcUyuLlDsDGLJGnHCfsVXcFKbNZebQrUsx28MaQfrjjTbmUhcnA3rdxDnDK4Gu8s4HE+XcHksdPtWX0vXmV3h
             },
             'fremantle': {
               bucket: 'mfx-v2-production-admin-fe-fremantle',
