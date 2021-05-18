@@ -615,7 +615,85 @@ const config = {
         },
       },
     },
-  },
+    nbcu_preprod: {
+      environment: 'presentation',
+      aws_profile: 'nbcu_preprod',
+      branch: 'presentation',
+      rollbar: SCRAMBLED:8vfgpPrlLa/Wz+xjDwy72IjTZA8UylQmFpW3hQoLYe/gTTkSI51JssdfofZ3Su+pJB9YT3zRwZJhl9xfxNpa0a2qbdixmpGFqlcTkQFYbK4=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
+      base_domain: "nbcupassport-preprod.com",
+      endpoints: {
+        um: "https://um.api.nbcupassport-preprod.com/v20140601",
+        pm: "https://pm.api.nbcupassport-preprod.com/v20140601",
+        am: "https://am.api.nbcupassport-preprod.com/v20140601",
+        ac: "https://ac.api.nbcupassport-preprod.com/v20140601",
+        sm: "https://sm.api.nbcupassport-preprod.com/v20140601",
+        mc: "https://mc.api.nbcupassport-preprod.com/v20140601",
+        jc: "https://jc.api.nbcupassport-preprod.com/v20140601",
+        cc: "https://cc.api.nbcupassport-preprod.com/v20140601",
+        tuco: "https://tuco.api.nbcupassport-preprod.com",
+        pigeon: "https://pigeon.api.nbcupassport-preprod.com",
+        viscacha: "https://viscacha.api.nbcupassport-preprod.com",
+      },
+      repos: {
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-nbcu-preprod-buyer-fe-nbcu',
+              distribution_ids: SCRAMBLED:z9S2j/LUMJLHxdxARh3lgvNVBRpTIUYalIZHS4Zv0nEksGbDkHohf4n54dQmB1I9XcCcIDXbTFgncFkw
+            },
+          },
+        },
+        'mpx-ui-admin': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-nbcu-preprod-admin-fe-nbcu',
+              distribution_ids: SCRAMBLED:3MvJjsXEF6G8yc9HEie9/px0KkWBQkPanuS4VfBdTOJz70esuUmFA9dhxMa3peOX9VS37T6Bi+jCBwjy
+            },
+          }
+        }
+      }
+    },
+    nbcu_production: {
+      environment: 'production',
+      aws_profile: 'nbcu_production',
+      branch: 'production',
+      rollbar: SCRAMBLED:uozQgfzRNKbek8V1ERPm7PQsaN8ukeOwxeWsX/qzJNNKjEYLG03DRb7sd+bkh/d3ifEC/z/WnbOyj3KFU/hgNgHpq6hFESimdxR7gqTvGzM=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
+      base_domain: "nbcupassport.com",
+      endpoints: {
+        um: "https://um.api.mediastore.app/v20140601",
+        pm: "https://pm.api.mediastore.app/v20140601",
+        am: "https://am.api.mediastore.app/v20140601",
+        ac: "https://ac.api.mediastore.app/v20140601",
+        sm: "https://sm.api.mediastore.app/v20140601",
+        mc: "https://mc.api.mediastore.app/v20140601",
+        jc: "https://jc.api.mediastore.app/v20140601",
+        cc: "https://cc.api.mediastore.app/v20140601",
+        tuco: "https://tuco.api.mediastore.app",
+        pigeon: "https://pigeon.api.mediastore.app",
+        viscacha: "https://viscacha.api.mediastore.app",
+      },
+      repos: {
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-nbcu-production-buyer-fe-nbcu',
+              distribution_ids: SCRAMBLED:4vDgvv/RKKWhnf54FgaS9PIccnVmvhfq8Aznwne1nIXbNGtTcK1bfA==
+            },
+          },
+        },
+        'mpx-ui-admin': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-nbcu-production-admin-fe-nbcu',
+              distribution_ids: SCRAMBLED:4vDgvv/RKKWhnf54FgaS9PIccnVmvhfq8Aznwne1nIXbNGtTcK1bfA==
+            },
+          }
+        }
+      }
+    }
+  }
 }
 
 const fetch = (object, head, tail) => {
