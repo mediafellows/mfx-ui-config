@@ -1,0 +1,39 @@
+---
+
+name: JS CI tests
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    name: Validate config
+    runs-on: ubuntu-latest
+    env:
+      SCRAMBLER_SECRET: ${{ secrets.SCRAMBLER_SECRET }}
+    steps:
+
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Install scrambler tool
+        run: GO111MODULE=on go get github.com/dbldots/scrambler
+
+      - name: Add go bin path to PATH
+        run: echo "$HOME/go/bin" >> $GITHUB_PATH
+
+      - name: Test for scrambler command
+        run: scrambler help
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install yarn pacakge manger (which we use instead of npm)
+        run: npm install -g yarn
+
+      - name: Run yarn install to bundle project
+        run: yarn install
+
+      - name: Run yarn test to validate structure of index.js
+        run: yarn test

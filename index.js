@@ -465,7 +465,7 @@ const config = {
         'mpx-ui-nbcu': {
           projects: {
             'nbcu': {
-              bucket: 'mfx-v2-presentation-buyer-fe-nbcu',
+              bucket: 'mfx-v2-presentation-buyer-fe-nbcu-production-test',
               distribution_ids: SCRAMBLED:uvzvut7AN4nHnfhjMWeA0u/Z2eVrxvVKEzlIRkCzduFCefNpNtsezcEDJnvEkQNRggFA1ISD9lizQvD5
             }
           }
