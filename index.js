@@ -89,6 +89,8 @@ const config = {
         tuco: "https://tuco.api.mediastore.dev",
         pigeon: "https://pigeon.api.mediastore.dev",
         viscacha: "https://viscacha.api.mediastore.dev",
+        companion: "https://companion-cf.lambda.mediastore.dev",
+        "companion-eu": "https://companion-cf.lambda-eu.mediastore.dev",
       },
       repos: {
         'mpx-ui-admin': {
