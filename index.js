@@ -431,6 +431,45 @@ const config = {
         },
       },
     },
+    mf_presentation_nbcu_prod_testing: {
+      environment: 'presentation',
+      aws_profile: 'mf_presentation',
+      branch: 'presentation',
+      rollbar: SCRAMBLED:vPftp+vPM6zHxddOGTqD+jm4+nD1PAUfSvvvr/MnTAH71Ua3w2pWe9YgAWi/qmhVDboPVW4XTNuhPfwkQJZSJsKf9c+lzK5SUmMJoWA90s4=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
+      base_domain: "mediastore.review",
+      endpoints: {
+        um: "https://um.api.nbcupassport.com/v20140601",
+        pm: "https://pm.api.nbcupassport.com/v20140601",
+        am: "https://am.api.nbcupassport.com/v20140601",
+        ac: "https://ac.api.nbcupassport.com/v20140601",
+        sm: "https://sm.api.nbcupassport.com/v20140601",
+        mc: "https://mc.api.nbcupassport.com/v20140601",
+        jc: "https://jc.api.nbcupassport.com/v20140601",
+        cc: "https://cc.api.nbcupassport.com/v20140601",
+        tuco: "https://tuco.api.nbcupassport.com",
+        pigeon: "https://pigeon.api.nbcupassport.com",
+        viscacha: "https://viscacha.api.nbcupassport.com",
+      },
+      repos: {
+        'mpx-ui-admin': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-presentation-admin-fe-nbcu-production-test',
+              distribution_ids: SCRAMBLED:we7Sjdj/Iarl6ughLn28zupSs6E/74HmFWb/kBRxq4JIpvOEn9gi2Upibv4Zazko4IlAGuljGQ0CSDoG
+            }
+          }
+        },
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-presentation-buyer-fe-nbcu',
+              distribution_ids: SCRAMBLED:uvzvut7AN4nHnfhjMWeA0u/Z2eVrxvVKEzlIRkCzduFCefNpNtsezcEDJnvEkQNRggFA1ISD9lizQvD5
+            }
+          }
+        }
+      }
+    }
     mf_production: {
       environment: 'production',
       aws_profile: 'mf_production',
