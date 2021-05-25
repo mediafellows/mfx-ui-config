@@ -1,0 +1,28 @@
+---
+
+name: JS CI tests
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    name: Validate config
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install yarn pacakge manger (which we use instead of npm)
+        run: npm install -g yarn
+
+      - name: Run yarn install to bundle project
+        run: yarn install
+
+      - name: Run yarn test to validate structure of index.js
+        run: yarn test
