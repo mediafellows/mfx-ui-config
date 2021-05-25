@@ -15,6 +15,9 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
 
+      - name: Install scrambler tool
+        run: go get github.com/dbldots/scrambler
+
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
