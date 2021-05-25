@@ -9,6 +9,7 @@ jobs:
     name: Validate config
     runs-on: ubuntu-latest
     env:
+      PATH: "$HOME/go/bin:$PATH"
       SCRAMBLER_SECRET: ${{ secrets.SCRAMBLER_SECRET }}
     steps:
 
@@ -17,6 +18,9 @@ jobs:
 
       - name: Install scrambler tool
         run: GO111MODULE=on go get github.com/dbldots/scrambler
+
+      - name: Test for scrambler command
+        run: scrambler help
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
