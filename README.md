@@ -1,3 +1,5 @@
+[![JS CI tests](https://github.com/mediafellows/mfx-ui-config/actions/workflows/validate.yml/badge.svg)](https://github.com/mediafellows/mfx-ui-config/actions/workflows/validate.yml)
+
 # mfx-ui-config
 
 ## install
