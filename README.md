@@ -36,6 +36,6 @@ const awsProfile = envConfig.fetch('aws_profile')
 ```
 
 ## Modifying the config
-For modifying the config file you need to install scramber to decrypt encrypted sections. Then edit the index.js file.
+For modifying the config file you need to install [scramber](https://github.com/dbldots/scrambler) to decrypt encrypted sections. Then edit the index.js file.
 
 Also it's good to check syntax after editing using the `yarn test` task that validates the index.js file.

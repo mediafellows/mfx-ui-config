@@ -8,6 +8,8 @@ jobs:
   validate:
     name: Validate config
     runs-on: ubuntu-latest
+    env:
+      SCRAMBLER_SECRET: ${{ secrets.SCRAMBLER_SECRET }}
     steps:
 
       - name: Git checkout
