@@ -469,7 +469,7 @@ const config = {
           }
         }
       }
-    }
+    },
     mf_production: {
       environment: 'production',
       aws_profile: 'mf_production',
