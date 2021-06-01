@@ -96,7 +96,6 @@ const config = {
         'mpx-ui-admin': {
           projects: {
             'generic': { },
-            'fremantle': { },
             'lahm': { },
             'nbcu': { },
             'dtv': { },
@@ -500,10 +499,6 @@ const config = {
               // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, eone, rasi, dmd, bavaria, propagate:
               distribution_ids: SCRAMBLED:34vLuPn2JrGh3IpbLBCq39Hi7qHMsV9CvzrY8VmpaczmpL1m2wom1JXQsQnhd6MmjjsFBo4aPWNVixpQptHaguuacfNSnt40SQekkAW5a7npciVgCti2G2YAXiRj0ziGNV5WwwUsmq8dnOfri4QtBTGFcLZIXP2Zh/cdbdFCpFVEFDrw+sp3Ds9XVC2fcUyuLlDsDGLJGnHCfsVXcFKbNZebQrUsx28MaQfrjjTbmUhcnA3rdxDnDK4Gu8s4HE+XcHksdPtWX0vXmV3h
             },
-            'fremantle': {
-              bucket: 'mfx-v2-production-admin-fe-fremantle',
-              distribution_ids: SCRAMBLED:ztfWh8jJFoymyvclLh3i78hirMaWkXlzSycHkMjsmMyI0PbvVbMmQ6vqgmZtoch/hcFOHAR9VRlgnM3FsZgybcIZk3fxlbw0XfnN9QYeeT9EdYkC
-            },
             'lahm': {
               bucket: 'mfx-v2-production-admin-fe-lahm',
               distribution_ids: SCRAMBLED:8urJipq+EKa43M95Diel7TjGG0RTCqVEA7ffC4GOjttFjgwznVDfbySdQJQUkq4siFn1uXqqsVW2UPKGO/Msdu7/89vI4txmT6tZk76IGC3of/ok
@@ -611,14 +606,6 @@ const config = {
             'nbcu': {
               bucket: 'mfx-v2-production-buyer-fe-nbcu',
               distribution_ids: SCRAMBLED:08y2/sn/JIHJz851STXpikF7naM+y+vauuWH15yabQa6+qXs/36sWa+qp5h2TxY97RTdhOPYUxiLog309nmW7MwPA8w5wKJHdI/5WO5BTK665bm3
-            },
-          },
-        },
-        'mpx-ui-fremantle': {
-          projects: {
-            'fremantle': {
-              bucket: 'mfx-v2-production-buyer-fe-fremantle',
-              distribution_ids: SCRAMBLED:5PPQ/+fkKL/+0sRaKASlzI9uPZYCLTd5dycfnSTEnsl2cvRfqCz2Akl79SNerrx3HR5hDMtdvDEmxFbUbfqm4/okCrNwETZcv3rr8e7MsTHCSRO9
             },
           },
         },
