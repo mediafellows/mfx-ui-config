@@ -559,10 +559,6 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:xtr1s8vJFon28o98HDGnydSMq2FYynkUIV3FoWCWr1E0wzt7/gS9gXF7CYKfeGuvM3kA+Bb38G6S19N/CNMrrc1cr4jFeIXgSh3YOW6WHJHYE5YL
             },
-            'studiocanal': {
-              bucket: 'mfx-v2-production-buyer-fe-studiocanal',
-              distribution_ids: SCRAMBLED:4NXSm4HDL7Olw8dAT2W4kG4WiaG5vk8IZbhiG8zbDGtxufwYFS/b4jRlAwRhw+JxuCgEbcympSZf67VNvH/xR4D0OvVynLQ8EkX9FNwMnGdFcGU1
-            },
             'bavaria': {
               bucket: 'mfx-v2-production-buyer-fe-bavaria',
               distribution_ids: SCRAMBLED:45fSrNrpNoG88shcSmOW1KRNGe0whLxUFVBahrqn0J4OpyGOuTMbeAA9buzccmV7JnNiDWNYZGk7QwnfJ/XhE6PIIGfgaBIAKBqZJm65GkXsjKgy
