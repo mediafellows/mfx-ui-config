@@ -1,3 +1,5 @@
+[![JS CI tests](https://github.com/mediafellows/mfx-ui-config/actions/workflows/validate.yml/badge.svg)](https://github.com/mediafellows/mfx-ui-config/actions/workflows/validate.yml)
+
 # mfx-ui-config
 
 ## install
@@ -34,3 +36,8 @@ const projectConfig = envConfig.fetch(`repos.mfx-ui-tf1int.projects.tf1int`)
 const awsProfile = envConfig.fetch('aws_profile')
 ...
 ```
+
+## Modifying the config
+For modifying the config file you need to install [scramber](https://github.com/dbldots/scrambler) to decrypt encrypted sections. Then edit the index.js file.
+
+Also it's good to check syntax after editing using the `yarn test` task that validates the index.js file.
