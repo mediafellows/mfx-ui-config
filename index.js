@@ -191,6 +191,10 @@ const config = {
               bucket: 'mfx-v2-staging-admin-fe-ref',
               distribution_ids: SCRAMBLED:zPXB88OzMoCi/vVbPSGG6s0mnytGAzpO8mLJueqPk3RqkiYcwzoxLyuHSyTDJiBHomTzJyNxPXia+iP5
             },
+            'eone': {
+              bucket: 'mfx-v2-staging-admin-fe-eone',
+              distribution_ids: SCRAMBLED:vdvUsfzQDo/AycRRNgOYiHtCTy95R4Jvdu5wUj8RN8yAUDjGpH+0NOz0SxNJMi62dQM1Wel6kIeWqeOu
+            },
           },
         },
         'mpx-ui-gcui': {
