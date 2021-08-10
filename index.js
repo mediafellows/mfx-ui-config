@@ -128,6 +128,7 @@ const config = {
             'orf': { },
             'itv': { },
             'ref': { },
+            'eone': { },
           },
         },
       },
