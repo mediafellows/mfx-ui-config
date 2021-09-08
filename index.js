@@ -771,7 +771,38 @@ const config = {
           }
         }
       }
-    }
+    },
+    mf_test: {
+      environment: 'presentation',
+      aws_profile: 'mf_presentation',
+      branch: 'presentation',
+      rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
+      base_domain: "mediastore.review",
+      endpoints: {
+        um: "https://um.api.mediastore.review/v20140601",
+        pm: "https://pm.api.mediastore.review/v20140601",
+        am: "https://am.api.mediastore.review/v20140601",
+        ac: "https://ac.api.mediastore.review/v20140601",
+        sm: "https://sm.api.mediastore.review/v20140601",
+        mc: "https://mc.api.mediastore.review/v20140601",
+        jc: "https://jc.api.mediastore.review/v20140601",
+        cc: "https://cc.api.mediastore.review/v20140601",
+        tuco: "https://tuco.api.mediastore.review",
+        pigeon: "https://pigeon.api.mediastore.review",
+        viscacha: "https://viscacha.api.mediastore.review",
+      },
+      repos: {
+        'mpx-ui-gcui': {
+          projects: {
+            'dtv': {
+              bucket: 'mfx-v2-presentation-test-fe-dtv',
+              distribution_ids: SCRAMBLED:7uzKrtq+aLLDxetwOw6z7N1JoNVXsiuOXsw0gkaRMOojysKEOdMNnlLqRrTC2wmgjD1rUXx6Wx4MgYHo
+            },
+          },
+        },
+      },
+    },
   }
 }
 
