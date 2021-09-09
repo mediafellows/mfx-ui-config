@@ -799,6 +799,14 @@ const config = {
               bucket: 'mfx-v2-presentation-test-fe-dtv',
               distribution_ids: SCRAMBLED:7uzKrtq+aLLDxetwOw6z7N1JoNVXsiuOXsw0gkaRMOojysKEOdMNnlLqRrTC2wmgjD1rUXx6Wx4MgYHo
             },
+            'orf': {
+              bucket: 'mfx-v2-presentation-test-fe-orf',
+              distribution_ids: SCRAMBLED:v9O2qeDIDoH20NdjNzmi7NP2zetyfxyEegxL70gt8E36e0X4b5IM+OF38TKNGHLSE9wkJXpZjYjwBLWb
+            },
+            'eone': {
+              bucket: 'mfx-v2-presentation-test-fe-eone',
+              distribution_ids: SCRAMBLED:4eDXiea1Iqnd79FgSBSd0U/jM5U4TirRDLLGWPYI1XUp0O54sxvh8pDGk0cuqajjNRUnS2X9Hsf3wgNd
+            }
           },
         },
       },
