@@ -773,24 +773,24 @@ const config = {
       }
     },
     mf_test: {
-      environment: 'presentation',
+      environment: 'production',
       aws_profile: 'mf_presentation',
-      branch: 'presentation',
+      branch: 'production',
       rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
-      base_domain: "mediastore.review",
+      base_domain: "mediastore.app",
       endpoints: {
-        um: "https://um.api.mediastore.review/v20140601",
-        pm: "https://pm.api.mediastore.review/v20140601",
-        am: "https://am.api.mediastore.review/v20140601",
-        ac: "https://ac.api.mediastore.review/v20140601",
-        sm: "https://sm.api.mediastore.review/v20140601",
-        mc: "https://mc.api.mediastore.review/v20140601",
-        jc: "https://jc.api.mediastore.review/v20140601",
-        cc: "https://cc.api.mediastore.review/v20140601",
-        tuco: "https://tuco.api.mediastore.review",
-        pigeon: "https://pigeon.api.mediastore.review",
-        viscacha: "https://viscacha.api.mediastore.review",
+        um: "https://um.api.mediastore.app/v20140601",
+        pm: "https://pm.api.mediastore.app/v20140601",
+        am: "https://am.api.mediastore.app/v20140601",
+        ac: "https://ac.api.mediastore.app/v20140601",
+        sm: "https://sm.api.mediastore.app/v20140601",
+        mc: "https://mc.api.mediastore.app/v20140601",
+        jc: "https://jc.api.mediastore.app/v20140601",
+        cc: "https://cc.api.mediastore.app/v20140601",
+        tuco: "https://tuco.api.mediastore.app",
+        pigeon: "https://pigeon.api.mediastore.app",
+        viscacha: "https://viscacha.api.mediastore.app",
       },
       repos: {
         'mpx-ui-gcui': {
@@ -799,14 +799,22 @@ const config = {
               bucket: 'mfx-v2-presentation-test-fe-dtv',
               distribution_ids: SCRAMBLED:7uzKrtq+aLLDxetwOw6z7N1JoNVXsiuOXsw0gkaRMOojysKEOdMNnlLqRrTC2wmgjD1rUXx6Wx4MgYHo
             },
-            'orf': {
-              bucket: 'mfx-v2-presentation-test-fe-orf',
-              distribution_ids: SCRAMBLED:v9O2qeDIDoH20NdjNzmi7NP2zetyfxyEegxL70gt8E36e0X4b5IM+OF38TKNGHLSE9wkJXpZjYjwBLWb
-            },
+          },
+        },
+        'mfx-ui-eone': {
+          projects: {
             'eone': {
               bucket: 'mfx-v2-presentation-test-fe-eone',
               distribution_ids: SCRAMBLED:4eDXiea1Iqnd79FgSBSd0U/jM5U4TirRDLLGWPYI1XUp0O54sxvh8pDGk0cuqajjNRUnS2X9Hsf3wgNd
             }
+          },
+        },
+        'mfx-ui-orf': {
+          projects: {
+            'orf': {
+              bucket: 'mfx-v2-presentation-test-fe-orf',
+              distribution_ids: SCRAMBLED:v9O2qeDIDoH20NdjNzmi7NP2zetyfxyEegxL70gt8E36e0X4b5IM+OF38TKNGHLSE9wkJXpZjYjwBLWb
+            },
           },
         },
       },
