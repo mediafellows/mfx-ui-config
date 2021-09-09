@@ -262,7 +262,7 @@ const config = {
             },
           },
         },
-        'mpx-ui-orf': {
+        'mfx-ui-orf': {
           projects: {
             'orf': {
               bucket: 'mfx-v2-staging-buyer-fe-orf',
@@ -437,7 +437,7 @@ const config = {
             },
           },
         },
-        'mpx-ui-orf': {
+        'mfx-ui-orf': {
           projects: {
             'orf': {
               bucket: 'mfx-v2-presentation-buyer-fe-orf',
@@ -644,7 +644,7 @@ const config = {
             },
           },
         },
-        'mpx-ui-orf': {
+        'mfx-ui-orf': {
           projects: {
             'orf': {
               bucket: 'mfx-v2-production-buyer-fe-orf',
