@@ -310,6 +310,14 @@ const config = {
             },
           },
         },
+        'mfx-ui-eone': {
+          projects: {
+            'eone': {
+              bucket: 'mfx-v2-staging-buyer-fe-eone',
+              distribution_ids: SCRAMBLED:zOjo+57NFaGl/NhdSDmD9znPP9h4LnPtnNo4PnTHDyIj8PWGjjgS9+Qy+zq/FMIe4x1qbb+TBF8ce3Kq
+            }
+          },
+        },
       },
     },
     mf_presentation: {
