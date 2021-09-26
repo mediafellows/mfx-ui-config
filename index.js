@@ -766,7 +766,7 @@ const config = {
           projects: {
             'nbcu': {
               bucket: 'mfx-v2-nbcu-production-buyer-fe-nbcu',
-              distribution_ids: SCRAMBLED:4vDgvv/RKKWhnf54FgaS9PIccnVmvhfq8Aznwne1nIXbNGtTcK1bfA==
+              distribution_ids: SCRAMBLED:+9KwrNq1F5/j05ZnCxOB+CLgpkWryMYRL71K3r3iu0MrUJDXf04YMz/U6/ry2Ih9cK4zCJsyS/27WuAS
             },
           },
         },
@@ -774,7 +774,7 @@ const config = {
           projects: {
             'nbcu': {
               bucket: 'mfx-v2-nbcu-production-admin-fe-nbcu',
-              distribution_ids: SCRAMBLED:4vDgvv/RKKWhnf54FgaS9PIccnVmvhfq8Aznwne1nIXbNGtTcK1bfA==
+              distribution_ids: SCRAMBLED:xfy3+vzqKYjm85J/GzC/8X6VfkWW863k9jeXR9s/RtO0FalzeyClO4UqTdlALLIF0dH9EBgDYcyGtw+A
             },
           }
         }
