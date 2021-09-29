@@ -116,6 +116,7 @@ const config = {
         viscacha: "https://viscacha.api.mediastore.dev",
         companion: "https://companion-cf.lambda.mediastore.dev",
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.dev",
+        imgResizer: "https://img-resizer.api.mediastore.dev",
       },
       repos: {
         'mpx-ui-admin': {
@@ -152,6 +153,7 @@ const config = {
         tuco: "https://tuco.api.mediastore.dev",
         pigeon: "https://pigeon.api.mediastore.dev",
         viscacha: "https://viscacha.api.mediastore.dev",
+        imgResizer: "https://img-resizer.api.mediastore.dev",
       },
       repos: {
         'mpx-ui-admin': {
@@ -339,6 +341,7 @@ const config = {
         tuco: "https://tuco.api.mediastore.review",
         pigeon: "https://pigeon.api.mediastore.review",
         viscacha: "https://viscacha.api.mediastore.review",
+        imgResizer: "https://img-resizer.api.mediastore.review",
       },
       repos: {
         'mpx-ui-admin': {
@@ -510,6 +513,7 @@ const config = {
         tuco: "https://tuco.api.nbcupassport.com",
         pigeon: "https://pigeon.api.nbcupassport.com",
         viscacha: "https://viscacha.api.nbcupassport.com",
+        imgResizer: "https://img-resizer.api.nbcupassport.com",
       },
       repos: {
         'mpx-ui-admin': {
@@ -549,6 +553,7 @@ const config = {
         tuco: "https://tuco.api.mediastore.app",
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
+        imgResizer: "https://img-resizer.api.mediastore.app",
       },
       repos: {
         'mpx-ui-admin': {
@@ -729,6 +734,7 @@ const config = {
         tuco: "https://tuco.api.nbcupassport-preprod.com",
         pigeon: "https://pigeon.api.nbcupassport-preprod.com",
         viscacha: "https://viscacha.api.nbcupassport-preprod.com",
+        imgResizer: "https://img-resizer.api.nbcupassport-preprod.com",
       },
       repos: {
         'mpx-ui-nbcu': {
@@ -768,6 +774,7 @@ const config = {
         tuco: "https://tuco.api.mediastore.app",
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
+        imgResizer: "https://img-resizer.api.mediastore.app",
       },
       repos: {
         'mpx-ui-nbcu': {
@@ -807,6 +814,7 @@ const config = {
         tuco: "https://tuco.api.mediastore.app",
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
+        imgResizer: "https://img-resizer.api.mediastore.app",
       },
       repos: {
         'mpx-ui-gcui': {
