@@ -725,6 +725,14 @@ const config = {
             },
           },
         },
+        'mfx-ui-eone': {
+          projects: {
+            'eone': {
+              bucket: 'mfx-v2-production-buyer-fe-eone',
+              distribution_ids: SCRAMBLED:+OLBpPvhDPHk9sV6DxSFiAYZSaRPNiv1OKng1JphN0HS8J+iXfdKxTbjV/CxjaVgFbK+wMwe+XoJXXqPzek1m6TJUn7mU6yh8D6eql4/i5E=
+            }
+          },
+        },
       },
     },
     nbcu_preprod: {
