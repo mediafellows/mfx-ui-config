@@ -568,8 +568,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
-              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, eone, rasi, dmd, bavaria, propagate:
-              distribution_ids: SCRAMBLED:34vLuPn2JrGh3IpbLBCq39Hi7qHMsV9CvzrY8VmpaczmpL1m2wom1JXQsQnhd6MmjjsFBo4aPWNVixpQptHaguuacfNSnt40SQekkAW5a7npciVgCti2G2YAXiRj0ziGNV5WwwUsmq8dnOfri4QtBTGFcLZIXP2Zh/cdbdFCpFVEFDrw+sp3Ds9XVC2fcUyuLlDsDGLJGnHCfsVXcFKbNZebQrUsx28MaQfrjjTbmUhcnA3rdxDnDK4Gu8s4HE+XcHksdPtWX0vXmV3h
+              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, rasi, dmd, bavaria, propagate:
+              distribution_ids: SCRAMBLED:5/3p/ejSNLamlMxbORip/IEb9uNzbFCqpOB9I7EfOnEI3IKjkITtc5KUfG1ygB3wr6zi9bt9n6SUOw/oJwUVBVpclvOC3Tp+9kLZMAJ/hC0Q76ecvpkl8TmnCmucIdWk+RARBxznlXlf5K7Fs/Ep50aaX6r3hG22A/1jsnnfK0ksMzrPVYMUaeBLKwE55bYr8+NEnWsxut5Hk0RTl8EvQD6KAPn+PbkflzIvbKIqOIx2a1DQ
             },
             'lahm': {
               bucket: 'mfx-v2-production-admin-fe-lahm',
@@ -605,7 +605,7 @@ const config = {
             },
             'eone': {
               bucket: 'mfx-v2-production-admin-fe-eone',
-              distribution_ids: SCRAMBLED:xIjX4NnIGZWmw4l4PAyI8XhvQRnN+CugI2vFCdzXVRLQWqI2vY7zIIdqDnRaAiA92v0nizYQj4KMLii6
+              distribution_ids: SCRAMBLED:yf3VpMb3duzB4PhyFxeo85w6N9WtnRl/4vOes42gBcqivoTkrG03a1uFgBBeqrIpt72BFMM27KDOAtzQqeM3b/8YIJx092Lp0Dd+9uWGqMICa3lx
             },
           },
         },
