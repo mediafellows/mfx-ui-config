@@ -218,10 +218,6 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-ftd',
               distribution_ids: SCRAMBLED:ofbSoNX0LJe8wYpMHBCAzvRG3TluDj3DCYHZeh9kBlUenatM4nfQpoIAdHO7LVxgK6yDJVZsnVjXKKE3
             },
-            'propagate': {
-              bucket: 'mfx-v2-staging-buyer-fe-propagate',
-              distribution_ids: SCRAMBLED:/YrOheDHEp/k9fxxEBH7yXmkUMK3WX4FPeuz4LQgrKADGfpGbPd+7wue+P085irYoApARj9tXmtngTUd
-            },
             'rasi': {
               bucket: 'mfx-v2-staging-buyer-fe-rasi',
               distribution_ids: SCRAMBLED:zonhuYbqdezg9vB1DCGcg08cj70rbwVMfpxamm14V6rB8XljsOY6I3XGNX/bG7LvaxHwkVh+Swz5aSBI
@@ -410,10 +406,6 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-ftd',
               distribution_ids: SCRAMBLED:88G7jJ78NpHG5cohTzPlzBHFoKssTiTQ7pJlpGrn32hvuG12+jUizDKEeQUBZgnsBYS091rrWBRKYzcz
             },
-            'propagate': {
-              bucket: 'mfx-v2-presentation-buyer-fe-propagate',
-              distribution_ids: SCRAMBLED:y/X0hvPjEvfh4I8lKz2GyJxNzjG0hrkXkXplf2OxsmFOcob7k4qVS5HuTIbM3o7ZoRXEOz0ejgETCDU9
-            },
             'rasi': {
               bucket: 'mfx-v2-presentation-buyer-fe-rasi',
               distribution_ids: SCRAMBLED:8v/bjoXCMIDD1f90ByW2+hMeMTdXU33Peqgoq5zSbzxQrOxmDMYMFebzw7O4sNZIZhDqeoqOLFZzRTrs
@@ -568,8 +560,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
-              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, eone, rasi, dmd, bavaria, propagate:
-              distribution_ids: SCRAMBLED:34vLuPn2JrGh3IpbLBCq39Hi7qHMsV9CvzrY8VmpaczmpL1m2wom1JXQsQnhd6MmjjsFBo4aPWNVixpQptHaguuacfNSnt40SQekkAW5a7npciVgCti2G2YAXiRj0ziGNV5WwwUsmq8dnOfri4QtBTGFcLZIXP2Zh/cdbdFCpFVEFDrw+sp3Ds9XVC2fcUyuLlDsDGLJGnHCfsVXcFKbNZebQrUsx28MaQfrjjTbmUhcnA3rdxDnDK4Gu8s4HE+XcHksdPtWX0vXmV3h
+              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, rasi, dmd, bavaria:
+              distribution_ids: SCRAMBLED:5/3p/ejSNLamlMxbORip/IEb9uNzbFCqpOB9I7EfOnEI3IKjkITtc5KUfG1ygB3wr6zi9bt9n6SUOw/oJwUVBVpclvOC3Tp+9kLZMAJ/hC0Q76ecvpkl8TmnCmucIdWk+RARBxznlXlf5K7Fs/Ep50aaX6r3hG22A/1jsnnfK0ksMzrPVYMUaeBLKwE55bYr8+NEnWsxut5Hk0RTl8EvQD6KAPn+PbkflzIvbKIqOIx2a1DQ
             },
             'lahm': {
               bucket: 'mfx-v2-production-admin-fe-lahm',
@@ -605,7 +597,7 @@ const config = {
             },
             'eone': {
               bucket: 'mfx-v2-production-admin-fe-eone',
-              distribution_ids: SCRAMBLED:xIjX4NnIGZWmw4l4PAyI8XhvQRnN+CugI2vFCdzXVRLQWqI2vY7zIIdqDnRaAiA92v0nizYQj4KMLii6
+              distribution_ids: SCRAMBLED:yf3VpMb3duzB4PhyFxeo85w6N9WtnRl/4vOes42gBcqivoTkrG03a1uFgBBeqrIpt72BFMM27KDOAtzQqeM3b/8YIJx092Lp0Dd+9uWGqMICa3lx
             },
           },
         },
@@ -626,10 +618,6 @@ const config = {
             'ftd': {
               bucket: 'mfx-v2-production-buyer-fe-ftd',
               distribution_ids: SCRAMBLED:y/vXmvvoNZ3D3olPBBno/wIs0oo33r6N+z3Beg5SeGrEifFjAy/Rr5U77QRgR2YsRDxqtQwwD8ZKY589t3GCSljRdDn6oLaWamqJuuQ72VN96o5z
-            },
-            'propagate': {
-              bucket: 'mfx-v2-production-buyer-fe-propagate',
-              distribution_ids: SCRAMBLED:+/zznfnCNYiiydFcBxGa/gfggayQDL5FXVl0/EX+CiUMv3/zxQluSlIlthO8xQJD2SHoH5S5/I0w4z00iGTSicGVY2HbmJgQOtmOPem46ywHb5pd
             },
             'rasi': {
               bucket: 'mfx-v2-production-buyer-fe-rasi',
