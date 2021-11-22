@@ -567,10 +567,6 @@ const config = {
               bucket: 'mfx-v2-production-admin-fe-lahm',
               distribution_ids: SCRAMBLED:8urJipq+EKa43M95Diel7TjGG0RTCqVEA7ffC4GOjttFjgwznVDfbySdQJQUkq4siFn1uXqqsVW2UPKGO/Msdu7/89vI4txmT6tZk76IGC3of/ok
             },
-            'nbcu': {
-              bucket: 'mfx-v2-production-admin-fe-nbcu',
-              distribution_ids: SCRAMBLED:683z+vXQCaH5y4tHCyH/kD/elolMeqvdtkQblqSBsmR3HXn2hZ7JS4/EO4f9YNpjN+o0H6o63nR6yfuW0MR+6NiuxuZEfrVXxq8qinruIj+AfIp0
-            },
             'dtv': {
               bucket: 'mfx-v2-production-admin-fe-dtv',
               distribution_ids: SCRAMBLED:wor189/fDrGiyNZFFhOK9sDzuuGdWPAFZkulGK69EKBz7BwViDw+vKpqatemB+RtBnImPdoQg7jEElIvVFGR+B0vTa9PYrFS2JnNYwJV0YnDKPrJ
