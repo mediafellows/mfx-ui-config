@@ -250,6 +250,10 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-itvstudios',
               distribution_ids: SCRAMBLED:49basoTAG5/c/ehcCCeU8ms8IswPPoIuO5FHoDL4fwa5Ru5hott3kEaS8BRiJNIlVfHRPMLJWwWEEj4+
             },
+            'pxl': {
+              bucket: 'mfx-v2-staging-buyer-fe-pxl',
+              distribution_ids: SCRAMBLED:y+vmvObyco6qx89VEwGk+NrkJi452vlU5RgbMcMLjRtWZj8XgqysjTIyMV4+IV/gMc7fQ0hfF8d5XY1p
+            },
           },
         },
         'mpx-ui-old-gcui': {
