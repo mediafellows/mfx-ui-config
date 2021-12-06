@@ -256,18 +256,6 @@ const config = {
             },
           },
         },
-        'mpx-ui-old-gcui': {
-          projects: {
-            'dynamic-television': {
-              bucket: 'mfx-v2-staging-buyer-fe-dtv',
-              distribution_ids: SCRAMBLED:woq7+NDABpHZi+pEJBuY4vgaipxLJjpcYFVwlsX1VDyK1bi7Evz60qxg8KsCUnhhHgRQ0N+IExae1jiR
-            },
-            'e-one': {
-              bucket: 'mfx-v2-staging-buyer-fe-eone',
-              distribution_ids: SCRAMBLED:zOjo+57NFaGl/NhdSDmD9znPP9h4LnPtnNo4PnTHDyIj8PWGjjgS9+Qy+zq/FMIe4x1qbb+TBF8ce3Kq
-            },
-          },
-        },
         'mfx-ui-orf': {
           projects: {
             'orf': {
@@ -448,18 +436,6 @@ const config = {
             },
           },
         },
-        'mpx-ui-old-gcui': {
-          projects: {
-            'dynamic-television': {
-              bucket: 'mfx-v2-presentation-buyer-fe-dtv',
-              distribution_ids: SCRAMBLED:+cj1jOn8BuzJ9ZIuCmWh7l47AMT0gqw1o+QhNZmBqUmGA4GC3FIWNxBhPu83qQc6BO57sdiUjKkBqazK
-            },
-            'e-one': {
-              bucket: 'mfx-v2-presentation-buyer-fe-eone',
-              distribution_ids: SCRAMBLED:+NvwmODicfX10vRuKCC79Q7h2z8MD5pohmqNRcA9EJRwG3sTDMAToJZOlvCLZoCKzXp6+wI4NVy6194J
-            },
-          },
-        },
         'mfx-ui-orf': {
           projects: {
             'orf': {
@@ -497,6 +473,14 @@ const config = {
             'lionsgate': {
               bucket: 'mfx-v2-presentation-buyer-fe-lgt',
               distribution_ids: SCRAMBLED:suvPmtLVK4rk1PVDCwW+4URa/ziWbxG0AxjHptN9pvUP5BoO4f8kMfWiC49FyN7LophOQn/InmbfZmVy
+            },
+          },
+        },
+        'mfx-ui-eone': {
+          projects: {
+            'eone': {
+              bucket: 'mfx-v2-presentation-buyer-fe-eone',
+              distribution_ids: SCRAMBLED:+NvwmODicfX10vRuKCC79Q7h2z8MD5pohmqNRcA9EJRwG3sTDMAToJZOlvCLZoCKzXp6+wI4NVy6194J
             },
           },
         },
@@ -658,18 +642,6 @@ const config = {
             'pxl': {
               bucket: 'mfx-v2-production-buyer-fe-pxl',
               distribution_ids: SCRAMBLED:0P74mIHjIYP/nfZZOGO2jQsZpVts4UDh4o+2Nnf0KyGQxbZBlMp6GtuZ4f2Rn5H/hbPK/cH/a4iZxb0G
-            },
-          },
-        },
-        'mpx-ui-old-gcui': {
-          projects: {
-            'dynamic-television': {
-              bucket: 'mfx-v2-production-buyer-fe-dtv',
-              distribution_ids: SCRAMBLED:34nWhtLRN7Pgi/kuCSac3EV6VvCpKQKZS5mEf726YJd94wPBHl+b8pGnSs5IWVE+JnsJqQvYV5Z0AmPXRiPA+YhAjngpj7YFjeXeVrOCuljhV3eF
-            },
-            'e-one': {
-              bucket: 'mfx-v2-production-buyer-fe-eone',
-              distribution_ids: SCRAMBLED:+OLBpPvhDPHk9sV6DxSFiAYZSaRPNiv1OKng1JphN0HS8J+iXfdKxTbjV/CxjaVgFbK+wMwe+XoJXXqPzek1m6TJUn7mU6yh8D6eql4/i5E=
             },
           },
         },
