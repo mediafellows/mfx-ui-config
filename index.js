@@ -346,10 +346,6 @@ const config = {
               bucket: 'mfx-v2-presentation-admin-fe-lahm',
               distribution_ids: SCRAMBLED:4NC3koOyNKXLwo9HC2Od6oGJ9vZHsF41hrZGId7eIKQRsoXVPoA6K6c9hwmp+2aFOI7KoP3wZEXTOKUc
             },
-            'nbcu': {
-              bucket: 'mfx-v2-presentation-admin-fe-nbcu',
-              distribution_ids: SCRAMBLED:v8nD8tjTAo7ewdZTFy6A9++X1V5mMm1qEWpOcyiLRdCTShhBWN4r3/vPrQdgcT4hyqh/isVaJoaN50qs
-            },
             'dtv': {
               bucket: 'mfx-v2-presentation-admin-fe-dtv',
               distribution_ids: SCRAMBLED:zNbYj/bXIej//c85SySZ2QiH9DON6slGEhABE5FzU80gCHVWXu4pVQ9QXBFDAuotpeEywhIXPjVmCxNB
@@ -444,14 +440,6 @@ const config = {
             },
           },
         },
-        'mpx-ui-nbcu': {
-          projects: {
-            'nbcu': {
-              bucket: 'mfx-v2-presentation-buyer-fe-nbcu',
-              distribution_ids: SCRAMBLED:xpfKpvvlGqqnzNcnDGSR4zlZyifYQe8VjehWApkNhwPio2tE2ZINTPovXBf4jHNlhURGpgG2Vbc9wGYl
-            },
-          },
-        },
         'mpx-ui-lahm': {
           projects: {
             'lahm': {
@@ -485,46 +473,6 @@ const config = {
           },
         },
       },
-    },
-    mf_presentation_nbcu_prod_testing: {
-      environment: 'presentation',
-      aws_profile: 'mf_presentation',
-      branch: 'presentation',
-      rollbar: SCRAMBLED:vPftp+vPM6zHxddOGTqD+jm4+nD1PAUfSvvvr/MnTAH71Ua3w2pWe9YgAWi/qmhVDboPVW4XTNuhPfwkQJZSJsKf9c+lzK5SUmMJoWA90s4=
-      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
-      base_domain: "nbcupassport.com",
-      endpoints: {
-        um: "https://um.api.nbcupassport.com",
-        pm: "https://pm.api.nbcupassport.com",
-        am: "https://am.api.nbcupassport.com",
-        ac: "https://ac.api.nbcupassport.com",
-        sm: "https://sm.api.nbcupassport.com",
-        mc: "https://mc.api.nbcupassport.com",
-        jc: "https://jc.api.nbcupassport.com",
-        cc: "https://cc.api.nbcupassport.com",
-        tuco: "https://tuco.api.nbcupassport.com",
-        pigeon: "https://pigeon.api.nbcupassport.com",
-        viscacha: "https://viscacha.api.nbcupassport.com",
-        imgResizer: "https://img-resizer.api.nbcupassport.com",
-      },
-      repos: {
-        'mpx-ui-admin': {
-          projects: {
-            'nbcu': {
-              bucket: 'mfx-v2-presentation-admin-fe-nbcu-production-test',
-              distribution_ids: SCRAMBLED:we7Sjdj/Iarl6ughLn28zupSs6E/74HmFWb/kBRxq4JIpvOEn9gi2Upibv4Zazko4IlAGuljGQ0CSDoG
-            }
-          }
-        },
-        'mpx-ui-nbcu': {
-          projects: {
-            'nbcu': {
-              bucket: 'mfx-v2-presentation-buyer-fe-nbcu-production-test',
-              distribution_ids: SCRAMBLED:uvzvut7AN4nHnfhjMWeA0u/Z2eVrxvVKEzlIRkCzduFCefNpNtsezcEDJnvEkQNRggFA1ISD9lizQvD5
-            }
-          }
-        }
-      }
     },
     mf_production: {
       environment: 'production',
@@ -650,14 +598,6 @@ const config = {
             'orf': {
               bucket: 'mfx-v2-production-buyer-fe-orf',
               distribution_ids: SCRAMBLED:xf7RvuD/aKKhzfEvOzOd/tJ9Ku95CsQ/Sqlr17AQgCkqQc1wttkQ7KH2DRrLUqEnk17KOS/26cFcq2ndF1rYTt+xmEYVDaErl3TkUEE/xgI=
-            },
-          },
-        },
-        'mpx-ui-nbcu': {
-          projects: {
-            'nbcu': {
-              bucket: 'mfx-v2-production-buyer-fe-nbcu',
-              distribution_ids: SCRAMBLED:08y2/sn/JIHJz851STXpikF7naM+y+vauuWH15yabQa6+qXs/36sWa+qp5h2TxY97RTdhOPYUxiLog309nmW7MwPA8w5wKJHdI/5WO5BTK665bm3
             },
           },
         },
