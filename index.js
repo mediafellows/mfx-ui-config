@@ -552,8 +552,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
-              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, rasi, dmd, bavaria:
-              distribution_ids: SCRAMBLED:5/3p/ejSNLamlMxbORip/IEb9uNzbFCqpOB9I7EfOnEI3IKjkITtc5KUfG1ygB3wr6zi9bt9n6SUOw/oJwUVBVpclvOC3Tp+9kLZMAJ/hC0Q76ecvpkl8TmnCmucIdWk+RARBxznlXlf5K7Fs/Ep50aaX6r3hG22A/1jsnnfK0ksMzrPVYMUaeBLKwE55bYr8+NEnWsxut5Hk0RTl8EvQD6KAPn+PbkflzIvbKIqOIx2a1DQ
+              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, rasi, dmd, bavaria, relativity:
+              distribution_ids: SCRAMBLED:09/zosmxBIrykIh3ERCh3ES6INuFh3rBtLKHbSw5eyhdZtuxCTAL3+Jk8ALp/F1wIcMxgnMx8R68oQTaiScv1kZAr+Gkc+GKYwk+Xa/XKSTCx58NFBmYR+pTHhlAL5cy+gS92X9qaJcJE7ZXmcovkDYGLuj9MVq1c4Ef7zoJel/FiMub3ae1woO9AbcS9HhA5lxNlJ8P0h6sLe9G/HicsipTQAwWcp83zGAk/lE33pEwO5FB5psFHOeZpvlGaV85PEU2vo2wjMoLyreA
             },
             'lahm': {
               bucket: 'mfx-v2-production-admin-fe-lahm',
@@ -633,7 +633,7 @@ const config = {
             },
             'relativity': {
               bucket: 'mfx-v2-production-buyer-fe-relativity',
-              distribution_ids: SCRAMBLED:/JPmh+DNBY/57IU5GWLl74/tL3Far+hUngYuyQ5Ffd+upHBi8AsZ7oZuZf0k/wWXIcioukDXQM9Yq4eO
+              distribution_ids: SCRAMBLED:udv6ksCxc4zR5vVGCCac6g9qGHmmuTdGwoBWTCu99c/Jo0bXDOU8LrbbDY0PyiBx9aHNAD8v5JS/beY0wI+Ii5ARYZN4iXK1OcWTu5e4sGbiurC2
             },
             'itvstudios': {
               bucket: 'mfx-v2-production-buyer-fe-itvstudios',
