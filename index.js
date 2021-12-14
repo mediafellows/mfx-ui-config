@@ -303,7 +303,7 @@ const config = {
               distribution_ids: SCRAMBLED:xIDauYHlE+ykzYRQBzGk8mqs6IW3jphIio6tydPt6ax9vm0Iy2Pa+YTEiRDvPc+agSqa9Az7VwIG+7IS
             },
             'mm3': {
-              bucket: 'mfx-v2-staging-admin3-mm3',
+              bucket: 'mfx-v2-staging-admin-fe-admin3-mm3',
               distribution_ids: SCRAMBLED:4s7h/9DVILWi3MtTCRW0/ca7rw83CxF3SOCPbvwCQWwGjH3RWUveUpFQG8S19LCIMyUfzKUC+13P33DU
             },
           },
