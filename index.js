@@ -116,6 +116,7 @@ const config = {
         viscacha: "https://viscacha.api.mediastore.dev",
         companion: "https://companion-cf.lambda.mediastore.dev",
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.dev",
+        "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.dev",
         imgResizer: "https://img-resizer.api.mediastore.dev",
       },
       repos: {
