@@ -119,6 +119,7 @@ const config = {
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.dev",
         imgResizer: "https://img-resizer.api.mediastore.dev",
       },
+    },
     mf_staging: {
       environment: 'staging',
       aws_profile: 'mf_staging',
