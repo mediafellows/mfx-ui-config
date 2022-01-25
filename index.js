@@ -154,6 +154,9 @@ const config = {
         tuco: "https://tuco.api.mediastore.dev",
         pigeon: "https://pigeon.api.mediastore.dev",
         viscacha: "https://viscacha.api.mediastore.dev",
+        companion: "https://companion-cf.lambda.mediastore.dev",
+        "companion-eu": "https://companion-cf.lambda-eu.mediastore.dev",
+        "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.dev",
         imgResizer: "https://img-resizer.api.mediastore.dev",
       },
       repos: {
@@ -338,6 +341,9 @@ const config = {
         tuco: "https://tuco.api.mediastore.review",
         pigeon: "https://pigeon.api.mediastore.review",
         viscacha: "https://viscacha.api.mediastore.review",
+        companion: "https://companion-cf.lambda.mediastore.review",
+        "companion-eu": "https://companion-cf.lambda-eu.mediastore.review",
+        "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.review",
         imgResizer: "https://img-resizer.api.mediastore.review",
       },
       repos: {
@@ -498,6 +504,9 @@ const config = {
         tuco: "https://tuco.api.mediastore.app",
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
+        companion: "https://companion-cf.lambda.mediastore.app",
+        "companion-eu": "https://companion-cf.lambda-eu.mediastore.app",
+        "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
       },
       repos: {
