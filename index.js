@@ -303,12 +303,16 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-staging-admin-fe-mfx',
-              distribution_ids: SCRAMBLED:xIDauYHlE+ykzYRQBzGk8mqs6IW3jphIio6tydPt6ax9vm0Iy2Pa+YTEiRDvPc+agSqa9Az7VwIG+7IS
+              bucket: 'mfx-v2-staging-admin3-fe-generic',
+              distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
             },
-            'mm3': {
-              bucket: 'mfx-v2-staging-admin-fe-admin3-mm3',
-              distribution_ids: SCRAMBLED:4s7h/9DVILWi3MtTCRW0/ca7rw83CxF3SOCPbvwCQWwGjH3RWUveUpFQG8S19LCIMyUfzKUC+13P33DU
+            'ivstudios': {
+              bucket: 'mfx-v2-staging-admin3-fe-ivstudios',
+              distribution_ids: SCRAMBLED:vfb1u//ucqjdxvxMDSW0yolhJXupVtrE/Vhc6AKeR5q6UVUYlYGLHsLAsodZKhIATmtKf9K7tWgznOtf
+            },
+            'mfx': {
+              bucket: 'mfx-v2-staging-admin3-fe-mxf',
+              distribution_ids: SCRAMBLED:xIDauYHlE+ykzYRQBzGk8mqs6IW3jphIio6tydPt6ax9vm0Iy2Pa+YTEiRDvPc+agSqa9Az7VwIG+7IS
             },
           },
         },
