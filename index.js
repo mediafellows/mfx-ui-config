@@ -307,7 +307,7 @@ const config = {
               distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
             },
             'itvstudios': {
-              bucket: 'mfx-v2-staging-admin3-fe-ivstudios',
+              bucket: 'mfx-v2-staging-admin3-fe-itvstudios',
               distribution_ids: SCRAMBLED:vfb1u//ucqjdxvxMDSW0yolhJXupVtrE/Vhc6AKeR5q6UVUYlYGLHsLAsodZKhIATmtKf9K7tWgznOtf
             },
             'mfx': {
