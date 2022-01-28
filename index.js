@@ -479,6 +479,22 @@ const config = {
             },
           },
         },
+        'mfx-ui-admin-v3': {
+          projects: {
+            'generic': {
+              bucket: 'mfx-v2-presentation-admin3-fe-generic',
+              distribution_ids: SCRAMBLED:xfXznZ60Oob88vByLTvmkF3D5/ESJvRvuZvYBG2NuaicWc06LJtjd71wglN5iC/ze2K3GlRER2iDKUFZ
+            },
+            'itvstudios': {
+              bucket: 'mfx-v2-presentation-admin3-fe-itvstudios',
+              distribution_ids: SCRAMBLED:uPXl/4HWOrG80OxAOCSz6yhFyAHbkknb5nfwcENrtmGc0u7GuTPevaSjyv1zV0ZCzz0qUDynVvQ/7fAy
+            },
+            'mfx': {
+              bucket: 'mfx-v2-presentation-admin3-fe-mxf',
+              distribution_ids: SCRAMBLED:5eDzmumyIJPXkvN/LSyB/mPOeZXJR9CEx+IYyM8qTTfdnP8vCr17dTnsMbW9grVIZrMCI33Xqh3sXO9d
+            },
+          },
+        },
         'mfx-ui-eone': {
           projects: {
             'eone': {
@@ -603,7 +619,7 @@ const config = {
             },
             'itvstudios': {
               bucket: 'mfx-v2-production-buyer-fe-itvstudios',
-              distribution_ids: SCRAMBLED:5ejQjNzIK6Sn5fBVEDSa9NSVlT7ORH1Nds1Gd1lEn/SHSklLwr9BOhDPUjvn5oWT52H0hqNBOvuOidzh
+              distribution_ids: SCRAMBLED:utnOusi/D5LV7u5MFjiIjjrT1WH/jFXtcLwysT0Fv/n0qJm+emC+5ZT0OtxrbBWhzvIGmRXIOLoeefaK+vyek89i8JclxPdwEe6yQcmcNaqASuZw
             },
             'pxl': {
               bucket: 'mfx-v2-production-buyer-fe-pxl',
@@ -648,6 +664,22 @@ const config = {
             'fox': {
               bucket: 'mfx-v2-production-buyer-fe-fyc', // demo10
               distribution_ids: SCRAMBLED:w/Xq+fvHNvb27Y9iKRu2/m7r6yNDM1CRbvvnCNE+U+k288PSKhzKPUygzitiMc5FdNoC0V3qZg8mdCjaJM4KRaJhaq5Fwi2J
+            },
+          },
+        },
+        'mfx-ui-admin-v3': {
+          projects: {
+            'generic': {
+              bucket: 'mfx-v2-production-admin3-fe-generic',
+              distribution_ids: SCRAMBLED:s9DtktDtEqyhzup7J3mo/C7RLLHC+9KohVm+IGQxqjak3VTBPogKLhvJNFqZhxO4ZPbTp41XmuEFRo5A
+            },
+            'itvstudios': {
+              bucket: 'mfx-v2-production-admin3-fe-itvstudios',
+              distribution_ids: SCRAMBLED:yczGuMO0L57hyfY9NwK/g9ymfCgsejn4LCP9if4YKLgaSKyXwjm7FfDPR0qaybw4CSdHq3q1ggeu4e7I
+            },
+            'mfx': {
+              bucket: 'mfx-v2-production-admin3-fe-mxf',
+              distribution_ids: SCRAMBLED:xs3gjvbUdbPc3tRTTRznidcXWnL0kZN7hO7DUQJVGne/19weyus9E6C+OrkxQq9nGVbaCrSDs4/klL97
             },
           },
         },
