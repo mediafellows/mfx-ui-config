@@ -326,7 +326,7 @@ const config = {
         },
         'mfx-ui-itvstudios': {
           projects: {
-            'eone': {
+            'itvstudios': {
               bucket: 'mfx-v2-staging-buyer-fe-itvstudios',
               distribution_ids: SCRAMBLED:49basoTAG5/c/ehcCCeU8ms8IswPPoIuO5FHoDL4fwa5Ru5hott3kEaS8BRiJNIlVfHRPMLJWwWEEj4+
             }
@@ -513,7 +513,7 @@ const config = {
         },
         'mfx-ui-itvstudios': {
           projects: {
-            'eone': {
+            'itvstudios': {
               bucket: 'mfx-v2-presentation-buyer-fe-itvstudios',
               distribution_ids: SCRAMBLED:88+zjdO+ELLqj+5iGC6h63XjIENd3ZE5/bq/3vPvFJ9t2KHPuhSctlDpcSlR4xaA5F33Zvm92wu1Rk7C
             },
@@ -709,7 +709,7 @@ const config = {
         },
         'mfx-ui-itvstudios': {
           projects: {
-            'eone': {
+            'itvstudios': {
               bucket: 'mfx-v2-production-buyer-fe-itvstudios',
               distribution_ids: SCRAMBLED:utnOusi/D5LV7u5MFjiIjjrT1WH/jFXtcLwysT0Fv/n0qJm+emC+5ZT0OtxrbBWhzvIGmRXIOLoeefaK+vyek89i8JclxPdwEe6yQcmcNaqASuZw
             }
