@@ -34,8 +34,7 @@ const defaultCSP = {
     "blob:",
     "https://*.{{base_domain}}",
     "wss://*.{{base_domain}}",
-    "*.s3-accelerate.amazonaws.com",
-    "*.s3.amazonaws.com",
+    "*.amazonaws.com",
     "*.chime.aws",
     "wss://*.chime.aws",
     "*.hotjar.com",
@@ -56,8 +55,7 @@ const defaultCSP = {
     "data:",
     "blob:",
     "*.{{base_domain}}",
-    "*.s3-accelerate.amazonaws.com",
-    "*.s3.amazonaws.com",
+    "*.amazonaws.com",
     "*.google-analytics.com",
     "maps.gstatic.com",
     "maps.googleapis.com",
@@ -67,8 +65,7 @@ const defaultCSP = {
     "'self'",
     "blob:",
     "*.{{base_domain}}",
-    "*.s3-accelerate.amazonaws.com",
-    "*.s3.amazonaws.com",
+    "*.amazonaws.com",
   ],
   // child-src is deprecated and worker-src / frame-src should be used instead, but some older browsers still rely on child-src
   'child-src': [
@@ -82,15 +79,13 @@ const defaultCSP = {
   ],
   'object-src': [
     "'self'",
-    "*.s3-accelerate.amazonaws.com",
-    "*.s3.amazonaws.com",
+    "*.amazonaws.com",
   ],
   'frame-src': [
     "'self'",
     "https://www.google.com/recaptcha/api2/",
     "https://vars.hotjar.com/",
-    "*.s3-accelerate.amazonaws.com",
-    "*.s3.amazonaws.com",
+    "*.amazonaws.com",
   ],
 };
 
