@@ -546,7 +546,7 @@ const config = {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
               // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, rasi, dmd, bavaria, relativity:
-              distribution_ids: SCRAMBLED:09/zosmxBIrykIh3ERCh3ES6INuFh3rBtLKHbSw5eyhdZtuxCTAL3+Jk8ALp/F1wIcMxgnMx8R68oQTaiScv1kZAr+Gkc+GKYwk+Xa/XKSTCx58NFBmYR+pTHhlAL5cy+gS92X9qaJcJE7ZXmcovkDYGLuj9MVq1c4Ef7zoJel/FiMub3ae1woO9AbcS9HhA5lxNlJ8P0h6sLe9G/HicsipTQAwWcp83zGAk/lE33pEwO5FB5psFHOeZpvlGaV85PEU2vo2wjMoLyreA
+              distribution_ids: SCRAMBLED:6NXtgP3+NZOg6clfPB2HjfKAKGX297Uej/0DFGeibI82e+jewA8VswMNSZC/NSXSuhUMjPnR3ulPyg29l+8iUSmFQvDX4oA6JGwD37Z+hX7dOY6b7nCiw3UXk4N0VQKJbJiV0Qn6GZAPu+gZFlfwPVM9eJoXkXwcsOfdVFu1kHCcj/NiEmUiPSrMTpQRcllRCBUmvqUrDNcnkUZ3jN5elz9/ZKps3hTVUu4cyR+S7qEuAf+h
             },
             'lahm': {
               bucket: 'mfx-v2-production-admin-fe-lahm',
