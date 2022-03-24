@@ -253,6 +253,10 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-pxl',
               distribution_ids: SCRAMBLED:y+vmvObyco6qx89VEwGk+NrkJi452vlU5RgbMcMLjRtWZj8XgqysjTIyMV4+IV/gMc7fQ0hfF8d5XY1p
             },
+            'imagica': {
+              bucket: 'mfx-v2-staging-buyer-fe-imagica',
+              distribution_ids: SCRAMBLED:+t3BhPDEEKKr14heTyfo/Epvfnm9qB7Wj0yiP6xeEekRpQ14F3tGr2/QZPNQpvVZQBS4B2DIz18ys9G3
+            },
           },
         },
         'mfx-ui-orf': {
@@ -448,6 +452,10 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-pxl',
               distribution_ids: SCRAMBLED:4svgivrWAYrxl9x0DHmk2N8IwBCo7jNdfRsIYII0x0B4+N1wN6yWoqwYm5yC1uq5VTDRAWjSdMr7A0Ji
             },
+            'imagica': {
+              bucket: 'mfx-v2-presentation-buyer-fe-imagica',
+              distribution_ids: SCRAMBLED:uP71uNf+KJPey8cuSDyfiNzCkiOSRYsA3/cHnxpspUwrtTz5jhbW9TGgNwzqplWJ6MXxoUo+d8rSPYTM
+            },
           },
         },
         'mfx-ui-orf': {
@@ -635,6 +643,10 @@ const config = {
             'pxl': {
               bucket: 'mfx-v2-production-buyer-fe-pxl',
               distribution_ids: SCRAMBLED:0P74mIHjIYP/nfZZOGO2jQsZpVts4UDh4o+2Nnf0KyGQxbZBlMp6GtuZ4f2Rn5H/hbPK/cH/a4iZxb0G
+            },
+            'imagica': {
+              bucket: 'mfx-v2-production-buyer-fe-imagica',
+              distribution_ids: SCRAMBLED:+4z2hsXWd63ii/5XJhWY6cVyjBMhHA6gzSeZCjneGxucnz0+jqptHdk7XjBlaiO9eYUqi/48/zbdu0gD
             },
           },
         },
