@@ -660,7 +660,7 @@ const config = {
             'california': {
               bucket: 'mfx-v2-production-buyer-fe-california',
               distribution_ids: SCRAMBLED:vf61mPS0FYvR6opCLRWC6TBYkJ1sFmfwboWv1y+00/X6LrwNWbIOEHhieGVvdeEqP1/1bx0btewxg44Y
-            }
+            },
             'newen': {
               bucket: 'mfx-v2-production-buyer-fe-newen',
               distribution_ids: SCRAMBLED:vvLu/uH8CoLb99JOTCXg7lAusqslJ0BVJNkz30Jg+mFL80OGZDeQPK2KA3FH7rPMGB0VpCzRcBBeriOp
