@@ -310,16 +310,12 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-staging-admin3-fe-generic',
+              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, newen
               distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
             },
             'itvstudios': {
               bucket: 'mfx-v2-staging-admin3-fe-itvstudios',
               distribution_ids: SCRAMBLED:vfb1u//ucqjdxvxMDSW0yolhJXupVtrE/Vhc6AKeR5q6UVUYlYGLHsLAsodZKhIATmtKf9K7tWgznOtf
-            },
-            'mfx': {
-              bucket: 'mfx-v2-staging-admin3-fe-mxf',
-              distribution_ids: SCRAMBLED:xIDauYHlE+ykzYRQBzGk8mqs6IW3jphIio6tydPt6ax9vm0Iy2Pa+YTEiRDvPc+agSqa9Az7VwIG+7IS
             },
           },
         },
@@ -510,16 +506,12 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-presentation-admin3-fe-generic',
+              bucket: 'mfx-v2-presentation-admin3-fe-generic', // for mfx, newen
               distribution_ids: SCRAMBLED:xfXznZ60Oob88vByLTvmkF3D5/ESJvRvuZvYBG2NuaicWc06LJtjd71wglN5iC/ze2K3GlRER2iDKUFZ
             },
             'itvstudios': {
               bucket: 'mfx-v2-presentation-admin3-fe-itvstudios',
               distribution_ids: SCRAMBLED:uPXl/4HWOrG80OxAOCSz6yhFyAHbkknb5nfwcENrtmGc0u7GuTPevaSjyv1zV0ZCzz0qUDynVvQ/7fAy
-            },
-            'mfx': {
-              bucket: 'mfx-v2-presentation-admin3-fe-mxf',
-              distribution_ids: SCRAMBLED:5eDzmumyIJPXkvN/LSyB/mPOeZXJR9CEx+IYyM8qTTfdnP8vCr17dTnsMbW9grVIZrMCI33Xqh3sXO9d
             },
           },
         },
@@ -708,27 +700,15 @@ const config = {
             },
           },
         },
-        'mfx-ui-fox-demo': {
-          projects: {
-            'fox': {
-              bucket: 'mfx-v2-production-buyer-fe-fyc', // demo10
-              distribution_ids: SCRAMBLED:w/Xq+fvHNvb27Y9iKRu2/m7r6yNDM1CRbvvnCNE+U+k288PSKhzKPUygzitiMc5FdNoC0V3qZg8mdCjaJM4KRaJhaq5Fwi2J
-            },
-          },
-        },
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-production-admin3-fe-generic',
+              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx, newen
               distribution_ids: SCRAMBLED:s9DtktDtEqyhzup7J3mo/C7RLLHC+9KohVm+IGQxqjak3VTBPogKLhvJNFqZhxO4ZPbTp41XmuEFRo5A
             },
             'itvstudios': {
               bucket: 'mfx-v2-production-admin3-fe-itvstudios',
               distribution_ids: SCRAMBLED:yczGuMO0L57hyfY9NwK/g9ymfCgsejn4LCP9if4YKLgaSKyXwjm7FfDPR0qaybw4CSdHq3q1ggeu4e7I
-            },
-            'mfx': {
-              bucket: 'mfx-v2-production-admin3-fe-mxf',
-              distribution_ids: SCRAMBLED:xs3gjvbUdbPc3tRTTRznidcXWnL0kZN7hO7DUQJVGne/19weyus9E6C+OrkxQq9nGVbaCrSDs4/klL97
             },
           },
         },
