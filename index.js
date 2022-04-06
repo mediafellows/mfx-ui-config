@@ -261,6 +261,10 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-california',
               distribution_ids: SCRAMBLED:u9vaoeaxAI7nwIpeLjm/y+nL8UqIYSXgZ6E93NLvKebzH6vepy9Md9liZjs452Fc4SZ3/00Nt+vwRxYq
             },
+            'newen': {
+              bucket: 'mfx-v2-staging-buyer-fe-newen',
+              distribution_ids: SCRAMBLED:zdvtpYXHO6jY3vdREQ+3jy2BbEI2difOuO+ZU9drqQU8XQMyqVq4z8YNtKfBnCXXx196VLJsE4S6H6Tc
+            },
           },
         },
         'mfx-ui-orf': {
@@ -464,6 +468,11 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-california',
               distribution_ids: SCRAMBLED:z422/YHecbSrlo5sPxC+zNuJFO8y54+VcVIuA5sZrVo7vESA9JLZB+eRuzDn4sIOJEUKdOen8IpbM37p
             },
+            'newen': {
+              bucket: 'mfx-v2-presentation-buyer-fe-newen',
+              distribution_ids: SCRAMBLED:zcDqjdDzBrLp5c5DDhC/7S2DS3EOdX7gjYRsMYisWkV8Ql9I1b/agGLpouGEFxx+iyXNRDqNVlVFg31E
+            },
+
           },
         },
         'mfx-ui-orf': {
@@ -660,6 +669,11 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-california',
               distribution_ids: SCRAMBLED:vf61mPS0FYvR6opCLRWC6TBYkJ1sFmfwboWv1y+00/X6LrwNWbIOEHhieGVvdeEqP1/1bx0btewxg44Y
             }
+            'newen': {
+              bucket: 'mfx-v2-production-buyer-fe-newen',
+              distribution_ids: SCRAMBLED:vvLu/uH8CoLb99JOTCXg7lAusqslJ0BVJNkz30Jg+mFL80OGZDeQPK2KA3FH7rPMGB0VpCzRcBBeriOp
+            }
+
           },
         },
         'mfx-ui-orf': {
