@@ -720,7 +720,7 @@ const config = {
             },
             'itvstudios': {
               bucket: 'mfx-v2-production-admin3-fe-itvstudios',
-              distribution_ids: SCRAMBLED:yczGuMO0L57hyfY9NwK/g9ymfCgsejn4LCP9if4YKLgaSKyXwjm7FfDPR0qaybw4CSdHq3q1ggeu4e7I
+              distribution_ids: SCRAMBLED:8o3N5MHCD6uqj9xaGxGx8MoXuJfR2X1LZOH1JFJKNcegh4/8Vy8cH2pMwGWhFnOtNwEpzLqzfQR1DV+AqcPW6wVWhlXf8NTUsU+OP6dVBN9E3PKh
             },
           },
         },
