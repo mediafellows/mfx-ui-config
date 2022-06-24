@@ -197,6 +197,11 @@ const config = {
               bucket: 'mfx-v2-staging-admin-fe-eone',
               distribution_ids: SCRAMBLED:vdvUsfzQDo/AycRRNgOYiHtCTy95R4Jvdu5wUj8RN8yAUDjGpH+0NOz0SxNJMi62dQM1Wel6kIeWqeOu
             },
+            'rasi': {
+              bucket: 'mfx-v2-staging-admin-fe-rasi',
+              distribution_ids: SCRAMBLED:6/rLkfnqDKXY4sdvJgeAzOXqcH9nqIfgIqM2EuOoxzQ2C8eYSvWAI9ygfhB8hApd3TypqKZfBwZxxAs1
+            },
+
           },
         },
         'mpx-ui-gcui': {
@@ -403,6 +408,10 @@ const config = {
             'eone': {
               bucket: 'mfx-v2-presentation-admin-fe-eone',
               distribution_ids: SCRAMBLED:/OjbrfW3J5Xf1MtdChmzzBWwNhI5fatOND1176sg4Rno7s9e1rDL5OSLD/YK/y4AsFQd3mbrMR8NERmP
+            },
+            'rasi': {
+              bucket: 'mfx-v2-presentation-admin-fe-rasi',
+              distribution_ids: SCRAMBLED:8+7t+uTKCIvVwv9bB2CK/0F98m/8GUJW8cV8yxwM3K+pkZ+48ZQYOyoo8gMw4OUNmw0pMm7vn96aNsiu
             },
           },
         },
