@@ -126,6 +126,7 @@ const config = {
             'itv': { },
             'ref': { },
             'eone': { },
+            'rasi': { },
           },
         },
       },
