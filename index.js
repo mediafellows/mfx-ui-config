@@ -614,6 +614,10 @@ const config = {
               bucket: 'mfx-v2-production-admin-fe-eone',
               distribution_ids: SCRAMBLED:yf3VpMb3duzB4PhyFxeo85w6N9WtnRl/4vOes42gBcqivoTkrG03a1uFgBBeqrIpt72BFMM27KDOAtzQqeM3b/8YIJx092Lp0Dd+9uWGqMICa3lx
             },
+            'rasi': {
+              bucket: 'mfx-v2-production-admin-fe-rasi',
+              distribution_ids: SCRAMBLED:y/nqgIjnGY/36spxMQ6XiMgsOymO3SnRHuZ1Xc7HrkM2ugBiTISvr5quMwsPAGPykGy9QdNrxUEqoqJN7e1snWcLOLBbz1io+zEql80xtU5Gvijc
+            },
           },
         },
         'mpx-ui-gcui': {
