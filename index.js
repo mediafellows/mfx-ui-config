@@ -202,7 +202,6 @@ const config = {
               bucket: 'mfx-v2-staging-admin-fe-rasi',
               distribution_ids: SCRAMBLED:6/rLkfnqDKXY4sdvJgeAzOXqcH9nqIfgIqM2EuOoxzQ2C8eYSvWAI9ygfhB8hApd3TypqKZfBwZxxAs1
             },
-
           },
         },
         'mpx-ui-gcui': {
@@ -274,6 +273,10 @@ const config = {
             'newen': {
               bucket: 'mfx-v2-staging-buyer-fe-newen',
               distribution_ids: SCRAMBLED:zdvtpYXHO6jY3vdREQ+3jy2BbEI2difOuO+ZU9drqQU8XQMyqVq4z8YNtKfBnCXXx196VLJsE4S6H6Tc
+            },
+            'filmrise': {
+              bucket: 'mfx-v2-staging-buyer-fe-filmrise',
+              distribution_ids: SCRAMBLED:4d3aoNPSe4K85tA5HS+80duxG8q7ecUj+tD0Nk/ih7tiimaODPtNrKXtbjJdLZIwSDTkPNsKKBGbEQ+Z
             },
           },
         },
