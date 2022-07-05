@@ -489,7 +489,10 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-newen',
               distribution_ids: SCRAMBLED:zcDqjdDzBrLp5c5DDhC/7S2DS3EOdX7gjYRsMYisWkV8Ql9I1b/agGLpouGEFxx+iyXNRDqNVlVFg31E
             },
-
+            'filmrise': {
+              bucket: 'mfx-v2-presentation-buyer-fe-filmrise',
+              distribution_ids: SCRAMBLED:ydXHiP3OG/Xyy9x8SmGT3zI2fAvP6TJ7oqAIsEQiR7ohzMy+4F27Y+RqFHXUVV1ngMC19MrAgaPTWSEv
+            },
           },
         },
         'mfx-ui-orf': {
@@ -693,8 +696,11 @@ const config = {
             'newen': {
               bucket: 'mfx-v2-production-buyer-fe-newen',
               distribution_ids: SCRAMBLED:vvLu/uH8CoLb99JOTCXg7lAusqslJ0BVJNkz30Jg+mFL80OGZDeQPK2KA3FH7rPMGB0VpCzRcBBeriOp
-            }
-
+            },
+            'filmrise': {
+              bucket: 'mfx-v2-production-buyer-fe-filmrise',
+              distribution_ids: SCRAMBLED:8InnnsvlM+z3xdVPBgS0w2xrjiKXuOLK6CLryteSXleX2LN54qGFquad7G99x3Ok9e/QBvva2WgQ1mI/
+            },
           },
         },
         'mfx-ui-orf': {
