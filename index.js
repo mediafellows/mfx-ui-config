@@ -746,12 +746,16 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx, newen
+              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx
               distribution_ids: SCRAMBLED:s9DtktDtEqyhzup7J3mo/C7RLLHC+9KohVm+IGQxqjak3VTBPogKLhvJNFqZhxO4ZPbTp41XmuEFRo5A
             },
             'itvstudios': {
               bucket: 'mfx-v2-production-admin3-fe-itvstudios',
               distribution_ids: SCRAMBLED:8o3N5MHCD6uqj9xaGxGx8MoXuJfR2X1LZOH1JFJKNcegh4/8Vy8cH2pMwGWhFnOtNwEpzLqzfQR1DV+AqcPW6wVWhlXf8NTUsU+OP6dVBN9E3PKh
+            },
+            'newen': {
+              bucket: 'mfx-v2-production-admin3-fe-newen',
+              distribution_ids: SCRAMBLED:2NTXh/6zDIG8xdhxOSem/ujxzpUo6U1IR9r+IaUOrhXz+ExZ18OlkQbtZ9jbegDjOCu0alYkUT9S4QHG
             },
           },
         },
