@@ -160,7 +160,7 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-staging-admin-fe-generic',
-              distribution_ids: SCRAMBLED:3eHVosPALIHKzPkjMGWhjthLQGiKyLcEsiYzWGm0uhKU3lBsFF6hkEVGPyJG1RZV4Ce6W/5wqixsRd1r
+              distribution_ids: SCRAMBLED:4df6utTDNpKl4eVxDxqHgz9XtBGcGPPELHYUhBDlmuSVBICilazZZMVohQGq9a+Hpa0hQeEAskP7Peym
             },
             'bavaria': {
               bucket: 'mfx-v2-staging-admin-fe-bavaria',
@@ -391,7 +391,7 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-presentation-admin-fe-generic',
-              distribution_ids: SCRAMBLED:5Nz04N7OKJ+m7IpwBG6Y1ob2xHeYJigZe1ygM16NZQdjeiuDVwp4AYZ3RKKMMREEMoMrMx57+QLUk6jk
+              distribution_ids: SCRAMBLED:wPPSmt/Ac4vFyPl0TBWE1mBQNEtxAA6AugltvROINSsOAUlAcTrPsqgyjQqjykD3W5oNN4p7iEEIwB5N
             },
             'bavaria': {
               bucket: 'mfx-v2-presentation-admin-fe-bavaria',
@@ -610,8 +610,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin-fe-generic',
-              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), ftd, rasi, dmd, relativity:
-              distribution_ids: SCRAMBLED:pe74nense6T19o1sOWH79nU1+dRXfBZlOAfYAxstCdhF8VaSQzDYCRpmf7OpHe+OJIgjb6KBmm6mQv8V7o6o5iBbnAtQi1eTC12Gbuj5iOM7Z4vsx0uqJ6KLAsNh58aFR70D0GPkUsj9FuxZW1PMHe49TLMVvyei4BXmHxs8vkWb9SvqUSBtkbj0JHzqUeQwfrBv+JUCQRSedEIQ
+              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), california, dmd, relativity, ftd:
+              distribution_ids: SCRAMBLED:wZfyusHvMLXii+tYGyDm4QUWTtsGl8BMqkzuAstrASeZVRvHpqHKYOrfwGasjGg0knyaCnCEZNaytcQI+XpSMD/HZEPM9rLcSJbFwP3NiZ2VYJQh/sAzcBceEL3PVr9CFJTkFXvKfeUOckybrcl6b8GxuDdwaiCOkiToGDKoSOhT9EhRf5IeOgk2nYCdyDRUMQnCnMo5l+n2mXfH
             },
             'bavaria': {
               bucket: 'mfx-v2-production-admin-fe-bavaria',
