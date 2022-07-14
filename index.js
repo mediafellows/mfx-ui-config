@@ -162,6 +162,10 @@ const config = {
               bucket: 'mfx-v2-staging-admin-fe-generic',
               distribution_ids: SCRAMBLED:3eHVosPALIHKzPkjMGWhjthLQGiKyLcEsiYzWGm0uhKU3lBsFF6hkEVGPyJG1RZV4Ce6W/5wqixsRd1r
             },
+            'bavaria': {
+              bucket: 'mfx-v2-staging-admin-fe-bavaria',
+              distribution_ids: SCRAMBLED:3eHVosPALIHKzPkjMGWhjthLQGiKyLcEsiYzWGm0uhKU3lBsFF6hkEVGPyJG1RZV4Ce6W/5wqixsRd1r
+            },
             'lahm': {
               bucket: 'mfx-v2-staging-admin-fe-lahm',
               distribution_ids: SCRAMBLED:/c3K+vzwMIve4YVmJA/n9tFis3899cxmlni6YSyyYUaZdVVFEi1WEJlx4nFjqT1u2x9JL50gqg9jTyCH
@@ -388,6 +392,10 @@ const config = {
             'generic': {
               bucket: 'mfx-v2-presentation-admin-fe-generic',
               distribution_ids: SCRAMBLED:5Nz04N7OKJ+m7IpwBG6Y1ob2xHeYJigZe1ygM16NZQdjeiuDVwp4AYZ3RKKMMREEMoMrMx57+QLUk6jk
+            },
+            'bavaria': {
+              bucket: 'mfx-v2-presentation-admin-fe-bavaria',
+              distribution_ids: SCRAMBLED:8tXPnojVMrHHj/QiHBOY9PrU4PDPso9yD+itenefQcxvNXYUJp3ZzbzetH0=
             },
             'lahm': {
               bucket: 'mfx-v2-presentation-admin-fe-lahm',
