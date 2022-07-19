@@ -727,7 +727,7 @@ const config = {
             },
             'filmrise': {
               bucket: 'mfx-v2-production-buyer-fe-filmrise',
-              distribution_ids: SCRAMBLED:8InnnsvlM+z3xdVPBgS0w2xrjiKXuOLK6CLryteSXleX2LN54qGFquad7G99x3Ok9e/QBvva2WgQ1mI/
+              distribution_ids: SCRAMBLED:2tPV/uu0B6i83exsBDee4fJdZ/7fX/F4hD+xq1OF1WDgXKmGfoUNiDxNNLy2qkwTq54idrLghXohkCCRYhDE4Iozb64ZO4jbrKArIudAzFaqrrwX
             },
             'mipevent': {
               bucket: 'mfx-v2-production-buyer-fe-mipevent',
