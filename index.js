@@ -106,6 +106,7 @@ const config = {
         mc: "https://mc.api.mediastore.dev",
         jc: "https://jc.api.mediastore.dev",
         cc: "https://cc.api.mediastore.dev",
+        cal: 'https://cal.api.mediastore.dev',
         tuco: "https://tuco.api.mediastore.dev",
         pigeon: "https://pigeon.api.mediastore.dev",
         viscacha: "https://viscacha.api.mediastore.dev",
