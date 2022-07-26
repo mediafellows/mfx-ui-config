@@ -122,6 +122,7 @@ const config = {
             'nbcu': { },
             'dtv': { },
             'tf1pro': { },
+            'bavaria': { },
             'orf': { },
             'itv': { },
             'ref': { },
