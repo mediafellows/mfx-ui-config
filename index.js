@@ -80,12 +80,14 @@ const defaultCSP = {
   'object-src': [
     "'self'",
     "*.amazonaws.com",
+    "*.theoplayer.com",
   ],
   'frame-src': [
     "'self'",
     "https://www.google.com/recaptcha/api2/",
     "https://vars.hotjar.com/",
     "*.amazonaws.com",
+    "*.theoplayer.com",
   ],
 };
 
