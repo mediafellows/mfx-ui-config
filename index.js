@@ -938,7 +938,7 @@ const config = {
             }
           },
         },
-        'mfx-ui-lgt': {
+        'mfx-ui-lionsgate': {
           projects: {
             'lgt': {
               bucket: 'mfx-v2-presentation-test-fe-lgt',
