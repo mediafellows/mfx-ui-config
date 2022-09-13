@@ -938,6 +938,14 @@ const config = {
             }
           },
         },
+        'mfx-ui-lgt': {
+          projects: {
+            'lgt': {
+              bucket: 'mfx-v2-presentation-test-fe-lgt',
+              distribution_ids: SCRAMBLED:2o+2utnccLHB0fVmDB3/0PcyJd/xYHdFqS+bPAt/IaqyprbVlGdNWKYpOX1r76/LU6MUL2y35WwNgm+R
+            }
+          },
+        },
         'mfx-ui-orf': {
           projects: {
             'orf': {
