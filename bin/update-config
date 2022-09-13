@@ -12,7 +12,7 @@ if ! [ -x "$(command -v scrambler)" ]; then
 else
   exec 2>/dev/null
   mkdir -p node_modules/mfx-ui-config
-  curl https://raw.githubusercontent.com/mediafellows/mfx-ui-config/master/index.js -o $TMPDIR/mfx-ui-config.tmp
+  curl -H 'Cache-Control: no-cache, no-store' https://raw.githubusercontent.com/mediafellows/mfx-ui-config/master/index.js -o $TMPDIR/mfx-ui-config.tmp
   scrambler read $TMPDIR/mfx-ui-config.tmp > node_modules/mfx-ui-config/index.js
   rm $TMPDIR/mfx-ui-config.tmp
 fi
