@@ -341,6 +341,14 @@ const config = {
             },
           },
         },
+        'mfx-ui-mcentral': {
+          projects: {
+            'mcentral': {
+              bucket: 'mfx-v2-staging-buyer-fe-mcentral',
+              distribution_ids: SCRAMBLED:xN7g++X0LbXZ4fhcPwbojyknmiZaWMSmHBYC3A07Eh8iG/1lFxG3JRGKzcRezZ5U20hP9jUk3/72f2QeKmv0gEV4OWWxh/jflWHk716Gn3PFMGIfk06xNfN53bCyXaJypXO9E+7R4wVvZDiEjDo7BTlpMjTJzMyR7kxjWiCWJESRPI57KLLnIVIbPE6Jq56K
+            },
+          },
+        },
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
