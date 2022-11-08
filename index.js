@@ -131,6 +131,7 @@ const config = {
             'ref': { },
             'eone': { },
             'rasi': { },
+            'lgt': { },
           },
         },
       },
