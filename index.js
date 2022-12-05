@@ -42,6 +42,7 @@ const defaultCSP = {
     "*.google-analytics.com",
     "*.theoplayer.com",
     "api.rollbar.com",
+    "*.mediastore.click",
   ],
   'font-src': [
     "'self'",
