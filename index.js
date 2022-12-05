@@ -43,6 +43,7 @@ const defaultCSP = {
     "*.theoplayer.com",
     "api.rollbar.com",
     "*.mediastore.click",
+    "wss://*.mediastore.click",
   ],
   'font-src': [
     "'self'",
