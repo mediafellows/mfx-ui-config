@@ -1,4 +1,4 @@
-const {merge, trim, reduce, isPlainObject} = require('lodash')
+const {merge, trim, reduce, isPlainObject, pullAll} = require('lodash')
 const {execSync} = require('child_process')
 const {existsSync} = require('fs')
 
@@ -1016,9 +1016,14 @@ const fetch = (object, head, tail) => {
 
 const exp = merge(
   {
-    contentSecurityPolicy: (baseDomain, additions) => {
+    contentSecurityPolicy: (baseDomain, additions = {}, removals = {}) => {
       return reduce(defaultCSP, (acc, value, key) => {
         const list = additions && additions[key] ? value.concat(additions[key]) : value.slice();
+
+        if (removals && removals[key]) {
+          pullAll(list, removals[key]);
+        }
+
         const result = list.join(' ').replace(/{{base_domain}}/g, baseDomain);
 
         return acc + `${key} ${result}; `;
