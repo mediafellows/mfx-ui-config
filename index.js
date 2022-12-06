@@ -1016,7 +1016,7 @@ const fetch = (object, head, tail) => {
 
 const exp = merge(
   {
-    contentSecurityPolicy: (baseDomain, additions = {}, removals = {}) => {
+    contentSecurityPolicy: (baseDomain, additions, removals) => {
       return reduce(defaultCSP, (acc, value, key) => {
         const list = additions && additions[key] ? value.concat(additions[key]) : value.slice();
 
