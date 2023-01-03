@@ -43,7 +43,13 @@ const defaultCSP = {
     "*.theoplayer.com",
     "api.rollbar.com",
     "*.mediastore.click",
+    "*.mediastore-staging.com",
+    "*.mediastore-presentation.com",
+    "*.mediastore-production.com",
     "wss://*.mediastore.click",
+    "wss://*.mediastore-staging.com",
+    "wss://*.mediastore-presentation.com",
+    "wss://*.mediastore-production.com",
   ],
   'font-src': [
     "'self'",
