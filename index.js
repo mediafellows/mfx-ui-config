@@ -407,6 +407,7 @@ const config = {
         cal: 'https://cal.api.mediastore.review',
         tuco: "https://tuco.api.mediastore.review",
         pigeon: "https://pigeon.api.mediastore.review",
+        pigeon2: "https://pigeon2.mediastore-presentation.com",
         viscacha: "https://viscacha.api.mediastore.review",
         companion: "https://companion-cf.lambda.mediastore.review",
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.review",
