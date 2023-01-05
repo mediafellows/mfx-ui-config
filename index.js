@@ -764,7 +764,7 @@ const config = {
             },
             'newen': {
               bucket: 'mfx-v2-production-buyer-fe-newen',
-              distribution_ids: SCRAMBLED:vvLu/uH8CoLb99JOTCXg7lAusqslJ0BVJNkz30Jg+mFL80OGZDeQPK2KA3FH7rPMGB0VpCzRcBBeriOp
+              distribution_ids: SCRAMBLED:8trtrcnOIZK44YRQPy+9yohnLfjfOEYPVXPre2FWrZukGYvIX6ylkE2V18Uj52FZ257otD3rI4Efexn0g+WASsZwK2IvUYlbZLWcm3xjaxzh8Qhf
             },
             'filmrise': {
               bucket: 'mfx-v2-production-buyer-fe-filmrise',
@@ -825,7 +825,7 @@ const config = {
             },
             'newen': {
               bucket: 'mfx-v2-production-admin3-fe-newen',
-              distribution_ids: SCRAMBLED:2NTXh/6zDIG8xdhxOSem/ujxzpUo6U1IR9r+IaUOrhXz+ExZ18OlkQbtZ9jbegDjOCu0alYkUT9S4QHG
+              distribution_ids: SCRAMBLED:8+LAnoPTCrWkk498Hy+X7s3vwdFeDrzYuSZtRO7KMfP01Q4c3G1F1Sr1Ba4KHlwaSAR5dDpn21kyJMpt/Lsg330QTwUwGmC/3vuURFHD02fJJyz2
             },
           },
         },
