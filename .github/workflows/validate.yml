@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install scrambler tool
-        run: GO111MODULE=on go get github.com/dbldots/scrambler
+        run: go install github.com/dbldots/scrambler@latest
 
       - name: Add go bin path to PATH
         run: echo "$HOME/go/bin" >> $GITHUB_PATH
