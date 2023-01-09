@@ -643,6 +643,7 @@ const config = {
         cal: 'https://cal.api.mediastore.app',
         tuco: "https://tuco.api.mediastore.app",
         pigeon: "https://pigeon.api.mediastore.app",
+        pigeon2: "https://pigeon2.mediastore-production.com",
         viscacha: "https://viscacha.api.mediastore.app",
         companion: "https://companion-cf.lambda.mediastore.app",
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.app",
