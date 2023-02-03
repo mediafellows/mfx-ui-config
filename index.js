@@ -302,9 +302,13 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-filmrise',
               distribution_ids: SCRAMBLED:4d3aoNPSe4K85tA5HS+80duxG8q7ecUj+tD0Nk/ih7tiimaODPtNrKXtbjJdLZIwSDTkPNsKKBGbEQ+Z
             },
-            'mipevent': {
-              bucket: 'mfx-v2-staging-buyer-fe-mipevent',
-              distribution_ids: SCRAMBLED:0/e1pYf2BKrU4+xDSQfh8cxf5tgSB2nBFBNifs1Ee3BQSqE+N0dpZDI6QNq09vRuqgGdJXBh//5klXPf
+            'mipevent-mipjunior': {
+              bucket: 'mfx-v2-staging-buyer-fe-mipevent-mipjunior',
+              distribution_ids: SCRAMBLED:/vPNpPTPAKKrkewuNh2/1iZX4siygGs+Rg1Y2cgH8DtxVBD07iGShN3U56nVyAVCGK97aj7WEgSGrQA+
+            },
+            'mipevent-mipdoc': {
+              bucket: 'mfx-v2-staging-buyer-fe-mipevent-mipdoc',
+              distribution_ids: SCRAMBLED:y/y3oPzlM6vc0YojNBm18FqfU9366oO/UpYcaNj/bzgThsFXEkB3M5dt7MZsumIkYMHkIV7BbM8zEFOF
             },
             'iemmys': {
               bucket: 'mfx-v2-staging-buyer-fe-iemmys',
