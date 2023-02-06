@@ -551,10 +551,15 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-filmrise',
               distribution_ids: SCRAMBLED:ydXHiP3OG/Xyy9x8SmGT3zI2fAvP6TJ7oqAIsEQiR7ohzMy+4F27Y+RqFHXUVV1ngMC19MrAgaPTWSEv
             },
-            'mipevent': {
-              bucket: 'mfx-v2-presentation-buyer-fe-mipevent',
-              distribution_ids: SCRAMBLED:7JfDh+P2CqmgkNYkPwHo0TewFSeAiEO4DcAkbDq6XB+A4DkhkOZQ8ucO+9fgOEmAWjKbGAgmHGmsjviF
+            'mipevent-mipjunior': {
+              bucket: 'mfx-v2-presentation-buyer-fe-mipevent-mipjunior',
+              distribution_ids: SCRAMBLED:4fWy/YX+F536kdtbJx+8jE27YyAPAlLzr7NcS8bcTT8KY3SPbgi7+qppmhhbA6E6j07+n+J49+dZ0t4o
             },
+            'mipevent-mipdoc': {
+              bucket: 'mfx-v2-presentation-buyer-fe-mipevent-mipdoc',
+              distribution_ids: SCRAMBLED:5O7Bv/vHLY3L5tpVDT6BweNS6kBwq4gBaGaBSycZtIcesdvRc9226SA3j+ZhHDbvRO0Auw+u+aRr/SLZ
+            },
+
             'iemmys': {
               bucket: 'mfx-v2-presentation-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:7463oejyJbPG589SDm+V7BorcJ9PP1GdL+43/rrjUQ/3jCAbz0gzLOGIZ2hDlAR5v8LyN9QI7EMEwrRt
@@ -782,10 +787,15 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-filmrise',
               distribution_ids: SCRAMBLED:2tPV/uu0B6i83exsBDee4fJdZ/7fX/F4hD+xq1OF1WDgXKmGfoUNiDxNNLy2qkwTq54idrLghXohkCCRYhDE4Iozb64ZO4jbrKArIudAzFaqrrwX
             },
-            'mipevent': {
-              bucket: 'mfx-v2-production-buyer-fe-mipevent',
-              distribution_ids: SCRAMBLED:uuvar/DADK7Uj4hbTQe38EEfkG6Xib2X3NsrkMul4rU0FV2FdiIGceUA5LkYrajsw3UWWflQ3NMUVk4bhO7rB5jJDBMe8/Gzwrjp/vHxpeM8F57+
+            'mipevent-mipjunior': {
+              bucket: 'mfx-v2-production-buyer-fe-mipevent-mipjunior',
+              distribution_ids: SCRAMBLED:pfDSuffkKfL67+xQTC7l4ZmMMuBuFa/FnOYi/icG+79Uoksyx8EMJJgB24SBsMRRNnGeMJ93eaQ02hMJEmSBGII3t7ynPzm5ADBICg5wxmW/lra3
             },
+            'mipevent-mipdoc': {
+              bucket: 'mfx-v2-production-buyer-fe-mipevent-mipdoc',
+              distribution_ids: SCRAMBLED:+tWzgvzwMv7Uj4VwFGSdy93wfkLCgMqhu8KmbQrdRVeCxLbD2ukGNiXUIJBwHrTSUazNjmnxD9CNInfbbfa3dqOwZNvgA/Ml20Qv40ni9MXCNSWW
+            },
+
             'iemmys': {
               bucket: 'mfx-v2-production-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:/u7bk+nTOZD49PhBDBiH6UR+qwR5Sf8lneyGw4ycaErvssXFlRbIe8KkXLCe2UAo6YXDn+cbvyt0cQ/rdC18+E22XlOlqQm1nq5+xw8OFkvQCSkP
