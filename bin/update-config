@@ -1,7 +1,8 @@
 #!/bin/bash
-if [ -z "$TMPDIR" ]; then
-	echo "Environment variable "\$TMPDIR" is empty or not set, quitting...";
-	exit 1;
+DIR=~/temp
+if ! [ -d "$DIR" ]; then
+  echo "$DIR directory does not exist. Creating it..."
+  mkdir ~/temp
 fi
 
 if ! [ -x "$(command -v scrambler)" ]; then
@@ -12,8 +13,7 @@ if ! [ -x "$(command -v scrambler)" ]; then
 else
   exec 2>/dev/null
   mkdir -p node_modules/mfx-ui-config
-  curl -H 'Cache-Control: no-cache, no-store' https://raw.githubusercontent.com/mediafellows/mfx-ui-config/master/index.js -o $TMPDIR/mfx-ui-config.tmp
-  scrambler read $TMPDIR/mfx-ui-config.tmp > node_modules/mfx-ui-config/index.js
-  rm $TMPDIR/mfx-ui-config.tmp
+  curl -H 'Cache-Control: no-cache, no-store' https://raw.githubusercontent.com/mediafellows/mfx-ui-config/master/index.js -o $DIR/mfx-ui-config.tmp
+  scrambler read $DIR/mfx-ui-config.tmp > node_modules/mfx-ui-config/index.js
+  rm $DIR/mfx-ui-config.tmp
 fi
-
