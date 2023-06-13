@@ -258,6 +258,10 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-rasi',
               distribution_ids: SCRAMBLED:zonhuYbqdezg9vB1DCGcg08cj70rbwVMfpxamm14V6rB8XljsOY6I3XGNX/bG7LvaxHwkVh+Swz5aSBI
             },
+            'redarrow': {
+              bucket: 'mfx-v2-staging-buyer-fe-redarrow',
+              distribution_ids: SCRAMBLED:su/FuOSyCLLfnY5iCQCK1dr75XuStyqDKO65/d1CiIJXkn/EImlZw4o8zNFjJJEfu9LMsD3XSNu0yTgn
+            },
             'tf1pro': {
               bucket: 'mfx-v2-staging-buyer-fe-tf1pro',
               distribution_ids: SCRAMBLED:6NT0udfIOq/cxclHEzCT3mP0AzEy/kqkbmOkFuDp4wqQ/WcMvw3qrecwRGHjmBEHqkPf7dShQ0SuGXAE
@@ -371,7 +375,7 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys
+              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys, redarrow
               distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
             },
             'itvstudios': {
