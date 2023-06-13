@@ -573,12 +573,14 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-mipevent-mipdoc',
               distribution_ids: SCRAMBLED:5O7Bv/vHLY3L5tpVDT6BweNS6kBwq4gBaGaBSycZtIcesdvRc9226SA3j+ZhHDbvRO0Auw+u+aRr/SLZ
             },
-
             'iemmys': {
               bucket: 'mfx-v2-presentation-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:7463oejyJbPG589SDm+V7BorcJ9PP1GdL+43/rrjUQ/3jCAbz0gzLOGIZ2hDlAR5v8LyN9QI7EMEwrRt
             },
-
+            'redarrow': {
+              bucket: 'mfx-v2-presentation-buyer-fe-redarrow',
+              distribution_ids: SCRAMBLED:0+3LrsjRIYum64xQURu5lNDkNq4+S1ZUEDJtzDKWJ3xxE1+DK5OQh5ZIbsQAHuDb8aBSvhqt+Zxwy1Vu
+            }
           },
         },
         'mfx-ui-orf': {
@@ -626,6 +628,10 @@ const config = {
             'newen': {
               bucket: 'mfx-v2-presentation-admin3-fe-newen',
               distribution_ids: SCRAMBLED:wYu0nIXsEL7Cy81gNgbj/+KnXGRSqrz+rGHcQsCfO7GJgHeqzHC3DWHwWQFQmUszLRWpaouDSp+8mWVJ
+            },
+            'redarrow': {
+              bucket: 'mfx-v2-presentation-admin3-fe-redarrow',
+              distribution_ids: SCRAMBLED:/u3jqvXSepG4woRwKSWxynVWaC7BLoQERBjgmKOAbe3+Xm6i0sh07Au/CTNvQEE2vzoOHUscuvKaNP9z
             },
           },
         },
@@ -811,12 +817,14 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-mipevent-mipdoc',
               distribution_ids: SCRAMBLED:+tWzgvzwMv7Uj4VwFGSdy93wfkLCgMqhu8KmbQrdRVeCxLbD2ukGNiXUIJBwHrTSUazNjmnxD9CNInfbbfa3dqOwZNvgA/Ml20Qv40ni9MXCNSWW
             },
-
             'iemmys': {
               bucket: 'mfx-v2-production-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:/u7bk+nTOZD49PhBDBiH6UR+qwR5Sf8lneyGw4ycaErvssXFlRbIe8KkXLCe2UAo6YXDn+cbvyt0cQ/rdC18+E22XlOlqQm1nq5+xw8OFkvQCSkP
             },
-
+            'redarrow': {
+              bucket: 'mfx-v2-production-buyer-fe-redarrow',
+              distribution_ids: SCRAMBLED:4vKyvNbDe6nY3IVRGCHgyY5OaJhB3mf5l1w/zAw0Kc4riFXaprTuT1n2n1S4/amdFsIJ+N8xNu0+UwxH
+            },
           },
         },
         'mfx-ui-orf': {
@@ -864,6 +872,10 @@ const config = {
             'newen': {
               bucket: 'mfx-v2-production-admin3-fe-newen',
               distribution_ids: SCRAMBLED:8+LAnoPTCrWkk498Hy+X7s3vwdFeDrzYuSZtRO7KMfP01Q4c3G1F1Sr1Ba4KHlwaSAR5dDpn21kyJMpt/Lsg330QTwUwGmC/3vuURFHD02fJJyz2
+            },
+            'redarrow': {
+              bucket: 'mfx-v2-production-admin3-fe-redarrow',
+              distribution_ids: SCRAMBLED:vcipnJrAB6z3wI9mKhOa3p6ea4Ilsx9CHwCz8yGM9EHMArF2TOp2ZN0vI40k7uzeV3efQP4c+zZlO1G7
             },
           },
         },
