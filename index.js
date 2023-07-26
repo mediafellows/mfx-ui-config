@@ -388,7 +388,7 @@ const config = {
             },
             'redarrow': {
               bucket: 'mfx-v2-staging-admin3-fe-redarrow',
-              distribution_ids: SCRAMBLED:vMrgh+L3KYHn/fFAESXk7O2nO3JHSPfynaR79E6ZLnwYHNYuC2HpFxZR/T7CD/ymEeAW8GA/9CHv9+7h
+              distribution_ids: SCRAMBLED:vovGvtLEe7PrzOd6P2O18uoA3UOyfSWtjVsOYQiyXFYZzjC1vrG3u4xfSbz+92u+5+SaZfPSd5Wh6ykK
             },
           },
         },
@@ -823,7 +823,7 @@ const config = {
             },
             'redarrow': {
               bucket: 'mfx-v2-production-buyer-fe-redarrow',
-              distribution_ids: SCRAMBLED:4vKyvNbDe6nY3IVRGCHgyY5OaJhB3mf5l1w/zAw0Kc4riFXaprTuT1n2n1S4/amdFsIJ+N8xNu0+UwxH
+              distribution_ids: SCRAMBLED:+NC6j4L/cpO4x8l+EhGozIGBgtx4DWeGncFH4V9zQb9tRIHlLtj5qU4a0TkhCygSkTUjkovosf7fJiqCHy54E03nPY/wmrjWiM34Arkf5HpVHO7u
             },
           },
         },
@@ -875,7 +875,7 @@ const config = {
             },
             'redarrow': {
               bucket: 'mfx-v2-production-admin3-fe-redarrow',
-              distribution_ids: SCRAMBLED:vcipnJrAB6z3wI9mKhOa3p6ea4Ilsx9CHwCz8yGM9EHMArF2TOp2ZN0vI40k7uzeV3efQP4c+zZlO1G7
+              distribution_ids: SCRAMBLED:ufzjruizGqXC0/FcDwWl/hyQzxZQmacEH0eZS4L020HAEYdRq3NGR63EvCyTlBGd3cofWpRCz8rRL0Zdl0z5yK+Wb0Gl7q2VfNHUEzS27XpFfC/w
             },
           },
         },
