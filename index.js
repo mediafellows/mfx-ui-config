@@ -227,8 +227,20 @@ const config = {
               distribution_ids: SCRAMBLED:6/rLkfnqDKXY4sdvJgeAzOXqcH9nqIfgIqM2EuOoxzQ2C8eYSvWAI9ygfhB8hApd3TypqKZfBwZxxAs1
             },
             'mipevent': {
-              bucket: 'mfx-v2-staging-admin-fe-mipevent',
+              bucket: 'mfx-v2-staging-admin-fe-mipevent', // to be deleted later
               distribution_ids: SCRAMBLED:xOu1r8bMJZLh/dwnNzOAy/uTNRBCHB2eYrAaNXtxWHUrF+ETb+VwRCWdiuhFnWbxw4rsCLV3CgSd2k1G
+            },
+            'mipjunior': {
+              bucket: 'mfx-v2-staging-admin-fe-mipjunior',
+              distribution_ids: SCRAMBLED:7P32kvi/C47ix/V0NRqA/7jtP/aQgJ5cxEil295bWWzpwiLrarCMQijOBxrmUl19sZTNleGHj84W4WP7
+            },
+            'mipdoc': {
+              bucket: 'mfx-v2-staging-admin-fe-mipdoc',
+              distribution_ids: SCRAMBLED:xI3hvv3XC/HZ3I1OEQeC79qchrNd37yvGmBRurl7SdJdXMovQHL8YZ12hmtcq+m4SMT1bAda/f7A90GL
+            },
+            'mipcom': {
+              bucket: 'mfx-v2-staging-admin-fe-mipcom',
+              distribution_ids: SCRAMBLED:yd/P/YbWFYjbzO93DwKT47AgUVmOuNjzH7U4FvtUa5EIgwjqAD3XTTFgKCOoZilAmkuWrhB6Z5/zfB8w
             },
           },
         },
@@ -310,13 +322,17 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-filmrise',
               distribution_ids: SCRAMBLED:4d3aoNPSe4K85tA5HS+80duxG8q7ecUj+tD0Nk/ih7tiimaODPtNrKXtbjJdLZIwSDTkPNsKKBGbEQ+Z
             },
-            'mipevent-mipjunior': {
-              bucket: 'mfx-v2-staging-buyer-fe-mipevent-mipjunior',
-              distribution_ids: SCRAMBLED:/vPNpPTPAKKrkewuNh2/1iZX4siygGs+Rg1Y2cgH8DtxVBD07iGShN3U56nVyAVCGK97aj7WEgSGrQA+
+            'mipjunior': {
+              bucket: 'mfx-v2-staging-buyer-fe-mipjunior',
+              distribution_ids: SCRAMBLED:odXGg4PBDv/1zd9lKRmb1o/114iGeo6sTGBYEklJ25L/76iS2hnTh9KVfHqclCrlSilFMejX+ILXApvi
             },
-            'mipevent-mipdoc': {
-              bucket: 'mfx-v2-staging-buyer-fe-mipevent-mipdoc',
-              distribution_ids: SCRAMBLED:y/y3oPzlM6vc0YojNBm18FqfU9366oO/UpYcaNj/bzgThsFXEkB3M5dt7MZsumIkYMHkIV7BbM8zEFOF
+            'mipdoc': {
+              bucket: 'mfx-v2-staging-buyer-fe-mipdoc',
+              distribution_ids: SCRAMBLED:xIvNpOvuE6zL/c91LCG+jyfG+MhAixv9QbwhV4xTtX29LIVcYCPoG0w8GqGFXE0wkO/tRsGnp8WIo893
+            },
+            'mipcom': {
+              bucket: 'mfx-v2-staging-buyer-fe-mipcom',
+              distribution_ids: SCRAMBLED:0+vzoNSyKr3Ry9hUMSyD717HzqSOo60pbnlrdTlJ37w8YNBJjVbdZez470GTHfOKTnEgr1QDs8pMD1If
             },
             'iemmys': {
               bucket: 'mfx-v2-staging-buyer-fe-iemmys',
