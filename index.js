@@ -409,7 +409,7 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys, tiff
+              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys
               distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
             },
             'itvstudios': {
@@ -423,6 +423,10 @@ const config = {
             'redarrow': {
               bucket: 'mfx-v2-staging-admin3-fe-redarrow',
               distribution_ids: SCRAMBLED:vovGvtLEe7PrzOd6P2O18uoA3UOyfSWtjVsOYQiyXFYZzjC1vrG3u4xfSbz+92u+5+SaZfPSd5Wh6ykK
+            },
+            'tiff': {
+              bucket: 'mfx-v2-staging-admin3-fe-tiff',
+              distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
             },
           },
         },
