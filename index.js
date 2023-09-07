@@ -166,7 +166,7 @@ const config = {
         cc: "https://cc.api.mediastore.dev",
         cal: 'https://cal.api.mediastore.dev',
         producer: 'https://producer-api.mediastore-staging.com',
-        tuco: "https://tuco-api.mediastore-staging.com",
+        tuco: "https://tuco.api.mediastore.dev",
         pigeon: "https://pigeon.api.mediastore.dev",
         pigeon2: "https://pigeon2.mediastore.click",
         cms: "https://cms-api.mediastore-staging.com",
