@@ -103,7 +103,7 @@ const config = {
   envs: {
     development: {
       environment: 'development',
-      rollbar: SCRAMBLED:3Orxmf7EcInqytNaSmSg+e2QxahxN9bK3gjLcn8nNR/RpfHPqIQpGnCTI6ZXZ6z6ev4G4GTuwp3x08vE/AhR2MY6PlL0xpDS6MbcUczBig0=
+      rollbar: SCRAMBLED:0onKpPXzAYH/48xsOiWg0vczdrVg87dAoW+wBQtjqB39Q4nuhr44F0aYlDH2yEJ7gz79h252MlBIGskaIp6WHg5HHtdLNgsiFD1GWzyExpw=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       branch: 'master',
       base_domain: "mediastore.dev",
@@ -152,7 +152,7 @@ const config = {
       environment: 'staging',
       aws_profile: 'mf_staging',
       branch: 'master',
-      rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
+      rollbar: SCRAMBLED:/NO1hp62Jq7K6MlCNjuhzfJjY31L9Kxfm2QIsUqkoKDYl/Q1Nb6m+d2AW4N4ik7R5EKaGML9K/BOaPrilxFZU2ER8ZmlQz6J2+SIhLjNI3A=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.dev",
       endpoints: {
@@ -452,7 +452,7 @@ const config = {
       environment: 'presentation',
       aws_profile: 'mf_presentation',
       branch: 'presentation',
-      rollbar: SCRAMBLED:vPftp+vPM6zHxddOGTqD+jm4+nD1PAUfSvvvr/MnTAH71Ua3w2pWe9YgAWi/qmhVDboPVW4XTNuhPfwkQJZSJsKf9c+lzK5SUmMJoWA90s4=
+      rollbar: SCRAMBLED:sozm5P6/Gou498hsGzmg7uCboDr83oIua7+wYH0WNGEtuKrWcxJcx+LTr0hwa0uGE6woaUq2ljWqezuQN3NJJrndaYKXsloY4fO4Q7Esf4M=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.review",
       endpoints: {
@@ -732,7 +732,7 @@ const config = {
       environment: 'production',
       aws_profile: 'mf_production',
       branch: 'production',
-      rollbar: SCRAMBLED:7ffrkeP2Ooz33N54OmOCjsVGYJ/JbZfj/0ILAbbVZHn+Qbn0eF9f+GwFt/heZfnFU7akpk8KYy9hZETqKIkDQVkR/OJAqHvlIbyoTG4sSYw=
+      rollbar: SCRAMBLED:/fzzmoblGYz415IkNmOUz4NLxtKZNi4gs7KsU+z2lQKst9cjayEbwloO3gVIpNgura2sZ8+UQm/93OHLPj4KucN0iBopWrOvESviDrqzpto=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.app",
       endpoints: {
@@ -1014,7 +1014,7 @@ const config = {
       environment: 'presentation',
       aws_profile: 'nbcu_preprod',
       branch: 'presentation',
-      rollbar: SCRAMBLED:8vfgpPrlLa/Wz+xjDwy72IjTZA8UylQmFpW3hQoLYe/gTTkSI51JssdfofZ3Su+pJB9YT3zRwZJhl9xfxNpa0a2qbdixmpGFqlcTkQFYbK4=
+      rollbar: SCRAMBLED:6/DXmsG/d4zdwYhaExG8ypzUIJSSCG7qhLH3wV+jyi2r4yZ54kmW7eLWwsQnB6dDXDD2AEB732vjJNGJURpl30UJEZVhtuA48Uv8MlwmPHc=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "nbcupassport-preprod.com",
       endpoints: {
@@ -1054,7 +1054,7 @@ const config = {
       environment: 'production',
       aws_profile: 'nbcu_production',
       branch: 'production',
-      rollbar: SCRAMBLED:uozQgfzRNKbek8V1ERPm7PQsaN8ukeOwxeWsX/qzJNNKjEYLG03DRb7sd+bkh/d3ifEC/z/WnbOyj3KFU/hgNgHpq6hFESimdxR7gqTvGzM=
+      rollbar: SCRAMBLED:2s33o8L2MfDL0JIhMDPj+Qa1FDargdHtv5KVdWKYh3xC7gag3CoHEqqvO0m83KGCsjWoOabArgdsiz4xu/lmNO3G7TcXhvPairQPaI/S7V0=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "nbcupassport.com",
       endpoints: {
@@ -1094,7 +1094,7 @@ const config = {
       environment: 'production',
       aws_profile: 'mf_presentation',
       branch: 'production',
-      rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
+      rollbar: SCRAMBLED:sozm5P6/Gou498hsGzmg7uCboDr83oIua7+wYH0WNGEtuKrWcxJcx+LTr0hwa0uGE6woaUq2ljWqezuQN3NJJrndaYKXsloY4fO4Q7Esf4M=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.app",
       endpoints: {
