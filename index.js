@@ -1,4 +1,4 @@
-const {merge, trim, reduce, isPlainObject} = require('lodash')
+const {merge, trim, reduce, isPlainObject, pullAll} = require('lodash')
 const {execSync} = require('child_process')
 const {existsSync} = require('fs')
 
@@ -42,6 +42,14 @@ const defaultCSP = {
     "*.google-analytics.com",
     "*.theoplayer.com",
     "api.rollbar.com",
+    "*.mediastore.click",
+    "*.mediastore-staging.com",
+    "*.mediastore-presentation.com",
+    "*.mediastore-production.com",
+    "wss://*.mediastore.click",
+    "wss://*.mediastore-staging.com",
+    "wss://*.mediastore-presentation.com",
+    "wss://*.mediastore-production.com",
   ],
   'font-src': [
     "'self'",
@@ -80,12 +88,14 @@ const defaultCSP = {
   'object-src': [
     "'self'",
     "*.amazonaws.com",
+    "*.theoplayer.com",
   ],
   'frame-src': [
     "'self'",
     "https://www.google.com/recaptcha/api2/",
     "https://vars.hotjar.com/",
     "*.amazonaws.com",
+    "*.theoplayer.com",
   ],
 };
 
@@ -93,7 +103,7 @@ const config = {
   envs: {
     development: {
       environment: 'development',
-      rollbar: SCRAMBLED:3Orxmf7EcInqytNaSmSg+e2QxahxN9bK3gjLcn8nNR/RpfHPqIQpGnCTI6ZXZ6z6ev4G4GTuwp3x08vE/AhR2MY6PlL0xpDS6MbcUczBig0=
+      rollbar: SCRAMBLED:0onKpPXzAYH/48xsOiWg0vczdrVg87dAoW+wBQtjqB39Q4nuhr44F0aYlDH2yEJ7gz79h252MlBIGskaIp6WHg5HHtdLNgsiFD1GWzyExpw=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       branch: 'master',
       base_domain: "mediastore.dev",
@@ -106,15 +116,19 @@ const config = {
         mc: "https://mc.api.mediastore.dev",
         jc: "https://jc.api.mediastore.dev",
         cc: "https://cc.api.mediastore.dev",
-        cal: "https://cal.api.mediastore.dev",
+        cal: 'https://cal.api.mediastore.dev',
+        producer: 'https://producer-api.mediastore-staging.com',
         deliveries: "https://deliveries.api.mediastore.dev",
-        tuco: "https://tuco.api.mediastore.dev",
+        tuco: "https://tuco-api.mediastore-staging.com",
         pigeon: "https://pigeon.api.mediastore.dev",
+        pigeon2: "https://pigeon2.mediastore.click",
+        cms: "https://cms-api.mediastore-staging.com",
         viscacha: "https://viscacha.api.mediastore.dev",
         companion: "https://companion-cf.lambda.mediastore.dev",
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.dev",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.dev",
         imgResizer: "https://img-resizer.api.mediastore.dev",
+        mediacentral: "https://mcentralapp.mediastore.click",
       },
       repos: {
         'mpx-ui-admin': {
@@ -130,6 +144,12 @@ const config = {
             'ref': { },
             'eone': { },
             'rasi': { },
+            'lgt': { },
+            'mipjunior': { },
+            'mipjunior': { },
+            'mipdoc': { },
+            'mipcom': { },
+            'miptv': { },
           },
         },
       },
@@ -138,7 +158,7 @@ const config = {
       environment: 'staging',
       aws_profile: 'mf_staging',
       branch: 'master',
-      rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
+      rollbar: SCRAMBLED:/NO1hp62Jq7K6MlCNjuhzfJjY31L9Kxfm2QIsUqkoKDYl/Q1Nb6m+d2AW4N4ik7R5EKaGML9K/BOaPrilxFZU2ER8ZmlQz6J2+SIhLjNI3A=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.dev",
       endpoints: {
@@ -152,13 +172,17 @@ const config = {
         cc: "https://cc.api.mediastore.dev",
         cal: "https://cal.api.mediastore.dev",
         deliveries: "https://deliveries.api.mediastore.dev",
+        producer: 'https://producer-api.mediastore-staging.com',
         tuco: "https://tuco.api.mediastore.dev",
         pigeon: "https://pigeon.api.mediastore.dev",
+        pigeon2: "https://pigeon2.mediastore.click",
+        cms: "https://cms-api.mediastore-staging.com",
         viscacha: "https://viscacha.api.mediastore.dev",
         companion: "https://companion-cf.lambda.mediastore.dev",
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.dev",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.dev",
         imgResizer: "https://img-resizer.api.mediastore.dev",
+        mediacentral: "https://mcentralapp.mediastore.click",
       },
       repos: {
         'mpx-ui-admin': {
@@ -200,7 +224,7 @@ const config = {
               distribution_ids: SCRAMBLED:3MzsoNWtLa3A949UNCW76j2+YpC6k2hpBZhkJ+rp370/oTCMoKn/gLobcKXCGaNB0FnhNDOesbbSNgJI
             },
             'ref': {
-              bucket: 'mfx-v2-staging-admin-fe-ref',
+              bucket: 'mfx-v2-staging-admin-fe-ref', // to be deleted later
               distribution_ids: SCRAMBLED:zPXB88OzMoCi/vVbPSGG6s0mnytGAzpO8mLJueqPk3RqkiYcwzoxLyuHSyTDJiBHomTzJyNxPXia+iP5
             },
             'eone': {
@@ -210,6 +234,26 @@ const config = {
             'rasi': {
               bucket: 'mfx-v2-staging-admin-fe-rasi',
               distribution_ids: SCRAMBLED:6/rLkfnqDKXY4sdvJgeAzOXqcH9nqIfgIqM2EuOoxzQ2C8eYSvWAI9ygfhB8hApd3TypqKZfBwZxxAs1
+            },
+            'mipevent': {
+              bucket: 'mfx-v2-staging-admin-fe-mipevent', // to be deleted later
+              distribution_ids: SCRAMBLED:xOu1r8bMJZLh/dwnNzOAy/uTNRBCHB2eYrAaNXtxWHUrF+ETb+VwRCWdiuhFnWbxw4rsCLV3CgSd2k1G
+            },
+            'mipjunior': {
+              bucket: 'mfx-v2-staging-admin-fe-mipjunior',
+              distribution_ids: SCRAMBLED:7P32kvi/C47ix/V0NRqA/7jtP/aQgJ5cxEil295bWWzpwiLrarCMQijOBxrmUl19sZTNleGHj84W4WP7
+            },
+            'mipdoc': {
+              bucket: 'mfx-v2-staging-admin-fe-mipdoc',
+              distribution_ids: SCRAMBLED:xI3hvv3XC/HZ3I1OEQeC79qchrNd37yvGmBRurl7SdJdXMovQHL8YZ12hmtcq+m4SMT1bAda/f7A90GL
+            },
+            'mipcom': {
+              bucket: 'mfx-v2-staging-admin-fe-mipcom',
+              distribution_ids: SCRAMBLED:yd/P/YbWFYjbzO93DwKT47AgUVmOuNjzH7U4FvtUa5EIgwjqAD3XTTFgKCOoZilAmkuWrhB6Z5/zfB8w
+            },
+            'miptv': {
+              bucket: 'mfx-v2-staging-admin-fe-miptv',
+              distribution_ids: SCRAMBLED:oe7xpN/+N7LW08pZOB2fj+cBKWUaBS8h9ZrlvTgScUocURMtxWf7IVSO8x5vjmJYP8mcqshTKI1GX7i4
             },
           },
         },
@@ -238,6 +282,10 @@ const config = {
             'rasi': {
               bucket: 'mfx-v2-staging-buyer-fe-rasi',
               distribution_ids: SCRAMBLED:zonhuYbqdezg9vB1DCGcg08cj70rbwVMfpxamm14V6rB8XljsOY6I3XGNX/bG7LvaxHwkVh+Swz5aSBI
+            },
+            'redarrow': {
+              bucket: 'mfx-v2-staging-buyer-fe-redarrow',
+              distribution_ids: SCRAMBLED:su/FuOSyCLLfnY5iCQCK1dr75XuStyqDKO65/d1CiIJXkn/EImlZw4o8zNFjJJEfu9LMsD3XSNu0yTgn
             },
             'tf1pro': {
               bucket: 'mfx-v2-staging-buyer-fe-tf1pro',
@@ -288,8 +336,32 @@ const config = {
               distribution_ids: SCRAMBLED:4d3aoNPSe4K85tA5HS+80duxG8q7ecUj+tD0Nk/ih7tiimaODPtNrKXtbjJdLZIwSDTkPNsKKBGbEQ+Z
             },
             'mipevent': {
-              bucket: 'mfx-v2-staging-buyer-fe-mipevent',
-              distribution_ids: SCRAMBLED:0/e1pYf2BKrU4+xDSQfh8cxf5tgSB2nBFBNifs1Ee3BQSqE+N0dpZDI6QNq09vRuqgGdJXBh//5klXPf
+              bucket: 'mfx-v2-staging-buyer-fe-mipevent', // delete later
+              distribution_ids: SCRAMBLED:z+rq4PPPDqak3epHPBfj6bGY+6QMygxFs6pNEMcdJLyeoB3rweEQCbF3ybkcWKihTT5qd6uMqHHq58sC
+            },
+            'mipjunior': {
+              bucket: 'mfx-v2-staging-buyer-fe-mipjunior',
+              distribution_ids: SCRAMBLED:odXGg4PBDv/1zd9lKRmb1o/114iGeo6sTGBYEklJ25L/76iS2hnTh9KVfHqclCrlSilFMejX+ILXApvi
+            },
+            'mipdoc': {
+              bucket: 'mfx-v2-staging-buyer-fe-mipdoc',
+              distribution_ids: SCRAMBLED:xIvNpOvuE6zL/c91LCG+jyfG+MhAixv9QbwhV4xTtX29LIVcYCPoG0w8GqGFXE0wkO/tRsGnp8WIo893
+            },
+            'mipcom': {
+              bucket: 'mfx-v2-staging-buyer-fe-mipcom',
+              distribution_ids: SCRAMBLED:0+vzoNSyKr3Ry9hUMSyD717HzqSOo60pbnlrdTlJ37w8YNBJjVbdZez470GTHfOKTnEgr1QDs8pMD1If
+            },
+            'miptv': {
+              bucket: 'mfx-v2-staging-buyer-fe-miptv',
+              distribution_ids: SCRAMBLED:s9T3mPbqe4Cm3IsiTAeC8qPqt5ebczGCUGCrIIIPAzrTT9JqASPYUbtFB9+gAZkxUivvCtsfX135oY1+
+            },
+            'iemmys': {
+              bucket: 'mfx-v2-staging-buyer-fe-iemmys',
+              distribution_ids: SCRAMBLED:vMnxudbRd/Td3uhVBgel8f6imUlLoQiVjhsYjshlU24pKheEkI+1TC1g9xbRqUPqtfXqWjnuZlTjos+B
+            },
+            'tiff': {
+              bucket: 'mfx-v2-staging-buyer-fe-tiff',
+              distribution_ids: SCRAMBLED:2cH4oMnKe4HK7thYLjT/43QrNVsQ2kKt+pKjIlBbobhUvZ8LYLbj1b3T40YFujBStjLlePckr4J6Rs3S
             },
           },
         },
@@ -333,10 +405,18 @@ const config = {
             },
           },
         },
+        'mfx-ui-mcentral': {
+          projects: {
+            'mcentral': {
+              bucket: 'mfx-v2-staging-buyer-fe-mcentral',
+              distribution_ids: SCRAMBLED:xN7g++X0LbXZ4fhcPwbojyknmiZaWMSmHBYC3A07Eh8iG/1lFxG3JRGKzcRezZ5U20hP9jUk3/72f2QeKmv0gEV4OWWxh/jflWHk716Gn3PFMGIfk06xNfN53bCyXaJypXO9E+7R4wVvZDiEjDo7BTlpMjTJzMyR7kxjWiCWJESRPI57KLLnIVIbPE6Jq56K
+            },
+          },
+        },
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx
+              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys
               distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
             },
             'itvstudios': {
@@ -346,6 +426,14 @@ const config = {
             'newen': {
               bucket: 'mfx-v2-staging-admin3-fe-newen',
               distribution_ids: SCRAMBLED:5Nnxst3vDv7rx/tGSQDgiOS/3taWiGjXQ4JLtJbl93tKz9iJ2MtEH3d36sh6Qx+qMSTRdU3YwxrfS09t
+            },
+            'redarrow': {
+              bucket: 'mfx-v2-staging-admin3-fe-redarrow',
+              distribution_ids: SCRAMBLED:vovGvtLEe7PrzOd6P2O18uoA3UOyfSWtjVsOYQiyXFYZzjC1vrG3u4xfSbz+92u+5+SaZfPSd5Wh6ykK
+            },
+            'tiff': {
+              bucket: 'mfx-v2-staging-admin3-fe-tiff',
+              distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
             },
           },
         },
@@ -371,7 +459,7 @@ const config = {
       environment: 'presentation',
       aws_profile: 'mf_presentation',
       branch: 'presentation',
-      rollbar: SCRAMBLED:vPftp+vPM6zHxddOGTqD+jm4+nD1PAUfSvvvr/MnTAH71Ua3w2pWe9YgAWi/qmhVDboPVW4XTNuhPfwkQJZSJsKf9c+lzK5SUmMJoWA90s4=
+      rollbar: SCRAMBLED:sozm5P6/Gou498hsGzmg7uCboDr83oIua7+wYH0WNGEtuKrWcxJcx+LTr0hwa0uGE6woaUq2ljWqezuQN3NJJrndaYKXsloY4fO4Q7Esf4M=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.review",
       endpoints: {
@@ -385,13 +473,17 @@ const config = {
         cc: "https://cc.api.mediastore.review",
         cal: "https://cal.api.mediastore.review",
         deliveries: "https://deliveries.api.mediastore.review",
+        producer: 'https://producer-api.mediastore-presentation.com',
         tuco: "https://tuco.api.mediastore.review",
         pigeon: "https://pigeon.api.mediastore.review",
+        pigeon2: "https://pigeon2.mediastore-presentation.com",
+        cms: "https://cms-api.mediastore-presentation.com",
         viscacha: "https://viscacha.api.mediastore.review",
         companion: "https://companion-cf.lambda.mediastore.review",
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.review",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.review",
         imgResizer: "https://img-resizer.api.mediastore.review",
+        mediacentral: "https://mcentralapp.mediastore.click",
       },
       repos: {
         'mpx-ui-admin': {
@@ -429,7 +521,7 @@ const config = {
               distribution_ids: SCRAMBLED:pdz4oOTSMZ6j3vQmByK8i4x3pnU/FcG6f7AvXcFx9fCvpPDztEZus157z6GMSFRCBohYi9o+wQiNMw1S
             },
             'ref': {
-              bucket: 'mfx-v2-presentation-admin-fe-ref',
+              bucket: 'mfx-v2-presentation-admin-fe-ref', // to be deleted later
               distribution_ids: SCRAMBLED:xO/EnP/zL/Hklo9EFhyJ/5lTiSVfVj0bJ0an9lgUzD9Xmcg/nZZcUs+nzYIwl94FifY2nU4CqwgqOeJR
             },
             'eone': {
@@ -439,6 +531,26 @@ const config = {
             'rasi': {
               bucket: 'mfx-v2-presentation-admin-fe-rasi',
               distribution_ids: SCRAMBLED:8+7t+uTKCIvVwv9bB2CK/0F98m/8GUJW8cV8yxwM3K+pkZ+48ZQYOyoo8gMw4OUNmw0pMm7vn96aNsiu
+            },
+            'mipevent': {
+              bucket: 'mfx-v2-presentation-admin-fe-mipevent', // to be deleted later
+              distribution_ids: SCRAMBLED:vsDx+cDSEo/Wlc5+GSK1/C8dsnZHIsBDd9Zq6qDZX3rHtVUrY8QJdXhmn8QWoz6jKaUniPv+x2h3PzIw
+            },
+            'mipcom': {
+              bucket: 'mfx-v2-presentation-admin-fe-mipcom',
+              distribution_ids: SCRAMBLED:2NfGmeXpc//l4+1bGwC37k1lhYhRKHDwpi/S8706iGDY34L8Xah5eHZYDUuxi++VTMEHI6hLodoCD/R9
+            },
+            'mipdoc': {
+              bucket: 'mfx-v2-presentation-admin-fe-mipdoc',
+              distribution_ids: SCRAMBLED:wozAgob8L6qjw4hlChem2JKGLjU5QnGIOQg16NISWEhp16blB7c/feTXpyMoywY55M/Q5YxmDzFQARt3
+            },
+            'mipjunior': {
+              bucket: 'mfx-v2-presentation-admin-fe-mipjunior',
+              distribution_ids: SCRAMBLED:wI76n/vIELO4w4tlJ2bk6HJzfStXRuZpoqseOBPkawTuDTeP4jSP6QQm1nuWfk7edceDqaOWP1GciWiM
+            },
+            'miptv': {
+              bucket: 'mfx-v2-presentation-admin-fe-miptv',
+              distribution_ids: SCRAMBLED:38HXnsTxJqih09J8OBSR6+OEcxjL8S+1GK5JAa5LOAloOqMB9bIk6h7tpZclNbi/ky3dgYJ1wOCjaGEB
             },
           },
         },
@@ -517,9 +629,37 @@ const config = {
               distribution_ids: SCRAMBLED:ydXHiP3OG/Xyy9x8SmGT3zI2fAvP6TJ7oqAIsEQiR7ohzMy+4F27Y+RqFHXUVV1ngMC19MrAgaPTWSEv
             },
             'mipevent': {
-              bucket: 'mfx-v2-presentation-buyer-fe-mipevent',
-              distribution_ids: SCRAMBLED:7JfDh+P2CqmgkNYkPwHo0TewFSeAiEO4DcAkbDq6XB+A4DkhkOZQ8ucO+9fgOEmAWjKbGAgmHGmsjviF
+              bucket: 'mfx-v2-presentation-buyer-fe-mipevent', // delete later
+              distribution_ids: SCRAMBLED:8uKx/vrlEoqqyPsnEgyh7Px5RJI8bxUSm2/iXyhfqd66Q4TGJVglWBwTh+ZPy/NY9qOqV+Tk0cV2y37q
             },
+            'mipdoc': {
+              bucket: 'mfx-v2-presentation-buyer-fe-mipdoc',
+              distribution_ids: SCRAMBLED:5N7F84j8GYOk7fpCLQye1+17BtoX910DAZ3BFHAAfyFDuNu7UuAhUZN3WqVc3G51dAjBK++ed9udtE4U
+            },
+            'mipcom': {
+              bucket: 'mfx-v2-presentation-buyer-fe-mipcom',
+              distribution_ids: SCRAMBLED:wOzR8ub+c//C3O1ZNTql0hubqnqGMHIU9UWQlk2o05iCnH+hcHyBmeiDb5VynA2mBY7I8w4VbksAfluZ
+            },
+            'mipjunior': {
+              bucket: 'mfx-v2-presentation-buyer-fe-mipjunior',
+              distribution_ids: SCRAMBLED:xdnhgdjWOYrh4PVYShXp0sqXkfjJ1deZCWBMWNVCGXkkRJVySPBWr2U8hdy88rn3OCLo/LmXhu+pSyNw
+            },
+            'miptv': {
+              bucket: 'mfx-v2-presentation-buyer-fe-miptv',
+              distribution_ids: SCRAMBLED:vdPnuOHjBP/p8oxTPzTj1h+XsFkVnwUZfmrDquUFgu1Mp9txQHp+1fgQwkt+sAccnvDgsUDvlYEGCfvM
+            },
+            'iemmys': {
+              bucket: 'mfx-v2-presentation-buyer-fe-iemmys',
+              distribution_ids: SCRAMBLED:7463oejyJbPG589SDm+V7BorcJ9PP1GdL+43/rrjUQ/3jCAbz0gzLOGIZ2hDlAR5v8LyN9QI7EMEwrRt
+            },
+            'tiff': {
+              bucket: 'mfx-v2-presentation-buyer-fe-tiff',
+              distribution_ids: SCRAMBLED:surmudDKaLLZzNhuPB6oydQWEvhKgYoevqHixpvqSL9Ofs0jcgRmtP33Da4uDlfjUlnAbDLmZYnzIiJF
+            },
+            'redarrow': {
+              bucket: 'mfx-v2-presentation-buyer-fe-redarrow',
+              distribution_ids: SCRAMBLED:0+3LrsjRIYum64xQURu5lNDkNq4+S1ZUEDJtzDKWJ3xxE1+DK5OQh5ZIbsQAHuDb8aBSvhqt+Zxwy1Vu
+            }
           },
         },
         'mfx-ui-orf': {
@@ -557,7 +697,7 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-presentation-admin3-fe-generic', // for mfx
+              bucket: 'mfx-v2-presentation-admin3-fe-generic', // for mfx, iemmys
               distribution_ids: SCRAMBLED:xfXznZ60Oob88vByLTvmkF3D5/ESJvRvuZvYBG2NuaicWc06LJtjd71wglN5iC/ze2K3GlRER2iDKUFZ
             },
             'itvstudios': {
@@ -567,6 +707,14 @@ const config = {
             'newen': {
               bucket: 'mfx-v2-presentation-admin3-fe-newen',
               distribution_ids: SCRAMBLED:wYu0nIXsEL7Cy81gNgbj/+KnXGRSqrz+rGHcQsCfO7GJgHeqzHC3DWHwWQFQmUszLRWpaouDSp+8mWVJ
+            },
+            'redarrow': {
+              bucket: 'mfx-v2-presentation-admin3-fe-redarrow',
+              distribution_ids: SCRAMBLED:/u3jqvXSepG4woRwKSWxynVWaC7BLoQERBjgmKOAbe3+Xm6i0sh07Au/CTNvQEE2vzoOHUscuvKaNP9z
+            },
+            'tiff': {
+              bucket: 'mfx-v2-presentation-admin3-fe-tiff',
+              distribution_ids: SCRAMBLED:yPDJ/8fyGo/3zuhSSCGf/+t5z85kyqiORbeV/5uvYGJmPuQgx8l+XXUEOCXAJ/3iVjN55ZwwQv39MQy3
             },
           },
         },
@@ -592,7 +740,7 @@ const config = {
       environment: 'production',
       aws_profile: 'mf_production',
       branch: 'production',
-      rollbar: SCRAMBLED:7ffrkeP2Ooz33N54OmOCjsVGYJ/JbZfj/0ILAbbVZHn+Qbn0eF9f+GwFt/heZfnFU7akpk8KYy9hZETqKIkDQVkR/OJAqHvlIbyoTG4sSYw=
+      rollbar: SCRAMBLED:/fzzmoblGYz415IkNmOUz4NLxtKZNi4gs7KsU+z2lQKst9cjayEbwloO3gVIpNgura2sZ8+UQm/93OHLPj4KucN0iBopWrOvESviDrqzpto=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.app",
       endpoints: {
@@ -606,13 +754,17 @@ const config = {
         cc: "https://cc.api.mediastore.app",
         cal: "https://cal.api.mediastore.app",
         deliveries: "https://deliveries.api.mediastore.app",
+        producer: 'https://producer-api.mediastore-production.com',
         tuco: "https://tuco.api.mediastore.app",
         pigeon: "https://pigeon.api.mediastore.app",
+        pigeon2: "https://pigeon2.mediastore-production.com",
+        cms: "https://cms-api.mediastore-production.com",
         viscacha: "https://viscacha.api.mediastore.app",
         companion: "https://companion-cf.lambda.mediastore.app",
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.app",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
+        mediacentral: "https://app.mediacentral.app",
       },
       repos: {
         'mpx-ui-admin': {
@@ -651,7 +803,7 @@ const config = {
               distribution_ids: SCRAMBLED:uNPlkdT2N7bax4hxBgGJ1jVaT58NmMtndyN7tFY3ei7btGmuD7CkLGBhT4MzMv9MJ1EcXj75Wq3/RsM6
             },
             'ref': {
-              bucket: 'mfx-v2-production-admin-fe-ref',
+              bucket: 'mfx-v2-production-admin-fe-ref', // delete later
               distribution_ids: SCRAMBLED:w+njpcjcKoPU0I9cMjWHlJ2pTL5j0EPxRETeNmJmjTTo8T5RF+BczQCnXe/NEitJKddwaos95lwLbtI5
             },
             'eone': {
@@ -661,6 +813,26 @@ const config = {
             'rasi': {
               bucket: 'mfx-v2-production-admin-fe-rasi',
               distribution_ids: SCRAMBLED:y/nqgIjnGY/36spxMQ6XiMgsOymO3SnRHuZ1Xc7HrkM2ugBiTISvr5quMwsPAGPykGy9QdNrxUEqoqJN7e1snWcLOLBbz1io+zEql80xtU5Gvijc
+            },
+            'mipevent': {
+              bucket: 'mfx-v2-production-admin-fe-mipevent', // delete later
+              distribution_ids: SCRAMBLED:/ev0oem1cvbFkOggEWbg2CKOIB1xOYCzk8TW9/g0xeZpRD9BEwnn0veIx3IP1Sa9vDdGcb8ax+3r6uOq
+            },
+            'mipcom': {
+              bucket: 'mfx-v2-production-admin-fe-mipcom',
+              distribution_ids: SCRAMBLED:vvb0svixIY3KzY5cJzSj6FVITR2z/hhDfkQYgiJZVCltyyH3gW692ArQ8Mcc+O3PsA+rbBhs/uqFUIBf1Svmgk7LvEH1mMHqbNOsEHD8DvykStaW
+            },
+            'mipdoc': {
+              bucket: 'mfx-v2-production-admin-fe-mipdoc',
+              distribution_ids: SCRAMBLED:2sHO+NvPLavyleo5CBGK/cowPywVvO15wNBbp1LbT/PtsY3lt5YxVQkeIMq1wlFBL1i5R+syf3ebq3VTeHIOFEO4KPPITzOdw6byiSqPZomLClgu
+            },
+            'mipjunior': {
+              bucket: 'mfx-v2-production-admin-fe-mipjunior',
+              distribution_ids: SCRAMBLED:7fC3pMPndJ399Nl7HzuHj4Tk5Ma3B7fSW4qvtS85TwUo0zirU3YZ1czePrqoce8wB+N0aI0Ha0uK5ex4z6gxuPc5I6nDVI7QUbdom9z7PslJtIF/
+            },
+            'miptv': {
+              bucket: 'mfx-v2-production-admin-fe-miptv',
+              distribution_ids: SCRAMBLED:zdXTusTCeq/m04Q9Fzio41hpd3r1TcuN6hCjFIITsHZtmp8CxD0eeqj3k/j/l6AtLNtT2w7xjjeMJ1YfOmWqj1WSX93bi++rGeDb66jvaaL66zNx
             },
           },
         },
@@ -732,15 +904,44 @@ const config = {
             },
             'newen': {
               bucket: 'mfx-v2-production-buyer-fe-newen',
-              distribution_ids: SCRAMBLED:vvLu/uH8CoLb99JOTCXg7lAusqslJ0BVJNkz30Jg+mFL80OGZDeQPK2KA3FH7rPMGB0VpCzRcBBeriOp
+              distribution_ids: SCRAMBLED:8trtrcnOIZK44YRQPy+9yohnLfjfOEYPVXPre2FWrZukGYvIX6ylkE2V18Uj52FZ257otD3rI4Efexn0g+WASsZwK2IvUYlbZLWcm3xjaxzh8Qhf
             },
             'filmrise': {
               bucket: 'mfx-v2-production-buyer-fe-filmrise',
               distribution_ids: SCRAMBLED:2tPV/uu0B6i83exsBDee4fJdZ/7fX/F4hD+xq1OF1WDgXKmGfoUNiDxNNLy2qkwTq54idrLghXohkCCRYhDE4Iozb64ZO4jbrKArIudAzFaqrrwX
             },
             'mipevent': {
-              bucket: 'mfx-v2-production-buyer-fe-mipevent',
-              distribution_ids: SCRAMBLED:5Y76gtq1IKbqzPNxBgSJju5LeI0J1+kN20Zoxnx9qHY/0D9CwEFhjfzJ+71+wqgD5EmYcHm8aifjwfaz
+              bucket: 'mfx-v2-production-buyer-fe-mipevent', // delete later
+              distribution_ids: SCRAMBLED:443vm9XPc/T94/9hLCa62gwOnTNXo/YO4lDAWDfF8qelENfhc87hHXclm6RnK57xvoMMj9Spq4UwgY17
+            },
+            'mipcom': {
+              bucket: 'mfx-v2-production-buyer-fe-mipcom',
+              distribution_ids: SCRAMBLED:34H1+/7pLPbp1+d/TByS2NRfit6RZLphUR0lHJjXm5X+oFErjLnBc0FNX2aweE/i6Hk9gPMzGJ3ivqIYIgEXltvwQWQhH9PR60Xidj+go/M7HSAb
+            },
+            'mipdoc': {
+              bucket: 'mfx-v2-production-buyer-fe-mipdoc',
+              distribution_ids: SCRAMBLED:4t62k9npGqz7kvZ3NQGaihaH6AuWoyI/dTq8g6EaFo60Dk+T/MjKIKM6lB22tBpkuCH/HiCO7EqYTxKzx+zPLKCmNCmNvWqOC6+PS6ksAo4Qvz4Q
+            },
+            'mipjunior': {
+              bucket: 'mfx-v2-production-buyer-fe-mipjunior',
+              distribution_ids: SCRAMBLED:vYm2s9e/evWrwM8uHWG46ixm1KSOm1CP+TI+9E6463O0eihMMzaoSPSMcgH1ERXM7He3iwEeCiFjHFiAWluF09kB/HVBt718zwPUt62OCgrnGsaz
+            },
+            'miptv': {
+              bucket: 'mfx-v2-production-buyer-fe-miptv',
+              distribution_ids: SCRAMBLED:wsrlrIbgK5HwwY9vLReo3hNE0neXi0J0KK1f1EGhT7duD1k6aekb3V5xlg52NsGsBhTSvQnfHIG01XVwQIJZAtuEdSYQJJAEjk6J7r3knBiBsOX5
+            },
+            'iemmys': {
+              bucket: 'mfx-v2-production-buyer-fe-iemmys',
+              distribution_ids: SCRAMBLED:/u7bk+nTOZD49PhBDBiH6UR+qwR5Sf8lneyGw4ycaErvssXFlRbIe8KkXLCe2UAo6YXDn+cbvyt0cQ/rdC18+E22XlOlqQm1nq5+xw8OFkvQCSkP
+            },
+            'tiff': {
+              bucket: 'mfx-v2-production-buyer-fe-tiff',
+              distribution_ids: SCRAMBLED:0/DI8uPjEvPh14ROGhP/6ZNYkAN3fdp+wWjB7t9jZsKk5EdE001J2n7aMObOfx9CeRF5BxWcu0RP4sig
+            },
+
+            'redarrow': {
+              bucket: 'mfx-v2-production-buyer-fe-redarrow',
+              distribution_ids: SCRAMBLED:+NC6j4L/cpO4x8l+EhGozIGBgtx4DWeGncFH4V9zQb9tRIHlLtj5qU4a0TkhCygSkTUjkovosf7fJiqCHy54E03nPY/wmrjWiM34Arkf5HpVHO7u
             },
           },
         },
@@ -779,7 +980,7 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx
+              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx, iemmys
               distribution_ids: SCRAMBLED:s9DtktDtEqyhzup7J3mo/C7RLLHC+9KohVm+IGQxqjak3VTBPogKLhvJNFqZhxO4ZPbTp41XmuEFRo5A
             },
             'itvstudios': {
@@ -788,7 +989,15 @@ const config = {
             },
             'newen': {
               bucket: 'mfx-v2-production-admin3-fe-newen',
-              distribution_ids: SCRAMBLED:2NTXh/6zDIG8xdhxOSem/ujxzpUo6U1IR9r+IaUOrhXz+ExZ18OlkQbtZ9jbegDjOCu0alYkUT9S4QHG
+              distribution_ids: SCRAMBLED:8+LAnoPTCrWkk498Hy+X7s3vwdFeDrzYuSZtRO7KMfP01Q4c3G1F1Sr1Ba4KHlwaSAR5dDpn21kyJMpt/Lsg330QTwUwGmC/3vuURFHD02fJJyz2
+            },
+            'redarrow': {
+              bucket: 'mfx-v2-production-admin3-fe-redarrow',
+              distribution_ids: SCRAMBLED:ufzjruizGqXC0/FcDwWl/hyQzxZQmacEH0eZS4L020HAEYdRq3NGR63EvCyTlBGd3cofWpRCz8rRL0Zdl0z5yK+Wb0Gl7q2VfNHUEzS27XpFfC/w
+            },
+            'tiff': {
+              bucket: 'mfx-v2-production-admin3-fe-tiff',
+              distribution_ids: SCRAMBLED:s9DtktDtEqyhzup7J3mo/C7RLLHC+9KohVm+IGQxqjak3VTBPogKLhvJNFqZhxO4ZPbTp41XmuEFRo5A
             },
           },
         },
@@ -814,7 +1023,7 @@ const config = {
       environment: 'presentation',
       aws_profile: 'nbcu_preprod',
       branch: 'presentation',
-      rollbar: SCRAMBLED:8vfgpPrlLa/Wz+xjDwy72IjTZA8UylQmFpW3hQoLYe/gTTkSI51JssdfofZ3Su+pJB9YT3zRwZJhl9xfxNpa0a2qbdixmpGFqlcTkQFYbK4=
+      rollbar: SCRAMBLED:6/DXmsG/d4zdwYhaExG8ypzUIJSSCG7qhLH3wV+jyi2r4yZ54kmW7eLWwsQnB6dDXDD2AEB732vjJNGJURpl30UJEZVhtuA48Uv8MlwmPHc=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "nbcupassport-preprod.com",
       endpoints: {
@@ -826,7 +1035,6 @@ const config = {
         mc: "https://mc.api.nbcupassport-preprod.com",
         jc: "https://jc.api.nbcupassport-preprod.com",
         cc: "https://cc.api.nbcupassport-preprod.com",
-        deliveries: "https://deliveries.api.nbcupassport-preprod.com",
         tuco: "https://tuco.api.nbcupassport-preprod.com",
         pigeon: "https://pigeon.api.nbcupassport-preprod.com",
         viscacha: "https://viscacha.api.nbcupassport-preprod.com",
@@ -855,7 +1063,7 @@ const config = {
       environment: 'production',
       aws_profile: 'nbcu_production',
       branch: 'production',
-      rollbar: SCRAMBLED:uozQgfzRNKbek8V1ERPm7PQsaN8ukeOwxeWsX/qzJNNKjEYLG03DRb7sd+bkh/d3ifEC/z/WnbOyj3KFU/hgNgHpq6hFESimdxR7gqTvGzM=
+      rollbar: SCRAMBLED:2s33o8L2MfDL0JIhMDPj+Qa1FDargdHtv5KVdWKYh3xC7gag3CoHEqqvO0m83KGCsjWoOabArgdsiz4xu/lmNO3G7TcXhvPairQPaI/S7V0=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "nbcupassport.com",
       endpoints: {
@@ -867,7 +1075,6 @@ const config = {
         mc: "https://mc.api.nbcupassport.com",
         jc: "https://jc.api.nbcupassport.com",
         cc: "https://cc.api.nbcupassport.com",
-        deliveries: "https://deliveries.api.nbcupassport.com",
         tuco: "https://tuco.api.nbcupassport.com",
         pigeon: "https://pigeon.api.nbcupassport.com",
         viscacha: "https://viscacha.api.nbcupassport.com",
@@ -896,7 +1103,7 @@ const config = {
       environment: 'production',
       aws_profile: 'mf_presentation',
       branch: 'production',
-      rollbar: SCRAMBLED:+vzVvfn2AOjm49NxSxm8kITJ5aHwis8UaCi9vHcsFCRmbks28d2E5+f4M0GfIL/e8tWvbSUwh3kVThAH8xX0vaxOCB3AfgXSgUlXXbkoP9Y=
+      rollbar: SCRAMBLED:sozm5P6/Gou498hsGzmg7uCboDr83oIua7+wYH0WNGEtuKrWcxJcx+LTr0hwa0uGE6woaUq2ljWqezuQN3NJJrndaYKXsloY4fO4Q7Esf4M=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.app",
       endpoints: {
@@ -909,10 +1116,12 @@ const config = {
         jc: "https://jc.api.mediastore.app",
         cc: "https://cc.api.mediastore.app",
         deliveries: "https://deliveries.api.mediastore.app",
+        producer: 'https://producer-api.mediastore-production.com',
         tuco: "https://tuco.api.mediastore.app",
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
+        mediacentral: "https://app.mediacentral.app",
       },
       repos: {
         'mpx-ui-gcui': {
@@ -928,6 +1137,14 @@ const config = {
             'eone': {
               bucket: 'mfx-v2-presentation-test-fe-eone',
               distribution_ids: SCRAMBLED:4eDXiea1Iqnd79FgSBSd0U/jM5U4TirRDLLGWPYI1XUp0O54sxvh8pDGk0cuqajjNRUnS2X9Hsf3wgNd
+            }
+          },
+        },
+        'mfx-ui-lionsgate': {
+          projects: {
+            'lionsgate': {
+              bucket: 'mfx-v2-presentation-test-fe-lgt',
+              distribution_ids: SCRAMBLED:2o+2utnccLHB0fVmDB3/0PcyJd/xYHdFqS+bPAt/IaqyprbVlGdNWKYpOX1r76/LU6MUL2y35WwNgm+R
             }
           },
         },
@@ -974,9 +1191,14 @@ const fetch = (object, head, tail) => {
 
 const exp = merge(
   {
-    contentSecurityPolicy: (baseDomain, additions) => {
+    contentSecurityPolicy: (baseDomain, additions, removals) => {
       return reduce(defaultCSP, (acc, value, key) => {
         const list = additions && additions[key] ? value.concat(additions[key]) : value.slice();
+
+        if (removals && removals[key]) {
+          pullAll(list, removals[key]);
+        }
+
         const result = list.join(' ').replace(/{{base_domain}}/g, baseDomain);
 
         return acc + `${key} ${result}; `;
