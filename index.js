@@ -740,7 +740,7 @@ const config = {
       environment: 'production',
       aws_profile: 'mf_production',
       branch: 'production',
-      rollbar: SCRAMBLED:/fzzmoblGYz415IkNmOUz4NLxtKZNi4gs7KsU+z2lQKst9cjayEbwloO3gVIpNgura2sZ8+UQm/93OHLPj4KucN0iBopWrOvESviDrqzpto=
+      rollbar: SCRAMBLED:2/T2hODeL6vi5+dBKyyB2GjokvH2JpjIzUuBXyB7tZvwmVVDMxcF4IHQPC8kXK9hWxdnrZKeMSkl91GRJUXUQewE8ZDGYKI5xqFpUo7eQ0Q=
       slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
       base_domain: "mediastore.app",
       endpoints: {
