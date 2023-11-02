@@ -353,7 +353,7 @@ const config = {
             },
           },
         },
-        'mpx-ui-gcui2': {
+        'mfx-ui-gcui2': {
           projects: {
             'mfx': {
               bucket: 'mfx-v2-staging-buyer-fe-mfx',
@@ -662,7 +662,7 @@ const config = {
             },
           },
         },
-        'mpx-ui-gcui2': {
+        'mfx-ui-gcui2': {
           projects: {
             'mfx': {
               bucket: 'mfx-v2-presentation-buyer-fe-mfx',
@@ -956,7 +956,7 @@ const config = {
             },
           },
         },
-        'mpx-ui-gcui2': {
+        'mfx-ui-gcui2': {
           projects: {
             'mfx': {
               bucket: 'mfx-v2-production-buyer-fe-mfx',
