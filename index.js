@@ -110,6 +110,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.dev",
         pm: "https://pm.api.mediastore.dev",
+        po: "https://po.api.mediastore.dev",
         am: "https://am.api.mediastore.dev",
         ac: "https://ac.api.mediastore.dev",
         sm: "https://sm.api.mediastore.dev",
@@ -164,6 +165,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.dev",
         pm: "https://pm.api.mediastore.dev",
+        po: "https://po.api.mediastore.dev",
         am: "https://am.api.mediastore.dev",
         ac: "https://ac.api.mediastore.dev",
         sm: "https://sm.api.mediastore.dev",
@@ -465,6 +467,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.review",
         pm: "https://pm.api.mediastore.review",
+        po: "https://po.api.mediastore.review",
         am: "https://am.api.mediastore.review",
         ac: "https://ac.api.mediastore.review",
         sm: "https://sm.api.mediastore.review",
@@ -750,6 +753,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.app",
         pm: "https://pm.api.mediastore.app",
+        po: "https://po.api.mediastore.app",
         am: "https://am.api.mediastore.app",
         ac: "https://ac.api.mediastore.app",
         sm: "https://sm.api.mediastore.app",
@@ -1037,6 +1041,7 @@ const config = {
       endpoints: {
         um: "https://um.api.nbcupassport-preprod.com",
         pm: "https://pm.api.nbcupassport-preprod.com",
+        po: "https://po.api.nbcupassport-preprod.com",
         am: "https://am.api.nbcupassport-preprod.com",
         ac: "https://ac.api.nbcupassport-preprod.com",
         sm: "https://sm.api.nbcupassport-preprod.com",
@@ -1077,6 +1082,7 @@ const config = {
       endpoints: {
         um: "https://um.api.nbcupassport.com",
         pm: "https://pm.api.nbcupassport.com",
+        po: "https://po.api.nbcupassport.com",
         am: "https://am.api.nbcupassport.com",
         ac: "https://ac.api.nbcupassport.com",
         sm: "https://sm.api.nbcupassport.com",
@@ -1117,6 +1123,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.app",
         pm: "https://pm.api.mediastore.app",
+        po: "https://po.api.mediastore.app",
         am: "https://am.api.mediastore.app",
         ac: "https://ac.api.mediastore.app",
         sm: "https://sm.api.mediastore.app",
