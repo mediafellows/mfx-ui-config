@@ -110,7 +110,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.dev",
         pm: "https://pm.api.mediastore.dev",
-        po: "https://po.api.mediastore.dev",
+        po: "https://po-api.mediastore-staging.com",
         am: "https://am.api.mediastore.dev",
         ac: "https://ac.api.mediastore.dev",
         sm: "https://sm.api.mediastore.dev",
@@ -165,7 +165,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.dev",
         pm: "https://pm.api.mediastore.dev",
-        po: "https://po.api.mediastore.dev",
+        po: "https://po-api.mediastore-staging.com",
         am: "https://am.api.mediastore.dev",
         ac: "https://ac.api.mediastore.dev",
         sm: "https://sm.api.mediastore.dev",
@@ -467,7 +467,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.review",
         pm: "https://pm.api.mediastore.review",
-        po: "https://po.api.mediastore.review",
+        po: "https://po-api.mediastore-presentation.com",
         am: "https://am.api.mediastore.review",
         ac: "https://ac.api.mediastore.review",
         sm: "https://sm.api.mediastore.review",
@@ -753,7 +753,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.app",
         pm: "https://pm.api.mediastore.app",
-        po: "https://po.api.mediastore.app",
+        po: "https://po-api.mediastore-production.com",
         am: "https://am.api.mediastore.app",
         ac: "https://ac.api.mediastore.app",
         sm: "https://sm.api.mediastore.app",
@@ -1123,7 +1123,7 @@ const config = {
       endpoints: {
         um: "https://um.api.mediastore.app",
         pm: "https://pm.api.mediastore.app",
-        po: "https://po.api.mediastore.app",
+        po: "https://po-api.mediastore-production.com'",
         am: "https://am.api.mediastore.app",
         ac: "https://ac.api.mediastore.app",
         sm: "https://sm.api.mediastore.app",
