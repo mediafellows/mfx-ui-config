@@ -345,6 +345,11 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:vMnxudbRd/Td3uhVBgel8f6imUlLoQiVjhsYjshlU24pKheEkI+1TC1g9xbRqUPqtfXqWjnuZlTjos+B
             },
+            'televisa': {
+              bucket: 'mfx-v2-staging-buyer-fe-televisa',
+              distribution_ids: SCRAMBLED:w/utht32G4b98vRvSTyW3ebHxQu9mho8mVaP9tOa+WuAIEpemiEL0GcOJYU3ckjQ8k8/M5xJwwsOFelH
+            },
+
           },
         },
         'mfx-ui-gcui2': {
@@ -418,8 +423,8 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys, trial1 - trial10 (demo sites)
-              distribution_ids: SCRAMBLED:zsG1m4a2C6rbyttvNwTp0e4kBRXPS90/a0+n5pGLd92ghJMKo+Qaco8rPooGKvFcFprBSGvjzpXd8r99
+              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys, televisa, trial1 - trial10 (demo sites)
+              distribution_ids: SCRAMBLED:5fXN/MiwNfegwslVVTKUkNXpXUmKdXRGn6idUG6kV5bN/8eYZs2ReViDXEAyWnQVcSkXiDrj70Xj04q6
             },
             'itvstudios': {
               bucket: 'mfx-v2-staging-admin3-fe-itvstudios',
@@ -647,6 +652,10 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:7463oejyJbPG589SDm+V7BorcJ9PP1GdL+43/rrjUQ/3jCAbz0gzLOGIZ2hDlAR5v8LyN9QI7EMEwrRt
             },
+            'televisa': {
+              bucket: 'mfx-v2-presentation-buyer-fe-televisa',
+              distribution_ids: SCRAMBLED:2sv3+/nvNZbXwdp1Jznk3M044q6l8zuu3V0FyVlftImTWFlcinnOpYJhm35g/qbkoMkem2PdlUiktYDi
+            },
           },
         },
         'mfx-ui-gcui2': {
@@ -704,8 +713,8 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-presentation-admin3-fe-generic', // for mfx, iemmys, trial1 - trial10 (demo sites)
-              distribution_ids: SCRAMBLED:xfXznZ60Oob88vByLTvmkF3D5/ESJvRvuZvYBG2NuaicWc06LJtjd71wglN5iC/ze2K3GlRER2iDKUFZ
+              bucket: 'mfx-v2-presentation-admin3-fe-generic', // for mfx, iemmys, televisa, trial1 - trial10 (demo sites)
+              distribution_ids: SCRAMBLED:+uDY/4XJKorSy95CKz231jJv5F/wwWOAuN786mxMcsNK1FpMJUDWiH9LfD5jyu9T2fOvRJfMiFfvd6X2
             },
             'itvstudios': {
               bucket: 'mfx-v2-presentation-admin3-fe-itvstudios',
@@ -934,6 +943,10 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:/u7bk+nTOZD49PhBDBiH6UR+qwR5Sf8lneyGw4ycaErvssXFlRbIe8KkXLCe2UAo6YXDn+cbvyt0cQ/rdC18+E22XlOlqQm1nq5+xw8OFkvQCSkP
             },
+            'televisa': {
+              bucket: 'mfx-v2-production-buyer-fe-televisa',
+              distribution_ids: SCRAMBLED:0o7nn97he4j/zMVmGx+nyFjDvcd9GpTS6JLaWukNm/w4BdnPMhGPHp3NG0XalnXOqFoGYKoxhGPPFGCb
+            },
           },
         },
         'mfx-ui-gcui2': {
@@ -992,8 +1005,8 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx, iemmys, trial1 - trial10 (demo sites)
-              distribution_ids: SCRAMBLED:s9DtktDtEqyhzup7J3mo/C7RLLHC+9KohVm+IGQxqjak3VTBPogKLhvJNFqZhxO4ZPbTp41XmuEFRo5A
+              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx, iemmys, televisa, trial1 - trial10 (demo sites)
+              distribution_ids: SCRAMBLED:75eyvtaxOpXa3up9US651kdihe5mbqUkJEVzsdjRYKZgL4OBE0LS7mdTF2hZ8GWsnz/Ig0C4vjcPvdd5
             },
             'itvstudios': {
               bucket: 'mfx-v2-production-admin3-fe-itvstudios',
