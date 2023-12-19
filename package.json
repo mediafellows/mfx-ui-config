@@ -3,6 +3,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "version": "1.0.4",
   "description": "MFX deploy configs",
   "main": "index.js",
