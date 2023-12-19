@@ -8,6 +8,9 @@ jobs:
   validate:
     name: Validate config
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ 14.x ]
     env:
       SCRAMBLER_SECRET: ${{ secrets.SCRAMBLER_SECRET }}
     steps:
@@ -27,9 +30,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
+          node-version: ${{ matrix.node-version }}
 
-      - name: Install yarn pacakge manger (which we use instead of npm)
+      - name: Install yarn package manger (which we use instead of npm)
         run: npm install -g yarn
 
       - name: Run yarn install to bundle project
