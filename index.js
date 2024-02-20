@@ -336,11 +336,6 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:vMnxudbRd/Td3uhVBgel8f6imUlLoQiVjhsYjshlU24pKheEkI+1TC1g9xbRqUPqtfXqWjnuZlTjos+B
             },
-            'televisa': {
-              bucket: 'mfx-v2-staging-buyer-fe-televisa',
-              distribution_ids: SCRAMBLED:w/utht32G4b98vRvSTyW3ebHxQu9mho8mVaP9tOa+WuAIEpemiEL0GcOJYU3ckjQ8k8/M5xJwwsOFelH
-            },
-
           },
         },
         'mfx-ui-gcui2': {
@@ -360,6 +355,10 @@ const config = {
             'redarrow': {
               bucket: 'mfx-v2-staging-buyer-fe-redarrow',
               distribution_ids: SCRAMBLED:su/FuOSyCLLfnY5iCQCK1dr75XuStyqDKO65/d1CiIJXkn/EImlZw4o8zNFjJJEfu9LMsD3XSNu0yTgn
+            },
+            'televisa': {
+              bucket: 'mfx-v2-staging-buyer-fe-televisa',
+              distribution_ids: SCRAMBLED:w/utht32G4b98vRvSTyW3ebHxQu9mho8mVaP9tOa+WuAIEpemiEL0GcOJYU3ckjQ8k8/M5xJwwsOFelH
             },
           }
         },
@@ -635,10 +634,6 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:7463oejyJbPG589SDm+V7BorcJ9PP1GdL+43/rrjUQ/3jCAbz0gzLOGIZ2hDlAR5v8LyN9QI7EMEwrRt
             },
-            'televisa': {
-              bucket: 'mfx-v2-presentation-buyer-fe-televisa',
-              distribution_ids: SCRAMBLED:2sv3+/nvNZbXwdp1Jznk3M044q6l8zuu3V0FyVlftImTWFlcinnOpYJhm35g/qbkoMkem2PdlUiktYDi
-            },
           },
         },
         'mfx-ui-gcui2': {
@@ -658,7 +653,11 @@ const config = {
             'redarrow': {
               bucket: 'mfx-v2-presentation-buyer-fe-redarrow',
               distribution_ids: SCRAMBLED:0+3LrsjRIYum64xQURu5lNDkNq4+S1ZUEDJtzDKWJ3xxE1+DK5OQh5ZIbsQAHuDb8aBSvhqt+Zxwy1Vu
-            }
+            },
+            'televisa': {
+              bucket: 'mfx-v2-presentation-buyer-fe-televisa',
+              distribution_ids: SCRAMBLED:2sv3+/nvNZbXwdp1Jznk3M044q6l8zuu3V0FyVlftImTWFlcinnOpYJhm35g/qbkoMkem2PdlUiktYDi
+            },
           }
         },
         'mfx-ui-orf': {
@@ -918,10 +917,6 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-iemmys',
               distribution_ids: SCRAMBLED:/u7bk+nTOZD49PhBDBiH6UR+qwR5Sf8lneyGw4ycaErvssXFlRbIe8KkXLCe2UAo6YXDn+cbvyt0cQ/rdC18+E22XlOlqQm1nq5+xw8OFkvQCSkP
             },
-            'televisa': {
-              bucket: 'mfx-v2-production-buyer-fe-televisa',
-              distribution_ids: SCRAMBLED:0o7nn97he4j/zMVmGx+nyFjDvcd9GpTS6JLaWukNm/w4BdnPMhGPHp3NG0XalnXOqFoGYKoxhGPPFGCb
-            },
           },
         },
         'mfx-ui-gcui2': {
@@ -942,7 +937,10 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-redarrow',
               distribution_ids: SCRAMBLED:+NC6j4L/cpO4x8l+EhGozIGBgtx4DWeGncFH4V9zQb9tRIHlLtj5qU4a0TkhCygSkTUjkovosf7fJiqCHy54E03nPY/wmrjWiM34Arkf5HpVHO7u
             },
-
+            'televisa': {
+              bucket: 'mfx-v2-production-buyer-fe-televisa',
+              distribution_ids: SCRAMBLED:0o7nn97he4j/zMVmGx+nyFjDvcd9GpTS6JLaWukNm/w4BdnPMhGPHp3NG0XalnXOqFoGYKoxhGPPFGCb
+            },
           }
         },
         'mfx-ui-orf': {
