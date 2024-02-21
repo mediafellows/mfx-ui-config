@@ -129,7 +129,7 @@ const config = {
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.dev",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.dev",
         imgResizer: "https://img-resizer.api.mediastore.dev",
-        mediacentral: "https://mcentralapp.mediastore.click",
+        mediabench: "https://app.mediabench.dev",
       },
       repos: {
         'mpx-ui-admin': {
@@ -183,7 +183,7 @@ const config = {
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.dev",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.dev",
         imgResizer: "https://img-resizer.api.mediastore.dev",
-        mediacentral: "https://mcentralapp.mediastore.click",
+        mediabench: "https://app.mediabench.dev",
       },
       repos: {
         'mpx-ui-admin': {
@@ -481,7 +481,7 @@ const config = {
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.review",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.review",
         imgResizer: "https://img-resizer.api.mediastore.review",
-        mediacentral: "https://mcentralapp.mediastore.click",
+        mediabench: "https://app.mediabench.dev",
       },
       repos: {
         'mpx-ui-admin': {
@@ -763,7 +763,7 @@ const config = {
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.app",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
-        mediacentral: "https://app.mediacentral.app",
+        mediabench: "https://app.mediabench.app",
       },
       repos: {
         'mpx-ui-admin': {
@@ -1122,7 +1122,7 @@ const config = {
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
-        mediacentral: "https://app.mediacentral.app",
+        mediabench: "https://app.mediabench.app",
       },
       repos: {
         'mpx-ui-gcui': {
