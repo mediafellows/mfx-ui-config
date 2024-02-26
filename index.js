@@ -763,6 +763,7 @@ const config = {
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.app",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
+        mediacentral: "https://app.mediacentral.app",
         mediabench: "https://app.mediabench.app",
       },
       repos: {
