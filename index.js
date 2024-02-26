@@ -1123,6 +1123,7 @@ const config = {
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
+        mediacentral: "https://app.mediacentral.app",
         mediabench: "https://app.mediabench.app",
       },
       repos: {
