@@ -482,6 +482,7 @@ const config = {
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.review",
         imgResizer: "https://img-resizer.api.mediastore.review",
         mediabench: "https://app.mediabench.dev",
+        mediacentral: "https://app.mediabench.dev",
       },
       repos: {
         'mpx-ui-admin': {
@@ -763,7 +764,7 @@ const config = {
         "companion-eu": "https://companion-cf.lambda-eu.mediastore.app",
         "attachments-companion": "https://attachments-companion-cf.lambda.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
-        mediacentral: "https://app.mediacentral.app",
+        mediacentral: "https://app.mediabench.app",
         mediabench: "https://app.mediabench.app",
       },
       repos: {
@@ -1123,7 +1124,7 @@ const config = {
         pigeon: "https://pigeon.api.mediastore.app",
         viscacha: "https://viscacha.api.mediastore.app",
         imgResizer: "https://img-resizer.api.mediastore.app",
-        mediacentral: "https://app.mediacentral.app",
+        mediacentral: "https://app.mediabench.app",
         mediabench: "https://app.mediabench.app",
       },
       repos: {
