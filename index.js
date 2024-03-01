@@ -414,7 +414,7 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys, trial1 - trial10 (demo sites)
-              distribution_ids: SCRAMBLED:5fXN/MiwNfegwslVVTKUkNXpXUmKdXRGn6idUG6kV5bN/8eYZs2ReViDXEAyWnQVcSkXiDrj70Xj04q6
+              distribution_ids: SCRAMBLED:x+ytufTEDb/H3MVeNBSB+OYQB4XQTYY45XJBWSB7JhMNnDX632SWgIvOEPSPRMnynReAuroC94rZq70x
             },
             'itvstudios': {
               bucket: 'mfx-v2-staging-admin3-fe-itvstudios',
@@ -701,7 +701,7 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-presentation-admin3-fe-generic', // for mfx, iemmys, trial1 - trial10 (demo sites)
-              distribution_ids: SCRAMBLED:+uDY/4XJKorSy95CKz231jJv5F/wwWOAuN786mxMcsNK1FpMJUDWiH9LfD5jyu9T2fOvRJfMiFfvd6X2
+              distribution_ids: SCRAMBLED:xMva4MDzdY7R3uhFLQbhw5nUfKrFILLnGodXas+Uq3zifWV+tP5wXVkk49wMQleaEpUfefvmpdTOo0pi
             },
             'itvstudios': {
               bucket: 'mfx-v2-presentation-admin3-fe-itvstudios',
@@ -989,7 +989,7 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx, iemmys, trial1 - trial10 (demo sites)
-              distribution_ids: SCRAMBLED:75eyvtaxOpXa3up9US651kdihe5mbqUkJEVzsdjRYKZgL4OBE0LS7mdTF2hZ8GWsnz/Ig0C4vjcPvdd5
+              distribution_ids: SCRAMBLED:uJPXgtLxBvT45vInDBCgyNaqTwZ+7lyX6e+nCufao/ZBV+ZLqWXaXVa1JMiIYwep5ZiORs3J0XFqLOft
             },
             'itvstudios': {
               bucket: 'mfx-v2-production-admin3-fe-itvstudios',
