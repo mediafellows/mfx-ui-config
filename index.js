@@ -190,6 +190,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-staging-admin-fe-generic',
+              // for all affiliations not listed separately in this section.
+              // Mind that some affils have moved to admin3 already (see further down), but domain will still be provided here under <affil>.admin.mediastore.dev as fallback (for tesing things in old admin for comparison)
               distribution_ids: SCRAMBLED:4df6utTDNpKl4eVxDxqHgz9XtBGcGPPELHYUhBDlmuSVBICilazZZMVohQGq9a+Hpa0hQeEAskP7Peym
             },
             'bavaria': {
@@ -413,7 +415,7 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys, trial1 - trial10 (demo sites)
+              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys, pxl, trial1 - trial10 (demo sites)
               distribution_ids: SCRAMBLED:x+ytufTEDb/H3MVeNBSB+OYQB4XQTYY45XJBWSB7JhMNnDX632SWgIvOEPSPRMnynReAuroC94rZq70x
             },
             'itvstudios': {
@@ -435,6 +437,10 @@ const config = {
             'televisa': {
               bucket: 'mfx-v2-staging-admin3-fe-televisa',
               distribution_ids: SCRAMBLED:5fXN/MiwNfegwslVVTKUkNXpXUmKdXRGn6idUG6kV5bN/8eYZs2ReViDXEAyWnQVcSkXiDrj70Xj04q6
+            },
+            'imagica': {
+              bucket: 'mfx-v2-staging-admin3-fe-imagica',
+              distribution_ids: SCRAMBLED:3v3rh9r3F5X2wOtiMyGU3nhqkHYpK2PcF4vSxwB7xTft84N5MDWdhDzG3IvMiuBxxl9iVN7n32yq2aHU
             },
           },
         },
@@ -493,6 +499,8 @@ const config = {
           projects: {
             'generic': {
               bucket: 'mfx-v2-presentation-admin-fe-generic',
+              // for all affiliations not listed separately in this section.
+              // Mind that some affils have moved to admin3 already (see further down), but domain will still be provided here under <affil>.admin.mediastore.review as fallback (for tesing things in old admin for comparison)
               distribution_ids: SCRAMBLED:wPPSmt/Ac4vFyPl0TBWE1mBQNEtxAA6AugltvROINSsOAUlAcTrPsqgyjQqjykD3W5oNN4p7iEEIwB5N
             },
             'bavaria': {
@@ -700,7 +708,7 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-presentation-admin3-fe-generic', // for mfx, iemmys, trial1 - trial10 (demo sites)
+              bucket: 'mfx-v2-presentation-admin3-fe-generic', // for mfx, iemmys, pxl, trial1 - trial10 (demo sites)
               distribution_ids: SCRAMBLED:xMva4MDzdY7R3uhFLQbhw5nUfKrFILLnGodXas+Uq3zifWV+tP5wXVkk49wMQleaEpUfefvmpdTOo0pi
             },
             'itvstudios': {
@@ -722,6 +730,10 @@ const config = {
             'televisa': {
               bucket: 'mfx-v2-presentation-admin3-fe-televisa',
               distribution_ids: SCRAMBLED:+uDY/4XJKorSy95CKz231jJv5F/wwWOAuN786mxMcsNK1FpMJUDWiH9LfD5jyu9T2fOvRJfMiFfvd6X2
+            },
+            'imagica': {
+              bucket: 'mfx-v2-presentation-admin3-fe-imagica',
+              distribution_ids: SCRAMBLED:6Nyw/9XvNo/nx+xVPAT7grJhq14A+rZxmxbrasMvgRncRDmidyCRJF/pNgyUekRvJK6QREiNa62BjNT3
             },
           },
         },
@@ -779,6 +791,8 @@ const config = {
         'mpx-ui-admin': {
           projects: {
             'generic': {
+              // for all affiliations not listed separately in this section.
+              // Mind that some affils have moved to admin3 already (see further down), but domain will still be provided here under <affil>.admin.mediastore.app as fallback (for tesing things in old admin for comparison)
               bucket: 'mfx-v2-production-admin-fe-generic',
               // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), california, dmd, relativity, ftd:
               distribution_ids: SCRAMBLED:wZfyusHvMLXii+tYGyDm4QUWTtsGl8BMqkzuAstrASeZVRvHpqHKYOrfwGasjGg0knyaCnCEZNaytcQI+XpSMD/HZEPM9rLcSJbFwP3NiZ2VYJQh/sAzcBceEL3PVr9CFJTkFXvKfeUOckybrcl6b8GxuDdwaiCOkiToGDKoSOhT9EhRf5IeOgk2nYCdyDRUMQnCnMo5l+n2mXfH
@@ -988,7 +1002,7 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx, iemmys, trial1 - trial10 (demo sites)
+              bucket: 'mfx-v2-production-admin3-fe-generic', // for mfx, iemmys, pxl, trial1 - trial10 (demo sites)
               distribution_ids: SCRAMBLED:uJPXgtLxBvT45vInDBCgyNaqTwZ+7lyX6e+nCufao/ZBV+ZLqWXaXVa1JMiIYwep5ZiORs3J0XFqLOft
             },
             'itvstudios': {
@@ -1010,6 +1024,10 @@ const config = {
             'televisa': {
               bucket: 'mfx-v2-production-admin3-fe-televisa',
               distribution_ids: SCRAMBLED:wNLGiom2e5TLwYxPVQ+Y83Zao3vDLA1hnrZ69jzpcJjzUk5/sBbFtEfIAHUdymIBhmJSfrQGx38oHUArh6H2PpZ1c6YZMFdGRc1Zv1iph6Mbwbvb
+            },
+            'imagica': {
+              bucket: 'mfx-v2-production-admin3-fe-imagica',
+              distribution_ids: SCRAMBLED:0srMnuW0DrfVndVZH2+KzeMLrtTk50jsygqFVHMKZVIwzks6Un6gpRGp+SyL0+/rkOqhxJQ6gFXRiMD8
             },
           },
         },
