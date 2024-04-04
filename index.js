@@ -296,14 +296,6 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-itvstudios',
               distribution_ids: SCRAMBLED:49basoTAG5/c/ehcCCeU8ms8IswPPoIuO5FHoDL4fwa5Ru5hott3kEaS8BRiJNIlVfHRPMLJWwWEEj4+
             },
-            'pxl': {
-              bucket: 'mfx-v2-staging-buyer-fe-pxl',
-              distribution_ids: SCRAMBLED:y+vmvObyco6qx89VEwGk+NrkJi452vlU5RgbMcMLjRtWZj8XgqysjTIyMV4+IV/gMc7fQ0hfF8d5XY1p
-            },
-            'imagica': {
-              bucket: 'mfx-v2-staging-buyer-fe-imagica',
-              distribution_ids: SCRAMBLED:+t3BhPDEEKKr14heTyfo/Epvfnm9qB7Wj0yiP6xeEekRpQ14F3tGr2/QZPNQpvVZQBS4B2DIz18ys9G3
-            },
             'california': {
               bucket: 'mfx-v2-staging-buyer-fe-california',
               distribution_ids: SCRAMBLED:u9vaoeaxAI7nwIpeLjm/y+nL8UqIYSXgZ6E93NLvKebzH6vepy9Md9liZjs452Fc4SZ3/00Nt+vwRxYq
@@ -359,6 +351,14 @@ const config = {
             'televisa': {
               bucket: 'mfx-v2-staging-buyer-fe-televisa',
               distribution_ids: SCRAMBLED:w/utht32G4b98vRvSTyW3ebHxQu9mho8mVaP9tOa+WuAIEpemiEL0GcOJYU3ckjQ8k8/M5xJwwsOFelH
+            },
+            'pxl': {
+              bucket: 'mfx-v2-staging-buyer-fe-pxl',
+              distribution_ids: SCRAMBLED:y+vmvObyco6qx89VEwGk+NrkJi452vlU5RgbMcMLjRtWZj8XgqysjTIyMV4+IV/gMc7fQ0hfF8d5XY1p
+            },
+            'imagica': {
+              bucket: 'mfx-v2-staging-buyer-fe-imagica',
+              distribution_ids: SCRAMBLED:+t3BhPDEEKKr14heTyfo/Epvfnm9qB7Wj0yiP6xeEekRpQ14F3tGr2/QZPNQpvVZQBS4B2DIz18ys9G3
             },
           }
         },
@@ -599,14 +599,6 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-itvstudios',
               distribution_ids: SCRAMBLED:88+zjdO+ELLqj+5iGC6h63XjIENd3ZE5/bq/3vPvFJ9t2KHPuhSctlDpcSlR4xaA5F33Zvm92wu1Rk7C
             },
-            'pxl': {
-              bucket: 'mfx-v2-presentation-buyer-fe-pxl',
-              distribution_ids: SCRAMBLED:4svgivrWAYrxl9x0DHmk2N8IwBCo7jNdfRsIYII0x0B4+N1wN6yWoqwYm5yC1uq5VTDRAWjSdMr7A0Ji
-            },
-            'imagica': {
-              bucket: 'mfx-v2-presentation-buyer-fe-imagica',
-              distribution_ids: SCRAMBLED:uP71uNf+KJPey8cuSDyfiNzCkiOSRYsA3/cHnxpspUwrtTz5jhbW9TGgNwzqplWJ6MXxoUo+d8rSPYTM
-            },
             'california': {
               bucket: 'mfx-v2-presentation-buyer-fe-california',
               distribution_ids: SCRAMBLED:z422/YHecbSrlo5sPxC+zNuJFO8y54+VcVIuA5sZrVo7vESA9JLZB+eRuzDn4sIOJEUKdOen8IpbM37p
@@ -662,6 +654,14 @@ const config = {
             'televisa': {
               bucket: 'mfx-v2-presentation-buyer-fe-televisa',
               distribution_ids: SCRAMBLED:2sv3+/nvNZbXwdp1Jznk3M044q6l8zuu3V0FyVlftImTWFlcinnOpYJhm35g/qbkoMkem2PdlUiktYDi
+            },
+            'pxl': {
+              bucket: 'mfx-v2-presentation-buyer-fe-pxl',
+              distribution_ids: SCRAMBLED:4svgivrWAYrxl9x0DHmk2N8IwBCo7jNdfRsIYII0x0B4+N1wN6yWoqwYm5yC1uq5VTDRAWjSdMr7A0Ji
+            },
+            'imagica': {
+              bucket: 'mfx-v2-presentation-buyer-fe-imagica',
+              distribution_ids: SCRAMBLED:uP71uNf+KJPey8cuSDyfiNzCkiOSRYsA3/cHnxpspUwrtTz5jhbW9TGgNwzqplWJ6MXxoUo+d8rSPYTM
             },
           }
         },
@@ -887,14 +887,6 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-itvstudios',
               distribution_ids: SCRAMBLED:utnOusi/D5LV7u5MFjiIjjrT1WH/jFXtcLwysT0Fv/n0qJm+emC+5ZT0OtxrbBWhzvIGmRXIOLoeefaK+vyek89i8JclxPdwEe6yQcmcNaqASuZw
             },
-            'pxl': {
-              bucket: 'mfx-v2-production-buyer-fe-pxl',
-              distribution_ids: SCRAMBLED:0P74mIHjIYP/nfZZOGO2jQsZpVts4UDh4o+2Nnf0KyGQxbZBlMp6GtuZ4f2Rn5H/hbPK/cH/a4iZxb0G
-            },
-            'imagica': {
-              bucket: 'mfx-v2-production-buyer-fe-imagica',
-              distribution_ids: SCRAMBLED:+4z2hsXWd63ii/5XJhWY6cVyjBMhHA6gzSeZCjneGxucnz0+jqptHdk7XjBlaiO9eYUqi/48/zbdu0gD
-            },
             'california': {
               bucket: 'mfx-v2-production-buyer-fe-california',
               distribution_ids: SCRAMBLED:vf61mPS0FYvR6opCLRWC6TBYkJ1sFmfwboWv1y+00/X6LrwNWbIOEHhieGVvdeEqP1/1bx0btewxg44Y
@@ -950,6 +942,14 @@ const config = {
             'televisa': {
               bucket: 'mfx-v2-production-buyer-fe-televisa',
               distribution_ids: SCRAMBLED:+u3hp+jWBZ3c4NhDTWCa2qYOTPDCfslbbK3qqiFZIM+eCJl3wvZkB0XWWraPEXM3LcQGTY6VmYxK+L+RI2vns0pygQxpVnm8jccz2OvtBz4GMkP6
+            },
+            'pxl': {
+              bucket: 'mfx-v2-production-buyer-fe-pxl',
+              distribution_ids: SCRAMBLED:0P74mIHjIYP/nfZZOGO2jQsZpVts4UDh4o+2Nnf0KyGQxbZBlMp6GtuZ4f2Rn5H/hbPK/cH/a4iZxb0G
+            },
+            'imagica': {
+              bucket: 'mfx-v2-production-buyer-fe-imagica',
+              distribution_ids: SCRAMBLED:+4z2hsXWd63ii/5XJhWY6cVyjBMhHA6gzSeZCjneGxucnz0+jqptHdk7XjBlaiO9eYUqi/48/zbdu0gD
             },
           }
         },
