@@ -6,7 +6,7 @@ const {existsSync} = require('fs')
 // Documented at https://developer.mozilla.org/de/docs/Web/HTTP/Headers/Content-Security-Policy
 const defaultCSP = {
   'default-src': [
-    "'none'"
+    "'self'"
   ],
   'script-src': [
     "'self'",

@@ -2,7 +2,7 @@ const {merge, trim, reduce} = require('lodash')
 const {execSync} = require('child_process')
 
 const defaultCSP = {
-  'default-src': ["'none'"],
+  'default-src': ["'self'"],
   'child-src': ["blob:"],
   'script-src': [
     "'self' 'unsafe-inline' 'unsafe-eval'",
