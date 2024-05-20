@@ -71,6 +71,7 @@ const defaultCSP = {
   ],
   'media-src': [
     "'self'",
+    "data:",
     "blob:",
     "*.{{base_domain}}",
     "*.amazonaws.com",

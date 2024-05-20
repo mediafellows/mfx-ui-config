@@ -45,7 +45,7 @@ const defaultCSP = {
     "licensing.theoplayer.com",
   ],
   'media-src': [
-    "'self' blob:",
+    "'self' data: blob:",
     "*.{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
   ],
