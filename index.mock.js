@@ -2,7 +2,7 @@ const {merge, trim, reduce} = require('lodash')
 const {execSync} = require('child_process')
 
 const defaultCSP = {
-  'default-src': ["'none'"],
+  'default-src': ["'self'"],
   'child-src': ["blob:"],
   'script-src': [
     "'self' 'unsafe-inline' 'unsafe-eval'",
@@ -45,7 +45,7 @@ const defaultCSP = {
     "licensing.theoplayer.com",
   ],
   'media-src': [
-    "'self' blob:",
+    "'self' data: blob:",
     "*.{{base_domain}}",
     "*.s3-accelerate.amazonaws.com *.s3.amazonaws.com",
   ],
