@@ -416,7 +416,7 @@ const config = {
         'mfx-ui-admin-v3': {
           projects: {
             'generic': {
-              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mfx, mcentral, iemmys, trial1 - trial10 (demo sites)
+              bucket: 'mfx-v2-staging-admin3-fe-generic', // for mcentral, iemmys, trial1 - trial10 (demo sites)
               distribution_ids: SCRAMBLED:x+ytufTEDb/H3MVeNBSB+OYQB4XQTYY45XJBWSB7JhMNnDX632SWgIvOEPSPRMnynReAuroC94rZq70x
             },
             'itvstudios': {
@@ -450,6 +450,10 @@ const config = {
             'lgt': {
               bucket: 'mfx-v2-staging-admin3-fe-lgt',
               distribution_ids: SCRAMBLED:0Mm1j8eyIb7DweRyTxDjje0paGeKzhzS9ZxlCXJaM8WfclzEF+gSqgYY3iZpfDM7J4NDNGQDpi/GBvmX
+            },
+            'mfx': {
+              bucket: 'mfx-v2-staging-admin3-fe-mfx',
+              distribution_ids: SCRAMBLED:vPytpICpcIPEnNZvKR2/8rZ5Fzq9mtTngFmuzbO/fN23YdtQVrIIA3lYjCWX/GpGDpfd1deqv1ZyzjD8
             },
           },
         },
