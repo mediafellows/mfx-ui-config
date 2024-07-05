@@ -752,6 +752,10 @@ const config = {
               bucket: 'mfx-v2-presentation-admin3-fe-pxl',
               distribution_ids: SCRAMBLED:v8vAg+utLK2q0MhTRxmU8vNpdAxHXijjLaMvWhCuSoHqjZU+Km6X7sEbQ5PMm260eQ17vKKq49uluGKv
             },
+            'mfx': {
+              bucket: 'mfx-v2-presentation-admin3-fe-mfx',
+              distribution_ids: SCRAMBLED:8MDpqOPUO47G/PglD2+h3zJafs4BHbp7IToLjyAgIvmaP1iLWNwdKGk+g8bqfpI47RhwRVmUAHROZFwy
+            },
           },
         },
         'mfx-ui-eone': {
@@ -1049,6 +1053,10 @@ const config = {
             'pxl': {
               bucket: 'mfx-v2-production-admin3-fe-pxl',
               distribution_ids: SCRAMBLED:xsr6iePPMLPV7t5GHBWX/i1HIS+wNzTlYQbMu40fVCzEr6JtgdJZjat38orjinmA0m/f7pFtyC8SGKg7
+            },
+            'mfx': {
+              bucket: 'mfx-v2-production-admin3-fe-mfx',
+              distribution_ids: SCRAMBLED:2+3toumtLL7e79BPFGeiy4J2QZStyv1zMtUnl+WcjhiQuyV/4CFRr7fM28c+F0HuX68uQWsJgwyp7vay
             },
           },
         },
