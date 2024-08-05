@@ -538,7 +538,7 @@ const config = {
             },
             'lgt': {
               bucket: 'mfx-v2-presentation-admin-fe-lgt',
-              distribution_ids: SCRAMBLED:/OzvmYm1KKi44spdJG/lie6GCFy+/1DrwesjF6cUVgYDT5DI9MpRSrHfgpSiLv9xufZGwEEASAUwCZcI
+              distribution_ids: SCRAMBLED:89DUr+PBBavJ6MgjOzyo2K71AVWGWSprAOXUMj4whTx1MdofaTmbDHw6BC1vlL1kM88oB22+PmIPHo9W
             },
             'itv': {
               bucket: 'mfx-v2-presentation-admin-fe-itv',
@@ -755,6 +755,10 @@ const config = {
             'mfx': {
               bucket: 'mfx-v2-presentation-admin3-fe-mfx',
               distribution_ids: SCRAMBLED:8MDpqOPUO47G/PglD2+h3zJafs4BHbp7IToLjyAgIvmaP1iLWNwdKGk+g8bqfpI47RhwRVmUAHROZFwy
+            },
+            'lgt': {
+              bucket: 'mfx-v2-presentation-admin3-fe-lgt',
+              distribution_ids: SCRAMBLED:/OzvmYm1KKi44spdJG/lie6GCFy+/1DrwesjF6cUVgYDT5DI9MpRSrHfgpSiLv9xufZGwEEASAUwCZcI
             },
           },
         },
