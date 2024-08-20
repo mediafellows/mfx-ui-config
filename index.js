@@ -367,6 +367,10 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-crunchyroll',
               distribution_ids: SCRAMBLED:wf3jsdPyK/7elvEkNyOgj10jWrNCTvYCkwZOt4W1bxdExTbapki4H5zcdiZG70ZzQISaVG3CnSJXyJST
             },
+            'electric': {
+              bucket: 'mfx-v2-staging-buyer-fe-electric',
+              distribution_ids: SCRAMBLED:0Nvv88fpKa7l8clGORO4i7k2s3RLiOBp2NVsvuA4X4vOe8t9XmnP3xl/tM2n+Z0jqrjKUIQ9x1r0Ih+l
+            },
           }
         },
         'mfx-ui-orf': {
@@ -692,6 +696,10 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-crunchyroll',
               distribution_ids: SCRAMBLED:yfDDgIf2Ko2nwI8jCAeK/+3RpR2eVvAFXj9iqJrcuTMa4GxkH+4x286jvrn1PCBZAyZt0/rTAe8DNMBQ
             },
+            'electric': {
+              bucket: 'mfx-v2-presentation-buyer-fe-electric',
+              distribution_ids: SCRAMBLED:s/6zvvfOOorjnc8uPC6S08PQSxUNNqM723e63KaS/DHrqaJMcn8GHRrghBN4MWGY8O/+rkRmT5WY/B2f
+            },
           }
         },
         'mfx-ui-orf': {
@@ -1002,7 +1010,10 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-crunchyroll',
               distribution_ids: SCRAMBLED:yfDDgIf2Ko2nwI8jCAeK/+3RpR2eVvAFXj9iqJrcuTMa4GxkH+4x286jvrn1PCBZAyZt0/rTAe8DNMBQ
             },
-
+            'electric': {
+              bucket: 'mfx-v2-production-buyer-fe-electric',
+              distribution_ids: SCRAMBLED:z/fT8+myEKD41/NVNjWW/ILtQB5k4fJ53WQpZeEitkHEmkRq81kWU+8nmfQnCzsLnyKVNPcuj7iUX4WC
+            },
           }
         },
         'mfx-ui-orf': {
