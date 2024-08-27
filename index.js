@@ -364,7 +364,7 @@ const config = {
               distribution_ids: SCRAMBLED:+t3BhPDEEKKr14heTyfo/Epvfnm9qB7Wj0yiP6xeEekRpQ14F3tGr2/QZPNQpvVZQBS4B2DIz18ys9G3
             },
             'crunchyroll': {
-              bucket: 'mfx-v2-staging-buyer-fe-crunchyroll',
+              bucket: 'mfx-v2-staging-buyer-fe-chrunchyroll',
               distribution_ids: SCRAMBLED:wf3jsdPyK/7elvEkNyOgj10jWrNCTvYCkwZOt4W1bxdExTbapki4H5zcdiZG70ZzQISaVG3CnSJXyJST
             },
             'electric': {
