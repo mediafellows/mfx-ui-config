@@ -143,7 +143,6 @@ const config = {
             'bavaria': { },
             'orf': { },
             'itv': { },
-            'ref': { },
             'eone': { },
             'lgt': { },
             'mipjunior': { },
@@ -226,10 +225,6 @@ const config = {
             'itv': {
               bucket: 'mfx-v2-staging-admin-fe-itv',
               distribution_ids: SCRAMBLED:3MzsoNWtLa3A949UNCW76j2+YpC6k2hpBZhkJ+rp370/oTCMoKn/gLobcKXCGaNB0FnhNDOesbbSNgJI
-            },
-            'ref': {
-              bucket: 'mfx-v2-staging-admin-fe-ref', // to be deleted later
-              distribution_ids: SCRAMBLED:zPXB88OzMoCi/vVbPSGG6s0mnytGAzpO8mLJueqPk3RqkiYcwzoxLyuHSyTDJiBHomTzJyNxPXia+iP5
             },
             'eone': {
               bucket: 'mfx-v2-staging-admin-fe-eone',
@@ -556,10 +551,6 @@ const config = {
               bucket: 'mfx-v2-presentation-admin-fe-itv',
               distribution_ids: SCRAMBLED:pdz4oOTSMZ6j3vQmByK8i4x3pnU/FcG6f7AvXcFx9fCvpPDztEZus157z6GMSFRCBohYi9o+wQiNMw1S
             },
-            'ref': {
-              bucket: 'mfx-v2-presentation-admin-fe-ref', // to be deleted later
-              distribution_ids: SCRAMBLED:xO/EnP/zL/Hklo9EFhyJ/5lTiSVfVj0bJ0an9lgUzD9Xmcg/nZZcUs+nzYIwl94FifY2nU4CqwgqOeJR
-            },
             'eone': {
               bucket: 'mfx-v2-presentation-admin-fe-eone',
               distribution_ids: SCRAMBLED:/OjbrfW3J5Xf1MtdChmzzBWwNhI5fatOND1176sg4Rno7s9e1rDL5OSLD/YK/y4AsFQd3mbrMR8NERmP
@@ -873,10 +864,6 @@ const config = {
             'itv': {
               bucket: 'mfx-v2-production-admin-fe-itv',
               distribution_ids: SCRAMBLED:uNPlkdT2N7bax4hxBgGJ1jVaT58NmMtndyN7tFY3ei7btGmuD7CkLGBhT4MzMv9MJ1EcXj75Wq3/RsM6
-            },
-            'ref': {
-              bucket: 'mfx-v2-production-admin-fe-ref', // delete later
-              distribution_ids: SCRAMBLED:w+njpcjcKoPU0I9cMjWHlJ2pTL5j0EPxRETeNmJmjTTo8T5RF+BczQCnXe/NEitJKddwaos95lwLbtI5
             },
             'eone': {
               bucket: 'mfx-v2-production-admin-fe-eone',
