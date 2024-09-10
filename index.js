@@ -462,6 +462,10 @@ const config = {
               bucket: 'mfx-v2-staging-admin3-fe-electric',
               distribution_ids: SCRAMBLED:y/yyucfwD57rlOdsPz2E7KaqevfxL5wQPBxoyDMlVESJnzUjdnweaXUouv9WZiB6Sbh4w3GPkND+qqiz
             },
+            'crunchyroll': {
+              bucket: 'mfx-v2-staging-admin3-fe-crunchyroll',
+              distribution_ids: SCRAMBLED:4vawrMvce4DmxdJsBwaUwillIpOLZAPi1dNsFIrVvs31NT1Bf/s1x31Z9tbydu6Kg2hRXwD30nmo7Xfr
+            },
           },
         },
         'mfx-ui-eone': {
