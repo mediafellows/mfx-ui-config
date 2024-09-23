@@ -867,7 +867,7 @@ const config = {
             },
             'lgt': {
               bucket: 'mfx-v2-production-admin-fe-lgt',
-              distribution_ids: SCRAMBLED:3N7D5MDXBrGh4OtYRw6d+MIjIHYHpTluqDX7b0gHbZ+zqwO5nZzAnpiAQGQfjgCCKAuemuwoa4F7QLZ9VllEW8odhmwMuKmAreHVQfwHzfwDmiug
+              distribution_ids: SCRAMBLED:5dzOj8f/dJerytt3EAKR73EAePGN/VfKHfBkzUXgei6DPC2ADTFZnHhFqEcsDq8bO3y+tacdCmHSYSOIosBCmPInTM2BWClAWDnnIk8Amw4TILOa
             },
             'itv': {
               bucket: 'mfx-v2-production-admin-fe-itv',
@@ -1097,6 +1097,10 @@ const config = {
               bucket: 'mfx-v2-production-admin3-fe-crunchyroll',
               distribution_ids: SCRAMBLED:yNvv/4XedbTa4Ip3Nhul+cAKQbVElvdLZ8JWRixzlq0ho2HIShycOd2GiOlo6ukGC+IeQjns78m3+4sl
             },
+            'lgt': {
+              bucket: 'mfx-v2-production-admin3-fe-lgt',
+              distribution_ids: SCRAMBLED:u86tgNmwML3U5sRCJyeb9KFxM4wBFpXs70UYzumSIB2HQvMyyCRb2a8oAy+1acWgHlfaxV9eACIF24qn
+            }
           },
         },
         'mfx-ui-eone': {
