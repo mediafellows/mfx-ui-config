@@ -470,6 +470,10 @@ const config = {
               bucket: 'mfx-v2-staging-admin3-fe-crunchyroll',
               distribution_ids: SCRAMBLED:4vawrMvce4DmxdJsBwaUwillIpOLZAPi1dNsFIrVvs31NT1Bf/s1x31Z9tbydu6Kg2hRXwD30nmo7Xfr
             },
+            'amazonus': {
+              bucket: 'mfx-v2-staging-admin3-fe-amazonus',
+              distribution_ids: SCRAMBLED:8N3XjP6tD63n0e4nJzG2jlc0fC85zIAM9J04C5UAsNkgSfQJfFwQXyRwQB/h3dyM/MoHM+EWnePTTveF
+            },
           },
         },
         'mfx-ui-eone': {
@@ -790,6 +794,10 @@ const config = {
             'crunchyroll': {
               bucket: 'mfx-v2-presentation-admin3-fe-crunchyroll',
               distribution_ids: SCRAMBLED:5Ym7juXNbIHg8/5fEmGV3Ow53rWnaogElmaCbCvU5m0rIsK37sbC+Sk8SgTM2p5frFqB+oRZHXr4THsa
+            },
+            'amazonus': {
+              bucket: 'mfx-v2-presentation-admin3-fe-amazonus',
+              distribution_ids: SCRAMBLED:zPmzntXzAoL3zsh7TR/o+WI2QQe3WvELIrypIVal3lEXTnAR5XmoLCeEAweP9+3MQK6rz079nX8v3w0G
             },
           },
         },
