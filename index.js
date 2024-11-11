@@ -366,6 +366,10 @@ const config = {
               bucket: 'mfx-v2-staging-buyer-fe-electric',
               distribution_ids: SCRAMBLED:0Nvv88fpKa7l8clGORO4i7k2s3RLiOBp2NVsvuA4X4vOe8t9XmnP3xl/tM2n+Z0jqrjKUIQ9x1r0Ih+l
             },
+            'fyc': {
+              bucket: 'mfx-v2-staging-buyer-fe-fyc',
+              distribution_ids: SCRAMBLED:3M7pkcXJe4T//oxvBjKT+eXN8JiCTvkmBIQIsHLxTGPP0g0j7bYSNcWDIpfvVSz5OsGU/kBvvm+sj9An
+            },
             'alu': {
               bucket: 'mfx-v2-staging-buyer-fe-alu',
               distribution_ids: SCRAMBLED:wdDt+8n2AYT54oh7Ojj7iv/oJ199QMZway1s8ki7ExA4RYgfIh1Mp/qxlOINxDeeTwaUbaBNZIqGq28K
