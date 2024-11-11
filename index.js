@@ -711,6 +711,14 @@ const config = {
               bucket: 'mfx-v2-presentation-buyer-fe-electric',
               distribution_ids: SCRAMBLED:s/6zvvfOOorjnc8uPC6S08PQSxUNNqM723e63KaS/DHrqaJMcn8GHRrghBN4MWGY8O/+rkRmT5WY/B2f
             },
+            'fyc': {
+              bucket: 'mfx-v2-presentation-buyer-fe-fyc',
+              distribution_ids: SCRAMBLED:6czBjIbter/4wYQnOAyi1PPLdS6RYhWGL1YW12o/pBEiEpEgIYkuLXWZUQrYa62Bk01tWrjRCbBO/JQv
+            },
+            'alu': {
+              bucket: 'mfx-v2-presentation-buyer-fe-alu',
+              distribution_ids: SCRAMBLED:28jykvPpKJ7/85JUEgKD/oKJrrJI67YCDKxza15AfUfuEcSRKjC/fGXexwQ8ffZRRLg2IBxNSudcYvmE
+            },
           }
         },
         'mfx-ui-orf': {
@@ -1037,6 +1045,14 @@ const config = {
               bucket: 'mfx-v2-production-buyer-fe-electric',
               distribution_ids: SCRAMBLED:4P71h+jDJrfe0fRGO2S2lLSA5Cje3BFojHm1Du6aTLUNWjlKpnNSPDk7vPxIhABpjQ6QzXe5wqXdPshG6aMbFKmrWRtFtEtddSbMLaiGmCv0B1Jo
             },
+            'fyc': {
+              bucket: 'mfx-v2-production-buyer-fe-fyc',
+              distribution_ids: SCRAMBLED:svXSpfLBc7GhyN9dOGG6/h44BlvM9LZyCsGKWeZU2usxZxdYF/TYcY2XecblNW5JzIxzloU/GWDtnfm9
+            },
+            'alu': {
+              bucket: 'mfx-v2-production-buyer-fe-alu',
+              distribution_ids: SCRAMBLED:8I7Fpuvsd5Hf4f9HSie2iLVTlV/2XR4YpJy/rvjGTFrobPKcqkgU2hfEJ89l1nUKnrbWU8xAGki7E0qS
+            }
           }
         },
         'mfx-ui-orf': {
