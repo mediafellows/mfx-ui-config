@@ -118,6 +118,7 @@ const config = {
         mc: "https://mc.api.mediastore.dev",
         jc: "https://jc.api.mediastore.dev",
         cc: "https://cc.api.mediastore.dev",
+        "cc-new": "http://cc-new-api.mediastore-staging.com",
         cal: 'https://cal.api.mediastore.dev',
         producer: 'https://producer-api.mediastore-staging.com',
         deliveries: "https://deliveries-api.mediastore-staging.com",
