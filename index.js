@@ -478,6 +478,10 @@ const config = {
               bucket: 'mfx-v2-staging-admin3-fe-amazonus',
               distribution_ids: SCRAMBLED:8N3XjP6tD63n0e4nJzG2jlc0fC85zIAM9J04C5UAsNkgSfQJfFwQXyRwQB/h3dyM/MoHM+EWnePTTveF
             },
+            'applefyc': {
+              bucket: 'mfx-v2-staging-admin3-fe-applefyc',
+              distribution_ids: SCRAMBLED:3+r3mILkE7TR9ttHSTi8jJ23YVBGyJVnDWsxPivaXxkNVpYxWJkf/2tHT3iLUA6/7ja7EpEqA9DTMf+Z
+            },
           },
         },
         'mfx-ui-eone': {
@@ -810,6 +814,10 @@ const config = {
             'amazonus': {
               bucket: 'mfx-v2-presentation-admin3-fe-amazonus',
               distribution_ids: SCRAMBLED:zPmzntXzAoL3zsh7TR/o+WI2QQe3WvELIrypIVal3lEXTnAR5XmoLCeEAweP9+3MQK6rz079nX8v3w0G
+            },
+            'applefyc': {
+              bucket: 'mfx-v2-presentation-admin3-fe-applefyc',
+              distribution_ids: SCRAMBLED:styyiYK3O4jb5dZUL2SU3ea6DX5Mquk9GnTMT6PSy/JRsgplkkds/+QV2HMFjUhsz2HlgxlpHBxNUuEZ
             },
           },
         },
