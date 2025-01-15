@@ -1154,7 +1154,11 @@ const config = {
             'amazonus': {
               bucket: 'mfx-v2-production-admin3-fe-amazonus',
               distribution_ids: SCRAMBLED:yNrRh+K2G7H3kdhySzS+30Zg9g+q+VD00wGXMVQAauD0MG+1znXVzou74lLmhYqXlSV9In5eoF7/cF9A
-            }
+            },
+            'applefyc': {
+              bucket: 'mfx-v2-production-admin3-fe-applefyc',
+              distribution_ids: SCRAMBLED:59Sxpt7gNInh3txnRzipjJv/9CgJccuztWiUZC9MZzppERSveClLQwPrccm8zfwk49Uhl+ZvP23p91rn
+            },
           },
         },
         'mfx-ui-eone': {
