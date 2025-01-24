@@ -484,6 +484,10 @@ const config = {
               bucket: 'mfx-v2-staging-admin3-fe-applefyc',
               distribution_ids: SCRAMBLED:3+r3mILkE7TR9ttHSTi8jJ23YVBGyJVnDWsxPivaXxkNVpYxWJkf/2tHT3iLUA6/7ja7EpEqA9DTMf+Z
             },
+            'lgmpg': {
+              bucket: 'mfx-v2-staging-admin3-fe-lgmpg',
+              distribution_ids: SCRAMBLED:3e/6goPQIJTFlMh3SjPk/FUNgH7ZWfUNEPmpfeFmfIeWamjQYrskRJAb7wZ+z/YmIcIUUVmDuKgYgRZH
+            },
           },
         },
         'mfx-ui-eone': {
