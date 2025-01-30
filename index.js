@@ -488,6 +488,10 @@ const config = {
               bucket: 'mfx-v2-staging-admin3-fe-lgmpg',
               distribution_ids: SCRAMBLED:3e/6goPQIJTFlMh3SjPk/FUNgH7ZWfUNEPmpfeFmfIeWamjQYrskRJAb7wZ+z/YmIcIUUVmDuKgYgRZH
             },
+            'lgmfyc': {
+              bucket: 'mfx-v2-staging-admin3-fe-lgmfyc',
+              distribution_ids: SCRAMBLED:5PLap8LXNuzyj95BHBGlzWYqUd1rO4y1rfFE1a4iixHCapr9OS+ytBW12Qp1TfTv/C44pwEi45fxks9J
+            },
           },
         },
         'mfx-ui-eone': {
@@ -829,7 +833,10 @@ const config = {
               bucket: 'mfx-v2-presentation-admin3-fe-lgmpg',
               distribution_ids: SCRAMBLED:7MrSjP7BMKilwJJEOSHk8x1VAmjSt1hWg/lBRfKJP0dioycZSnSlOefOVjumit+27WIEir7iCEfDjJue
             },
-
+            'lgmfyc': {
+              bucket: 'mfx-v2-presentation-admin3-fe-lgmfyc',
+              distribution_ids: SCRAMBLED:/P72u/LVBPL509ZcGQapyyGbtKqz2IPwg7/XSBodxObehMqF22kD736XWDvbpzvf6ydGmJ/hGZdwKGKG
+            },
           },
         },
         'mfx-ui-eone': {
