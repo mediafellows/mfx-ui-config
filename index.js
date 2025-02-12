@@ -896,8 +896,8 @@ const config = {
               // for all affiliations not listed separately in this section.
               // Mind that some affils have moved to admin3 already (see further down), but domain will still be provided here under <affil>.admin.mediastore.app as fallback (for tesing things in old admin for comparison)
               bucket: 'mfx-v2-production-admin-fe-generic',
-              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), dmd, relativity, ftd:
-              distribution_ids: SCRAMBLED:6erVofzvd7XL1e1PJDHp/sOQiOkPK/fXVLFN3UjzwaE1+Ujd5FX+0wRRB0WHAy3RkT24XovlsWkUZkDDlI6jMwLT0F9C6bpXNGVc8QO1w+7OwyknVRg03NC5TlhKn0+ZDVfy5VFtZFKILSHvwdemA2WVThq/hoo7UZIbOez0SIvnUBCr
+              // Cloudfront distribution ids for (in this order): generic (mediastore.app domains), dmd, relativity, ftd, filmrise:
+              distribution_ids: SCRAMBLED:4dWpqZrwIZL67O9XFT++13KtLzrAdtfOH1/XqXZTe7V+ZFPIuq4XCu3Iw/c9BWZbz3rhtSkqr8QRuGRaOCMHEca8HaJxtW/YLnRScycVsYFrVn+D2dHuym5p+5zlk3LGhAcWFmZe08ry6GnK4joMqXq3XL4edFtvBVqKGi6DDtjWSSLj7tm+fHsSj0sVYjix62uC/qzTE/OvD5iM
             },
             'bavaria': {
               bucket: 'mfx-v2-production-admin-fe-bavaria',
