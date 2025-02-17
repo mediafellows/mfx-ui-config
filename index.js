@@ -42,6 +42,7 @@ const defaultCSP = {
     "*.google-analytics.com",
     "*.theoplayer.com",
     "api.rollbar.com",
+    "*.pallycon.com",
     "*.mediastore.click",
     "*.mediastore-staging.com",
     "*.mediastore-presentation.com",
@@ -75,6 +76,9 @@ const defaultCSP = {
     "blob:",
     "*.{{base_domain}}",
     "*.amazonaws.com",
+    "*.mediastore-staging.com",
+    "*.mediastore-presentation.com",
+    "*.mediastore-production.com",
   ],
   // child-src is deprecated and worker-src / frame-src should be used instead, but some older browsers still rely on child-src
   'child-src': [
