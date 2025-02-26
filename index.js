@@ -237,6 +237,39 @@ const config = {
         mediabench: "https://app.mediabench.app",
       },
     },
+    nbcu_preprod: {
+      environment: 'presentation',
+      aws_profile: 'nbcu_preprod',
+      branch: 'presentation',
+      rollbar: SCRAMBLED:6/DXmsG/d4zdwYhaExG8ypzUIJSSCG7qhLH3wV+jyi2r4yZ54kmW7eLWwsQnB6dDXDD2AEB732vjJNGJURpl30UJEZVhtuA48Uv8MlwmPHc=
+      slack_url: SCRAMBLED:+N73mfv8bJSlj4V0KBHm1bMFRbiMsdp6fupYudNds5+7+UIAgbQUFUTjSYfjaaFUk+2adwNFWgE5TgJOHI6+Aa4y6lD7dSjaxD3Gycrhnz2b0wVgUprNVR/8GWIgs9TFe36AnVBcTXROF9GL2I7+tMEPGkF8rghN1MWxMjZ/8vWuaCL/b4Y4CASKpBMFePJzBM363Q==
+      base_domain: "nbcupassport-preprod.com",
+      endpoints: {
+        um: "https://um.api.nbcupassport-preprod.com",
+        pm: "https://pm.api.nbcupassport-preprod.com",
+        po: "https://po.api.nbcupassport-preprod.com",
+        am: "https://am.api.nbcupassport-preprod.com",
+        ac: "https://ac.api.nbcupassport-preprod.com",
+        sm: "https://sm.api.nbcupassport-preprod.com",
+        mc: "https://mc.api.nbcupassport-preprod.com",
+        jc: "https://jc.api.nbcupassport-preprod.com",
+        cc: "https://cc.api.nbcupassport-preprod.com",
+        tuco: "https://tuco.api.nbcupassport-preprod.com",
+        pigeon: "https://pigeon.api.nbcupassport-preprod.com",
+        viscacha: "https://viscacha.api.nbcupassport-preprod.com",
+        imgResizer: "https://img-resizer.api.nbcupassport-preprod.com",
+      },
+      repos: {
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-nbcu-preprod-buyer-fe-nbcu',
+              distribution_ids: SCRAMBLED:z9S2j/LUMJLHxdxARh3lgvNVBRpTIUYalIZHS4Zv0nEksGbDkHohf4n54dQmB1I9XcCcIDXbTFgncFkw
+            },
+          },
+        },
+      }
+    },
     nbcu_production: {
       environment: 'production',
       aws_profile: 'nbcu_production',
@@ -258,6 +291,16 @@ const config = {
         pigeon: "https://pigeon.api.nbcupassport.com",
         viscacha: "https://viscacha.api.nbcupassport.com",
         imgResizer: "https://img-resizer.api.nbcupassport.com",
+      },
+      repos: {
+        'mpx-ui-nbcu': {
+          projects: {
+            'nbcu': {
+              bucket: 'mfx-v2-nbcu-production-buyer-fe-nbcu',
+              distribution_ids: SCRAMBLED:+9KwrNq1F5/j05ZnCxOB+CLgpkWryMYRL71K3r3iu0MrUJDXf04YMz/U6/ry2Ih9cK4zCJsyS/27WuAS
+            },
+          },
+        },
       },
     },
     mf_test: {
